@@ -10,14 +10,7 @@
       "twitterDescription": "Explore Jujutsu Randomizer codes, random skills, skins, titles, Yen farming tips, update notes, and Roblox arena guides."
     }
   },
-  "nav": {
-    "guides": "Guides",
-    "crafting": "Crafting",
-    "items": "Items",
-    "biomes": "Biomes",
-    "building": "Building",
-    "support": "Support"
-  },
+  "nav": {},
   "common": {
     "home": "Home",
     "more": "More",

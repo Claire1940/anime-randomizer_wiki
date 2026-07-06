@@ -54,9 +54,13 @@ function main() {
   const manifest = {}
   let total = 0
 
+  // content/ 可能尚未创建（如新建站清空模板残留后的中间态）。
+  // 此时生成空清单而非 exit(1)，让空内容站点也能正常构建（sitemap/分类页降级为空）。
   if (!fs.existsSync(CONTENT_DIR)) {
-    console.error(`[content-manifest] content 目录不存在: ${CONTENT_DIR}`)
-    process.exit(1)
+    console.warn(`[content-manifest] content 目录不存在，生成空清单: ${CONTENT_DIR}`)
+    fs.mkdirSync(OUT_DIR, { recursive: true })
+    fs.writeFileSync(OUT_FILE, '{}\n', 'utf8')
+    return
   }
 
   const locales = fs
