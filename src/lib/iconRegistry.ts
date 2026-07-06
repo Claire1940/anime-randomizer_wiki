@@ -38,6 +38,16 @@ export const iconRegistry: Record<string, LucideIcon> = {
   Clock: LucideIcons.Clock,
   X: LucideIcons.X,
 
+  // Jujutsu Randomizer 模块图标（8 张导航卡各不相同）
+  Gift: LucideIcons.Gift,
+  BarChart3: LucideIcons.BarChart3,
+  Swords: LucideIcons.Swords,
+  Coins: LucideIcons.Coins,
+  Shirt: LucideIcons.Shirt,
+  Bell: LucideIcons.Bell,
+  Zap: LucideIcons.Zap,
+  Trophy: LucideIcons.Trophy,
+
   // 默认回退图标
   HelpCircle: LucideIcons.HelpCircle,
 }
