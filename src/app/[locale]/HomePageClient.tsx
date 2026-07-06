@@ -11,11 +11,14 @@ import {
   Clock,
   Coins,
   Copy,
+  DollarSign,
   ExternalLink,
   Gift,
+  MapPin,
   Shirt,
   Sparkles,
   Swords,
+  Tag,
   Users,
 } from "lucide-react";
 import Link from "next/link";
@@ -592,19 +595,35 @@ export default function HomePageClient({
             {m.jujutsuCharacters.characters.map((c: any, i: number) => (
               <div
                 key={i}
-                className="p-5 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
+                className="p-5 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors flex flex-col"
               >
-                <div className="flex items-center gap-2 mb-2">
-                  <Users className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
-                  <span className="text-xs px-2 py-0.5 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">
+                <div className="flex items-center gap-2 mb-3 flex-wrap">
+                  <span className="inline-flex items-center gap-1 text-xs px-2 py-0.5 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">
+                    <Users className="w-3 h-3 text-[hsl(var(--nav-theme-light))]" />
                     {c.type}
                   </span>
+                  <span className="inline-flex items-center gap-1 text-xs px-2 py-0.5 rounded-full bg-white/5 border border-border text-muted-foreground">
+                    <Tag className="w-3 h-3" />
+                    {c.category}
+                  </span>
                 </div>
-                <h3 className="font-bold mb-2">{c.name}</h3>
+                <h3 className="font-bold mb-2 text-base md:text-lg">{c.name}</h3>
+                <p className="text-sm text-foreground/80 mb-2">{c.appearance}</p>
                 <p className="text-sm text-muted-foreground mb-3">{c.detail}</p>
-                <p className="text-xs text-muted-foreground">
-                  <span className="font-semibold text-foreground/70">Search:</span> {c.terms}
-                </p>
+                <div className="mt-auto space-y-1.5 text-xs">
+                  <p className="flex items-start gap-1.5">
+                    <MapPin className="w-3.5 h-3.5 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                    <span className="text-muted-foreground">
+                      <span className="font-semibold text-foreground/70">Source:</span> {c.source}
+                    </span>
+                  </p>
+                  <p className="flex items-start gap-1.5">
+                    <Sparkles className="w-3.5 h-3.5 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                    <span className="text-muted-foreground">
+                      <span className="font-semibold text-foreground/70">Search:</span> {c.terms}
+                    </span>
+                  </p>
+                </div>
               </div>
             ))}
           </div>
@@ -626,23 +645,30 @@ export default function HomePageClient({
             <table className="w-full text-sm">
               <thead className="bg-white/5">
                 <tr className="text-left">
-                  <th className="px-4 py-3 font-semibold">Method</th>
+                  <th className="px-4 py-3 font-semibold w-[42%]">Method &amp; How to Get</th>
                   <th className="px-4 py-3 font-semibold">Reward</th>
                   <th className="px-4 py-3 font-semibold">Main Use</th>
-                  <th className="px-4 py-3 font-semibold">Beginner Priority</th>
+                  <th className="px-4 py-3 font-semibold">Priority</th>
                 </tr>
               </thead>
               <tbody>
                 {m.jujutsuYenGuide.rows.map((r: any, i: number) => (
                   <tr
                     key={i}
-                    className="border-t border-border hover:bg-white/[0.03] transition-colors"
+                    className="border-t border-border hover:bg-white/[0.03] transition-colors align-top"
                   >
-                    <td className="px-4 py-3 font-medium">{r.method}</td>
-                    <td className="px-4 py-3 text-[hsl(var(--nav-theme-light))] font-semibold">{r.reward}</td>
+                    <td className="px-4 py-3">
+                      <span className="inline-flex items-center gap-1 text-[10px] uppercase tracking-wider px-1.5 py-0.5 rounded bg-white/5 border border-border text-muted-foreground mb-1.5">
+                        <Tag className="w-2.5 h-2.5" />
+                        {r.group}
+                      </span>
+                      <p className="font-medium">{r.method}</p>
+                      <p className="text-xs text-muted-foreground mt-1">{r.how}</p>
+                    </td>
+                    <td className="px-4 py-3 text-[hsl(var(--nav-theme-light))] font-semibold whitespace-nowrap">{r.reward}</td>
                     <td className="px-4 py-3 text-muted-foreground">{r.use}</td>
                     <td className="px-4 py-3">
-                      <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-xs">
+                      <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-xs whitespace-nowrap">
                         <Check className="w-3 h-3" />
                         {r.priority}
                       </span>
@@ -660,10 +686,15 @@ export default function HomePageClient({
                 key={i}
                 className="p-4 bg-white/5 border border-border rounded-xl"
               >
-                <div className="flex items-center justify-between gap-2 mb-2">
+                <span className="inline-flex items-center gap-1 text-[10px] uppercase tracking-wider px-1.5 py-0.5 rounded bg-white/5 border border-border text-muted-foreground mb-2">
+                  <Tag className="w-2.5 h-2.5" />
+                  {r.group}
+                </span>
+                <div className="flex items-center justify-between gap-2 mb-1">
                   <p className="font-semibold text-sm">{r.method}</p>
-                  <span className="text-[hsl(var(--nav-theme-light))] font-semibold text-sm">{r.reward}</span>
+                  <span className="text-[hsl(var(--nav-theme-light))] font-semibold text-sm whitespace-nowrap">{r.reward}</span>
                 </div>
+                <p className="text-xs text-muted-foreground mb-2">{r.how}</p>
                 <p className="text-sm text-muted-foreground mb-2">{r.use}</p>
                 <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-xs">
                   <Check className="w-3 h-3" />
@@ -689,21 +720,39 @@ export default function HomePageClient({
             {m.jujutsuSkinsTitles.cosmetics.map((c: any, i: number) => (
               <div
                 key={i}
-                className="p-5 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
+                className="p-5 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors flex flex-col"
               >
-                <div className="flex items-center gap-2 mb-2">
-                  <Shirt className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
-                  <span className="text-xs px-2 py-0.5 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">
+                <div className="flex items-center gap-2 mb-3 flex-wrap">
+                  <span className="inline-flex items-center gap-1 text-xs px-2 py-0.5 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">
+                    <Shirt className="w-3 h-3 text-[hsl(var(--nav-theme-light))]" />
                     {c.type}
                   </span>
+                  <span className="inline-flex items-center gap-1 text-xs px-2 py-0.5 rounded-full bg-[hsl(var(--nav-theme)/0.15)] border border-[hsl(var(--nav-theme)/0.35)] text-[hsl(var(--nav-theme-light))]">
+                    <DollarSign className="w-3 h-3" />
+                    {c.price}
+                  </span>
                 </div>
-                <h3 className="font-bold mb-2">{c.name}</h3>
-                <p className="text-sm text-muted-foreground mb-1">
+                <h3 className="font-bold mb-2 text-base md:text-lg">{c.name}</h3>
+                <p className="text-sm text-muted-foreground mb-1.5">
                   <span className="font-semibold text-foreground/70">Unlock:</span> {c.unlock}
                 </p>
-                <p className="text-sm text-muted-foreground">
+                <p className="text-sm text-muted-foreground mb-1.5">
                   <span className="font-semibold text-foreground/70">Effect:</span> {c.effect}
                 </p>
+                <p className="text-sm text-muted-foreground mb-3">
+                  <span className="font-semibold text-foreground/70">Role:</span> {c.relation}
+                </p>
+                <div className="mt-auto flex flex-wrap gap-1.5">
+                  {c.bestFor.map((b: string, bi: number) => (
+                    <span
+                      key={bi}
+                      className="inline-flex items-center gap-1 text-[11px] px-2 py-0.5 rounded-md bg-white/5 border border-border text-muted-foreground"
+                    >
+                      <Sparkles className="w-2.5 h-2.5 text-[hsl(var(--nav-theme-light))]" />
+                      {b}
+                    </span>
+                  ))}
+                </div>
               </div>
             ))}
           </div>

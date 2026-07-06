@@ -45,6 +45,15 @@ export function VideoFeature({ videoId, title }: VideoFeatureProps) {
     if (!node) return;
     if (typeof IntersectionObserver === "undefined") return;
 
+    // 尊重 prefers-reduced-motion：跳过自动播放，仅保留点击播放后备
+    if (
+      typeof window !== "undefined" &&
+      window.matchMedia &&
+      window.matchMedia("(prefers-reduced-motion: reduce)").matches
+    ) {
+      return;
+    }
+
     const observer = new IntersectionObserver(
       (entries) => {
         for (const entry of entries) {

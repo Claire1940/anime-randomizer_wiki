@@ -392,31 +392,46 @@
         {
           "name": "Random-Skill Arena Fighter",
           "type": "Core gameplay role",
-          "detail": "Your Roblox avatar enters the arena and receives a random set of Jujutsu Kaisen-inspired skills for the round. The moveset changes through the random skill system; the equipped look does not lock a permanent character class.",
+          "category": "Playable round identity",
+          "source": "Default avatar plus any equipped skin",
+          "appearance": "Your Roblox avatar enters the arena and receives a random set of Jujutsu Kaisen-inspired skills for the round.",
+          "detail": "The moveset changes through the random skill system; the equipped look does not lock a permanent character class.",
           "terms": "characters, random skills, moveset, arena"
         },
         {
           "name": "Gojo / The Strongest Theme",
           "type": "Character theme",
-          "detail": "White-haired, strongest-themed Jujutsu Kaisen styling used in character and promotional material. Use this entry for Gojo searches, strongest-themed looks, and blue or energy-style skill associations; the actual round skills are still randomized.",
+          "category": "High-intent search entry",
+          "source": "Character and skin references plus official promotional material",
+          "appearance": "White-haired, strongest-themed Jujutsu Kaisen styling used in character and promotional material.",
+          "detail": "Use this entry for Gojo searches, strongest-themed looks, and blue or energy-style skill associations; the actual round skills are still randomized.",
           "terms": "Gojo, Satoru Gojo, The Strongest, Limitless"
         },
         {
           "name": "Sukuna / King of Curse Theme",
           "type": "Character theme",
-          "detail": "Sukuna-inspired curse-king styling tied to red, marked, and king-of-curses search intent, with references in historical code naming such as KINGOFCURSE and VIPFORSUKUNAHEHE. Skill pulls remain round-based instead of skin-based.",
+          "category": "High-intent search entry",
+          "source": "Character and skin references plus historical code naming such as KINGOFCURSE and VIPFORSUKUNAHEHE",
+          "appearance": "Sukuna-inspired curse-king styling tied to red, marked, and king-of-curses search intent.",
+          "detail": "Use this entry for Sukuna searches and curse-themed cosmetics; skill pulls remain round-based instead of skin-based.",
           "terms": "Sukuna, King of Curse, King of Curses, VIP"
         },
         {
           "name": "Panda Skin",
           "type": "Starter skin",
-          "detail": "A panda or bear outfit used as a recognizable early cosmetic target from the skin shop. Cosmetic-only appearance change; it does not change random skills, damage, or round rewards.",
+          "category": "Beginner cosmetic",
+          "source": "Skin shop",
+          "appearance": "A panda or bear outfit used as a recognizable early cosmetic target.",
+          "detail": "Cosmetic-only appearance change; it does not change random skills, damage, or round rewards.",
           "terms": "Panda, panda skin, cheap skin, starter skin"
         },
         {
           "name": "Character Image Roster",
           "type": "Reference index",
-          "detail": "A visual roster used for browsing character looks, skin inspiration, and character-name searches. Use the roster to identify looks, then confirm unlocks and prices inside the in-game shop.",
+          "category": "Visual lookup",
+          "source": "Official Trello character references",
+          "appearance": "A visual roster used for browsing character looks, skin inspiration, and character-name searches.",
+          "detail": "Use the roster to identify looks, then confirm unlocks and prices inside the in-game shop.",
           "terms": "Trello, characters, skins, roster"
         }
       ]
@@ -427,50 +442,66 @@
       "intro": "Yen is the main progression currency for skins, titles, and finishers. New players should claim code Yen first, buy one useful low-cost cosmetic, then save for titles or finishers. The core loop is direct: win rounds to earn more Yen, then use it to unlock cosmetics.",
       "rows": [
         {
+          "group": "Current new code",
           "method": "Code: FINNALYANUPDATE",
           "reward": "175 Yen",
+          "how": "Join Dope Interactive, like the Roblox experience, open the game, press the Code button, and enter the code exactly.",
           "use": "Starter Yen for skins, titles, or finishers",
           "priority": "Redeem first"
         },
         {
+          "group": "Current new code",
           "method": "Code: AURAMONSTER",
           "reward": "125 Yen",
+          "how": "Use the in-game Code button after the group and like requirements are complete.",
           "use": "Extra early shop budget",
           "priority": "Redeem first"
         },
         {
+          "group": "Current new code",
           "method": "Code: 8MVISITS",
           "reward": "125 Yen",
+          "how": "Enter the code from the official game-page code banner in the in-game code box.",
           "use": "Starts shopping without waiting on several rounds",
           "priority": "Redeem first"
         },
         {
+          "group": "Match rewards",
           "method": "Win rounds",
           "reward": "Yen from round wins",
+          "how": "Enter the arena, survive the random-skill chaos, and win the round.",
           "use": "Main repeatable Yen source after codes",
           "priority": "Core grind"
         },
         {
+          "group": "Survival placement",
           "method": "Survive longer",
           "reward": "Higher survival-based payout",
+          "how": "Stay alive while other players are eliminated; stronger placement improves the payout path.",
           "use": "Consistent Yen when wins are not happening yet",
           "priority": "Play safe early"
         },
         {
+          "group": "Primary spending",
           "method": "Buy Skins",
           "reward": "Cosmetic appearance unlocks",
+          "how": "Buy from the skin or shop flow with Yen.",
           "use": "Change your look without changing randomized skills",
           "priority": "Buy one low-cost skin first"
         },
         {
+          "group": "Primary spending",
           "method": "Unlock Titles",
           "reward": "Display title unlocks",
+          "how": "Unlock or buy through the title or shop flow with Yen.",
           "use": "Show status and collection progress",
           "priority": "Save for later"
         },
         {
+          "group": "Primary spending",
           "method": "Buy Finishers",
           "reward": "Finishing move effects",
+          "how": "Buy through the finisher or shop flow with Yen.",
           "use": "Adds execution flair after eliminations",
           "priority": "Buy after understanding combat"
         }
@@ -484,38 +515,56 @@
         {
           "name": "Skins",
           "type": "Cosmetic category",
+          "price": "Varies by skin",
           "unlock": "Buy from the Skins or Shop flow with Yen earned from codes and rounds.",
-          "effect": "Changes the visible character look in the lobby and arena."
+          "effect": "Changes the visible character look in the lobby and arena.",
+          "relation": "Cosmetic appearance only; skins do not replace the random skill system.",
+          "bestFor": ["Character searches", "Gojo searches", "Sukuna searches", "Skin collectors"]
         },
         {
           "name": "Panda Skin",
           "type": "Starter skin",
+          "price": "Entry-level skin tier",
           "unlock": "Buy from the skin shop with Yen at an entry-level price tier.",
-          "effect": "Equips a panda or bear-style outfit for a recognizable beginner look."
+          "effect": "Equips a panda or bear-style outfit for a recognizable beginner look.",
+          "relation": "A beginner-friendly cosmetic target that gives new players a recognizable look without changing their combat tools.",
+          "bestFor": ["New players", "Cheap skin", "Panda"]
         },
         {
           "name": "Titles",
           "type": "Display cosmetic",
+          "price": "Varies by title",
           "unlock": "Unlock or buy through the Titles area using Yen progression.",
-          "effect": "Shows a title-style label for identity, status, or collection progress."
+          "effect": "Shows a title-style label for identity, status, or collection progress.",
+          "relation": "Display-focused; titles are a flex item rather than a direct combat upgrade.",
+          "bestFor": ["Titles", "Rank display", "Collection"]
         },
         {
           "name": "Finishers",
           "type": "Execution cosmetic",
+          "price": "Varies by finisher",
           "unlock": "Buy through the Finishers area with Yen.",
-          "effect": "Changes the finishing move or execution effect used after a takedown."
+          "effect": "Changes the finishing move or execution effect used after a takedown.",
+          "relation": "Adds flair to eliminations and gives players another reason to grind Yen after buying skins.",
+          "bestFor": ["Finishers", "Cosmetics", "Kill effects"]
         },
         {
           "name": "Black Flash Finisher",
           "type": "Finishing move",
+          "price": "Shop price varies by listing",
           "unlock": "Acquire through the finisher unlock path; shop price varies by listing.",
-          "effect": "Adds a Black Flash-style finishing hit effect to your eliminations."
+          "effect": "Adds a Black Flash-style finishing hit effect to your eliminations.",
+          "relation": "Used as a finisher-style effect rather than a fixed starter moveset.",
+          "bestFor": ["Black Flash", "Finisher", "Execution effect"]
         },
         {
           "name": "Code-Funded Cosmetics",
           "type": "Reward path",
+          "price": "Uses free code Yen",
           "unlock": "Redeem active codes, then spend the Yen in the cosmetic shop.",
-          "effect": "Turns code rewards into skins, titles, or finishers before regular win rewards take over."
+          "effect": "Turns code rewards into skins, titles, or finishers before regular win rewards take over.",
+          "relation": "The fastest early cosmetic route before regular win rewards take over.",
+          "bestFor": ["Codes", "Free Yen", "New players"]
         }
       ]
     },
@@ -598,11 +647,11 @@
       },
       {
         "question": "What are the active Jujutsu Randomizer codes right now?",
-        "answer": "The current public set from the official game-page banner is FINNALYANUPDATE for 175 Yen, AURAMONSTER for 125 Yen, and 8MVISITS for 125 Yen. Codes are case-sensitive and single-use per Roblox account."
+        "answer": "The current public Jujutsu Randomizer code set from the official game-page banner is FINNALYANUPDATE for 175 Yen, AURAMONSTER for 125 Yen, and 8MVISITS for 125 Yen. Codes are case-sensitive and single-use per Roblox account."
       },
       {
         "question": "How do I get more Yen in Jujutsu Randomizer?",
-        "answer": "Redeem active codes first for a starter fund, then win rounds and survive longer for repeatable Yen. Spend early Yen on one low-cost skin, then save for titles or finishers."
+        "answer": "Redeem active Jujutsu Randomizer codes first for a starter fund, then win rounds and survive longer for repeatable Yen. Spend early Yen on one low-cost skin, then save for titles or finishers."
       },
       {
         "question": "Do skins change my skills in Jujutsu Randomizer?",
