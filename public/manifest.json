@@ -1,12 +1,12 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "Jujutsu Randomizer Wiki - Codes, Skills & Skins",
+  "short_name": "Jujutsu Randomizer",
+  "description": "Jujutsu Randomizer Wiki covers active codes, random skills, skins, titles, Yen farming tips, item locations, and update notes for the Roblox JJK-inspired arena fighter.",
   "start_url": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#1a7a7a",
-  "background_color": "#0a0a0a",
+  "theme_color": "#06b6d4",
+  "background_color": "#0a0e1a",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
