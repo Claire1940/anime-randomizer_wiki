@@ -7,28 +7,24 @@ export const dynamic = 'force-static'
 
 const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.anime-randomizer.wiki'
 
-// 内容类型优先级配置
+// 内容类型优先级配置（对齐实际 6 分类：codes/guide/items/characters/abilities/skins）
 const contentTypePriority: Record<string, number> = {
-	'guides': 0.9,
-	'crafting': 0.9,
-	'biomes': 0.8,
-	'creatures': 0.8,
+	'codes': 0.9,
+	'guide': 0.9,
 	'items': 0.8,
-	'achievements': 0.7,
-	'lore': 0.7,
-	'support': 0.6,
+	'characters': 0.8,
+	'abilities': 0.8,
+	'skins': 0.8,
 }
 
-// 内容更新频率配置
+// 内容更新频率配置（codes 兑换码更新频繁用 daily，其余 weekly）
 const contentTypeChangeFrequency: Record<string, 'daily' | 'weekly' | 'monthly'> = {
-	'guides': 'weekly',
-	'crafting': 'weekly',
-	'biomes': 'weekly',
-	'creatures': 'weekly',
+	'codes': 'daily',
+	'guide': 'weekly',
 	'items': 'weekly',
-	'achievements': 'monthly',
-	'lore': 'monthly',
-	'support': 'monthly',
+	'characters': 'weekly',
+	'abilities': 'weekly',
+	'skins': 'weekly',
 }
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {

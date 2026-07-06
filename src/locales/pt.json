@@ -1,4 +1,15 @@
 {
+  "seo": {
+    "home": {
+      "title": "Jujutsu Randomizer Wiki - Códigos, Skins e Habilidades",
+      "description": "Explore códigos de Jujutsu Randomizer, habilidades aleatórias, skins, títulos, dicas de farming de Yen, notas de atualização e guias de arena do Roblox em uma wiki organizada.",
+      "keywords": "Jujutsu Randomizer, Roblox, códigos, habilidades, skins, yen, títulos, atualizações",
+      "ogTitle": "Jujutsu Randomizer Wiki - Códigos, Skins e Habilidades",
+      "ogDescription": "Explore códigos de Jujutsu Randomizer, habilidades aleatórias, skins, títulos, dicas de farming de Yen, notas de atualização e guias de arena do Roblox em uma wiki organizada.",
+      "twitterTitle": "Jujutsu Randomizer Wiki - Códigos, Skins e Habilidades",
+      "twitterDescription": "Explore códigos de Jujutsu Randomizer, habilidades aleatórias, skins, títulos, dicas de farming de Yen e guias de arena do Roblox."
+    }
+  },
   "nav": {
     "codes": "Códigos",
     "guide": "Guia",
@@ -6,5 +17,935 @@
     "abilities": "Habilidades",
     "items": "Itens",
     "skins": "Skins"
+  },
+  "common": {
+    "home": "Início",
+    "more": "Mais",
+    "playNow": "Jogar no Roblox",
+    "switchLanguage": "Mudar Idioma",
+    "switchTheme": "Mudar Tema",
+    "lightMode": "Modo Claro",
+    "darkMode": "Modo Escuro",
+    "notFound": "Página Não Encontrada",
+    "notFoundDescription": "A página que você está procurando não existe.",
+    "backToHome": "Voltar para o Início",
+    "relatedArticles": "Artigos Relacionados",
+    "readMore": "Ler Mais",
+    "articlesComingSoon": "Artigos em breve"
+  },
+  "hero": {
+    "badge": "Jogo de Luta de Arena com Habilidades Aleatórias no Roblox",
+    "title": "Jujutsu Randomizer Wiki",
+    "description": "Entre em uma arena do Roblox inspirada em JJK onde cada rodada sorteia habilidades aleatórias. Vença lutas, ganhe Yen, desbloqueie skins, títulos e acompanhe novos códigos e atualizações.",
+    "getFreeCodesCTA": "Obter Códigos Gratuitos",
+    "playOnRobloxCTA": "Jogar no Roblox",
+    "stats": {
+      "stat1": {
+        "value": "9.4M+",
+        "label": "Visitas Totais"
+      },
+      "stat2": {
+        "value": "3",
+        "label": "Novos Códigos Listados"
+      },
+      "stat3": {
+        "value": "4 de jul. de 2026",
+        "label": "Última Atualização"
+      },
+      "stat4": {
+        "value": "Moderada",
+        "label": "Classificação Etária"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Jujutsu Randomizer Arena",
+    "description": "Gire habilidades aleatórias inspiradas em Jujutsu Kaisen a cada rodada, vença lutas para ganhar Yen e desbloqueie skins, títulos e finalizadores nesta arena PvP do Roblox."
+  },
+  "tools": {
+    "title": "Jujutsu Randomizer",
+    "titleHighlight": "Central da Wiki",
+    "subtitle": "Códigos, habilidades, tier lists, Yen, skins e canais de atualização para Jujutsu Randomizer",
+    "cards": [
+      {
+        "icon": "Gift",
+        "title": "Códigos do Jujutsu Randomizer",
+        "description": "Códigos ativos, etapas de resgate e lista de códigos expirados"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Guia de Iniciante do Jujutsu Randomizer",
+        "description": "Primeiros passos, lógica de habilidades aleatórias e gastos iniciais de Yen"
+      },
+      {
+        "icon": "BarChart3",
+        "title": "Tier List do Jujutsu Randomizer",
+        "description": "Classificações de habilidades PvP de S a C, além das melhores passivas de personagens"
+      },
+      {
+        "icon": "Swords",
+        "title": "Habilidades do Jujutsu Randomizer",
+        "description": "Efeitos de habilidades aleatórias, combos, contra-ataques e ferramentas de domínio"
+      },
+      {
+        "icon": "Users",
+        "title": "Personagens do Jujutsu Randomizer",
+        "description": "Temas de personagens, origens de skins e entradas de pesquisa"
+      },
+      {
+        "icon": "Coins",
+        "title": "Guia de Yen do Jujutsu Randomizer",
+        "description": "Como ganhar Yen e onde gastá-lo primeiro"
+      },
+      {
+        "icon": "Shirt",
+        "title": "Skins e Títulos do Jujutsu Randomizer",
+        "description": "Skins, títulos, finalizadores e condições de desbloqueio de cosméticos"
+      },
+      {
+        "icon": "Bell",
+        "title": "Trello e Atualizações do Jujutsu Randomizer",
+        "description": "Links oficiais, ordem de leitura das atualizações e resumo dos códigos"
+      }
+    ]
+  },
+  "modules": {
+    "jujutsuCodes": {
+      "title": "Códigos do Jujutsu Randomizer",
+      "eyebrow": "Códigos e Yen Grátis",
+      "intro": "Resgate os códigos mais recentes do Jujutsu Randomizer para obter Yen e, em seguida, gaste-o em cosméticos como skins e títulos. Os códigos geralmente são postados na descrição da experiência no Roblox, nos canais da comunidade Dope Interactive ou nos anúncios de atualização.",
+      "activeCodes": [
+        {
+          "code": "FINNALYANUPDATE",
+          "reward": "175 Yen",
+          "status": "Ativo",
+          "note": "Novo código de atualização"
+        },
+        {
+          "code": "AURAMONSTER",
+          "reward": "125 Yen",
+          "status": "Ativo",
+          "note": "Novo código de atualização"
+        },
+        {
+          "code": "8MVISITS",
+          "reward": "125 Yen",
+          "status": "Ativo",
+          "note": "Código de marco de visitas"
+        }
+      ],
+      "requirements": [
+        {
+          "title": "Entre na comunidade do Roblox",
+          "detail": "Os códigos exigem que a conta do jogador esteja na comunidade Dope Interactive no Roblox."
+        },
+        {
+          "title": "Curta a experiência no Roblox",
+          "detail": "Curta a página da experiência Jujutsu Randomizer antes de iniciar uma nova sessão."
+        },
+        {
+          "title": "Use a grafia exata",
+          "detail": "Os códigos diferenciam maiúsculas de minúsculas e devem ser colados exatamente como escritos."
+        }
+      ],
+      "redeemSteps": [
+        {
+          "step": 1,
+          "title": "Abra a página da experiência no Roblox",
+          "body": "Entre na comunidade Dope Interactive pelo link do criador e, em seguida, curta Jujutsu Randomizer no Roblox."
+        },
+        {
+          "step": 2,
+          "title": "Inicie um novo servidor",
+          "body": "Inicie o Jujutsu Randomizer após concluir as verificações de entrada e curtida."
+        },
+        {
+          "step": 3,
+          "title": "Abra o menu de Códigos",
+          "body": "Pressione o botão de Código no lado esquerdo da tela do jogo."
+        },
+        {
+          "step": 4,
+          "title": "Cole o código",
+          "body": "Insira um código válido na caixa Insert Codes. A recompensa é resgatada assim que o jogo aceita o código."
+        },
+        {
+          "step": 5,
+          "title": "Repita para cada código",
+          "body": "Resgate os códigos mais recentes primeiro, pois códigos de atualização e de marcos tendem a expirar quando novos chegam."
+        }
+      ],
+      "expiredCodes": [
+        {
+          "code": "JANEJULIET",
+          "reward": "125 Yen"
+        },
+        {
+          "code": "130KLIKES",
+          "reward": "125 Yen"
+        },
+        {
+          "code": "KINGOFCURSE",
+          "reward": "150 Yen"
+        },
+        {
+          "code": "6MILLIONSVISITSYAY",
+          "reward": "150 Yen"
+        },
+        {
+          "code": "AURAUPDATE",
+          "reward": "150 Yen"
+        },
+        {
+          "code": "RELEASEYAY",
+          "reward": "125 Yen"
+        },
+        {
+          "code": "YUJIRELEASE",
+          "reward": "125 Yen"
+        },
+        {
+          "code": "THX1MVISITS",
+          "reward": "Recompensas diversas"
+        }
+      ],
+      "expiredNote": "Códigos antigos do Jujutsu Randomizer expiram à medida que novas atualizações chegam. Se um código não for mais aceito, ele foi retirado e substituído pelo conjunto ativo mais recente."
+    },
+    "jujutsuBeginnerGuide": {
+      "title": "Guia de Iniciante do Jujutsu Randomizer",
+      "eyebrow": "Guia de Iniciante",
+      "intro": "Um guia de início rápido para jogadores que acabaram de surgir na arena. O ciclo principal é simples: adapte-se a habilidades aleatórias, sobreviva às rodadas, vença lutas, ganhe Yen e desbloqueie cosméticos.",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Prepare sua conta antes de entrar",
+          "body": "Entre na comunidade do Roblox Dope Interactive e curta a experiência do Roblox. Isso desbloqueia as verificações de resgate de códigos e evita que códigos válidos falhem.",
+          "tip": "Resgate códigos de Yen ativos antes de farmar partidas."
+        },
+        {
+          "step": 2,
+          "title": "Dê spawn e depois leia o seu kit aleatório",
+          "body": "Cada rodada pode lhe dar um personagem aleatório, habilidades aleatórias e, às vezes, armas ou ferramentas de habilidade. Verifique se o seu kit atual possui dano explosivo, mobilidade, um contra-ataque, um domínio ou cura antes de avançar no jogador mais próximo.",
+          "tip": "Classifique suas habilidades primeiro; ataque depois."
+        },
+        {
+          "step": 3,
+          "title": "Use a movimentação para sobreviver",
+          "body": "Habilidades de mobilidade como Aqua Burst, 24 FPS Dash, Surprise Attack e Boogie Woogie são valiosas porque sobreviver por mais tempo geralmente significa mais chances de ganhar Yen e vencer a rodada.",
+          "tip": "Fuja de lutas ruins em vez de trocar golpes a todo momento."
+        },
+        {
+          "step": 4,
+          "title": "Procure por combos fáceis para iniciantes",
+          "body": "Um controle simples seguido de dano explosivo é o padrão mais fácil para iniciantes. Frame Punch pode congelar um inimigo brevemente, permitindo emendar com Hollow Purple, Angry Barrage, Dismantle, Furnace ou outra habilidade de alto dano enquanto ele estiver preso.",
+          "tip": "Use uma ferramenta de atordoamento ou controle antes do seu golpe de maior dano."
+        },
+        {
+          "step": 5,
+          "title": "Guarde os domínios para lutas cheias",
+          "body": "Habilidades de domínio são mais fortes quando vários inimigos estão próximos. Infinite Void, Malevolent Shrine, Shadow Garden e Time Cell Moon Palace podem controlar o espaço, punir grupos e mudar o rumo de uma rodada rapidamente.",
+          "tip": "Não desperdice um domínio em um único alvo que pode simplesmente fugir."
+        },
+        {
+          "step": 6,
+          "title": "Vença ou sobreviva a rodadas para ganhar Yen",
+          "body": "Vencer rodadas concede Yen, e o Yen é usado para desbloquear skins ou títulos. O jogo recompensa a adaptação a qualquer kit que você conseguir no sorteio, em vez de comprar uma build de combate permanente.",
+          "tip": "Trate o Yen inicial como moeda cosmética, não como um atalho para obter poder."
+        },
+        {
+          "step": 7,
+          "title": "Gaste os recursos iniciais com cuidado",
+          "body": "Use os códigos primeiro e depois jogue rodadas para obter mais Yen. Como as habilidades são aleatorizadas pelo ciclo do jogo, gaste o Yen inicial em skins ou títulos apenas depois de saber o que você realmente deseja exibir.",
+          "tip": "Resgate códigos primeiro, farme depois, compre cosméticos por último."
+        },
+        {
+          "step": 8,
+          "title": "Aprenda a reconhecer os sinais de perigo",
+          "body": "Habilidades de sangue como Piercing Blood e Charged Piercing Blood custam vida (HP), enquanto Black Hole só funciona com vida baixa e elimina o usuário após a ativação. Essas são ferramentas fortes, mas os iniciantes devem prestar muita atenção na vida antes de usá-las.",
+          "tip": "Não sacrifique vida a menos que a troca garanta a vitória na luta."
+        }
+      ]
+    },
+    "jujutsuTierList": {
+      "title": "Tier List de Jujutsu Randomizer",
+      "eyebrow": "Tier List de PvP",
+      "intro": "Use esta tier list para reconhecer giros fortes rapidamente. Habilidades de tier S podem mudar o rumo de uma rodada sozinhas, habilidades de tier A vencem lutas de forma consistente, habilidades de tier B são úteis mas mais situacionais, e o tier C cobre armas básicas ou ferramentas de baixo dano que precisam de um suporte mais forte.",
+      "tiers": [
+        {
+          "tier": "S",
+          "label": "Habilidades que mudam o rumo da rodada",
+          "entries": [
+            {
+              "name": "Hollow Purple",
+              "type": "Dano explosivo",
+              "reason": "35 de dano após carregar, com knockback massivo."
+            },
+            {
+              "name": "Furnace",
+              "type": "Explosão em área",
+              "reason": "Explosão de fogo de 19 de dano com knockback e forte valor contra múltiplos alvos."
+            },
+            {
+              "name": "Expansão de Domínio: Infinite Void",
+              "type": "Controle de domínio",
+              "reason": "Permite ao usuário correr através dos inimigos, causando dano e aplicando knockback por vários segundos."
+            },
+            {
+              "name": "Expansão de Domínio: Malevolent Shrine",
+              "type": "Dano de domínio",
+              "reason": "Invoca um santuário que causa 24 de dano em uma área enorme."
+            },
+            {
+              "name": "Time Cell Moon Palace",
+              "type": "Bloqueio de domínio",
+              "reason": "Imobiliza os inimigos dentro do domínio a cada dois segundos e adiciona pressão de dano."
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "label": "Vencedores consistentes de lutas",
+          "entries": [
+            {
+              "name": "Angry Barrage",
+              "type": "Combo corpo a corpo",
+              "reason": "Sequência de socos de 18 de dano que atordoa enquanto acerta."
+            },
+            {
+              "name": "Lucky Uppercut",
+              "type": "Explosão rápida",
+              "reason": "Soco de 16 de dano com recarga rápida."
+            },
+            {
+              "name": "Dismantle",
+              "type": "Corte de curto alcance",
+              "reason": "14 de dano com repulsão, útil para redefinir o espaço."
+            },
+            {
+              "name": "Instant Zap",
+              "type": "Aproximação rápida",
+              "reason": "Teleporta até o inimigo e causa 14 de dano."
+            },
+            {
+              "name": "Surprise Attack",
+              "type": "Explosão de mobilidade",
+              "reason": "Esmurra o inimigo, teleporta para trás dele e causa 15 de dano."
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "label": "Fortes ferramentas de suporte",
+          "entries": [
+            {
+              "name": "Black Flash",
+              "type": "Corpo a corpo rápido",
+              "reason": "15 de dano com recarga curta; combina bem com a passiva do Vessel."
+            },
+            {
+              "name": "Explode!",
+              "type": "Dano em área de curto alcance",
+              "reason": "Causa 15 de dano a inimigos próximos."
+            },
+            {
+              "name": "Aqua Burst",
+              "type": "Dano de mobilidade",
+              "reason": "Lança o usuário para frente e causa 12 de dano."
+            },
+            {
+              "name": "Hydro Strike",
+              "type": "Ataque de água",
+              "reason": "Um ataque de preenchimento confiável quando habilidades mais fortes estão em recarga."
+            }
+          ]
+        },
+        {
+          "tier": "C",
+          "label": "Ferramentas de baixo impacto",
+          "entries": [
+            {
+              "name": "Armas básicas",
+              "type": "Dano de reserva",
+              "reason": "Menor impacto prático, a menos que seja fortalecido por uma passiva de personagem focada em armas."
+            },
+            {
+              "name": "Habilidades de baixo dano",
+              "type": "---",
+              "reason": "Preenchimento situacional"
+            }
+          ]
+        },
+        {
+          "tier": "Precisa de preparação, posicionamento ou habilidades complementares mais fortes para ser útil no PvP.",
+          "label": "Passivas",
+          "entries": [
+            {
+              "name": "Melhores rolagens de personagens para reconhecer",
+              "type": "Big Brother",
+              "reason": "Amplificador de build de sangue"
+            },
+            {
+              "name": "Habilidades de sangue não consomem mais HP e causam 20% a mais de dano.",
+              "type": "Vengeful Girl",
+              "reason": "Amplificador de dano de arma"
+            },
+            {
+              "name": "Todas as armas causam 20% a mais de dano.",
+              "type": "Adapt Guy",
+              "reason": "Defesa anti-domínio"
+            },
+            {
+              "name": "O dano recebido dentro de domínios é reduzido em três vezes.",
+              "type": "Vessel",
+              "reason": "Amplificador de Black Flash"
+            },
+            {
+              "name": "Habilidades de Black Flash causam 20% a mais de dano.",
+              "type": "Besto Friendo",
+              "reason": "Passiva de sobrevivência"
+            }
+          ]
+        }
+      ]
+    },
+    "jujutsuAbilities": {
+      "title": "Começa com +15 de HP para uma margem de vida mais segura.",
+      "eyebrow": "Habilidades de Jujutsu Randomizer",
+      "intro": "Habilidades e Skills",
+      "abilities": [
+        {
+          "name": "As habilidades em Jujutsu Randomizer são divididas em categorias de dano, mobilidade, defesa, domínio, controle e risco próprio. Uma jogada forte vem de combinar a técnica com a situação: atordoe antes do burst, guarde domínios para grupos, use movimentação para escapar de trocas ruins e observe o HP antes de usar habilidades de sangue ou sacrifício.",
+          "category": "Hollow Purple",
+          "effect": "Dano burst",
+          "combo": "Carrega e depois causa 35 de dano com um knockback massivo.",
+          "counter": "Frame Punch seguido de Hollow Purple; use Boogie Woogie ou Surprise Attack primeiro para criar um ângulo melhor."
+        },
+        {
+          "name": "Continue se movendo, evite ficar alinhado durante o carregamento e puna o usuário se o disparo errar.",
+          "category": "Furnace",
+          "effect": "Burst em área",
+          "combo": "Cria uma explosão de fogo que causa 19 de dano e empurra os inimigos.",
+          "counter": "Use após um avanço de mobilidade ou quando os inimigos estiverem lentos dentro de um domínio."
+        },
+        {
+          "name": "Não persiga diretamente a curta distância; atraia a explosão e depois ataque novamente.",
+          "category": "Angry Barrage",
+          "effect": "Combo corpo a corpo",
+          "combo": "Um combo de socos rápidos que atordoa os inimigos enquanto causa 18 de dano.",
+          "counter": "Frame Punch seguido de Angry Barrage, depois finalize com um golpe rápido como Black Flash ou Dismantle."
+        },
+        {
+          "name": "Não troque golpes à queima-roupa; use movimentação, contra-ataques ou knockback antes do início da sequência.",
+          "category": "Frame Punch",
+          "effect": "Preparação de controle",
+          "combo": "Frame Punch para Hollow Purple, Angry Barrage, Furnace ou Dismantle.",
+          "counter": "Respeite seu valor de setup; desvie da abertura em vez de tentar trocar dano com o golpe seguinte."
+        },
+        {
+          "name": "Instant Zap",
+          "category": "Dano de mobilidade",
+          "effect": "Teleporta para um inimigo e causa 14 de dano.",
+          "combo": "Instant Zap para Lucky Uppercut, Black Flash ou Dismantle.",
+          "counter": "Guarde um contra-ataque, golpe em área ou opção de knockback quando o usuário estiver buscando um engajamento por teletransporte."
+        },
+        {
+          "name": "Surprise Attack",
+          "category": "Explosão de mobilidade",
+          "effect": "Soca o inimigo, teleporta para trás dele e causa 15 de dano.",
+          "combo": "Surprise Attack para Lucky Uppercut, Dismantle ou Black Flash.",
+          "counter": "Espere o posicionamento nas costas e vire-se rapidamente com uma opção de área ou contra-ataque."
+        },
+        {
+          "name": "Boogie Woogie",
+          "category": "Troca de posição",
+          "effect": "Troca de posição com um jogador próximo.",
+          "combo": "Troque um alvo para dentro do Furnace, da pressão do Malevolent Shrine ou de outra ameaça em área.",
+          "counter": "Mantenha um espaçamento amplo e evite ficar perto de perigos ou colegas de equipe inimigos."
+        },
+        {
+          "name": "Domain Expansion: Infinite Void",
+          "category": "Domínio",
+          "effect": "Permite que o usuário corra através de inimigos, causando dano e knockback por vários segundos.",
+          "combo": "Ative quando os inimigos já estiverem em combate direto, então encadeie knockback em dano explosivo.",
+          "counter": "Evite agrupamentos e use ferramentas defensivas ou movimentação para sair da zona de perigo."
+        },
+        {
+          "name": "Domain Expansion: Malevolent Shrine",
+          "category": "Domínio",
+          "effect": "Invoca um santuário que causa 24 de dano em uma área enorme.",
+          "combo": "Use após uma troca de posição, congelamento ou perseguição em grupo para forçar vários inimigos a receberem dano.",
+          "counter": "Saia da área imediatamente e não lute dentro do santuário, a menos que esteja protegido."
+        },
+        {
+          "name": "Simple Domain",
+          "category": "Ferramenta defensiva",
+          "effect": "Concede frames de invulnerabilidade por 5 segundos.",
+          "combo": "Use defensivamente, depois contra-ataque com seu movimento de maior valor quando o inimigo se comprometer cedo demais.",
+          "counter": "Não desperdice seu ataque mais forte na janela de invulnerabilidade; espere ela passar."
+        },
+        {
+          "name": "Reverse Cursed Technique",
+          "category": "Cura",
+          "effect": "Cura 13 de HP.",
+          "combo": "Use após recuar com Aqua Burst, 24 FPS Dash ou Boogie Woogie.",
+          "counter": "Pressione o usuário antes que ele possa resetar a luta e recuperar um espaçamento seguro."
+        },
+        {
+          "name": "Black Hole",
+          "category": "Habilidade de risco",
+          "effect": "Só ativa abaixo de 20 de HP; elimina inimigos próximos e depois elimina o usuário.",
+          "combo": "Combine com manipulação de posição como Boogie Woogie para arrastar inimigos para a zona de perigo.",
+          "counter": "Não cerque um usuário de Black Hole com vida baixa; afaste-se e force-o a desperdiçar a condição."
+        }
+      ]
+    },
+    "jujutsuCharacters": {
+      "title": "Personagens de Jujutsu Randomizer",
+      "eyebrow": "Personagens e Busca",
+      "intro": "Jujutsu Randomizer envia seu avatar do Roblox para rodadas PvP com habilidades aleatórias inspiradas em Jujutsu Kaisen, usando a progressão de Yen para desbloquear skins e títulos. A regra prática é simples: busque pelo tema do personagem para encontrar o visual, mas não trate uma skin como um conjunto de movimentos fixo.",
+      "characters": [
+        {
+          "name": "Lutador de Arena com Habilidades Aleatórias",
+          "type": "Função principal de jogabilidade",
+          "category": "Identidade jogável da rodada",
+          "source": "Avatar padrão mais qualquer skin equipada",
+          "appearance": "Seu avatar do Roblox entra na arena e recebe um conjunto aleatório de habilidades inspiradas em Jujutsu Kaisen para a rodada.",
+          "detail": "O moveset muda através do sistema de habilidades aleatórias; o visual equipado não trava uma classe de personagem permanente.",
+          "terms": "personagens, habilidades aleatórias, moveset, arena"
+        },
+        {
+          "name": "Gojo / Tema do O Mais Forte",
+          "type": "Tema de personagem",
+          "category": "Entrada de busca de alta intenção",
+          "source": "Referências de personagem e skin, além de material promocional oficial",
+          "appearance": "Estilo de cabelo branco com o tema \"o mais forte\" de Jujutsu Kaisen usado em personagens e material promocional.",
+          "detail": "Use esta entrada para buscas de Gojo, visuais do tema \"o mais forte\" e associações de habilidades de estilo azul ou energia; as habilidades reais da rodada ainda são aleatórias.",
+          "terms": "Gojo, Satoru Gojo, The Strongest, Limitless"
+        },
+        {
+          "name": "Sukuna / Tema do Rei das Maldições",
+          "type": "Tema de personagem",
+          "category": "Entrada de busca de alta intenção",
+          "source": "Referências de personagem e skin, além de nomes de códigos históricos como KINGOFCURSE e VIPFORSUKUNAHEHE",
+          "appearance": "Estilo de rei das maldições inspirado em Sukuna vinculado à intenção de busca por vermelho, marcas e rei das maldições.",
+          "detail": "Use esta entrada para buscas de Sukuna e cosméticos temáticos de maldição; as habilidades obtidas continuam baseadas na rodada, e não na skin.",
+          "terms": "Sukuna, King of Curse, King of Curses, VIP"
+        },
+        {
+          "name": "Skin de Panda",
+          "type": "Skin inicial",
+          "category": "Cosmético para iniciantes",
+          "source": "Loja de skins",
+          "appearance": "Uma roupa de panda ou urso usada como um objetivo cosmético inicial reconhecível.",
+          "detail": "Mudança de aparência apenas cosmética; não altera habilidades aleatórias, dano ou recompensas da rodada.",
+          "terms": "Panda, skin de panda, skin barata, skin inicial"
+        },
+        {
+          "name": "Lista de Imagens de Personagens",
+          "type": "Índice de referência",
+          "category": "Busca visual",
+          "source": "Referências oficiais de personagens no Trello",
+          "appearance": "Uma lista visual usada para navegar pelos visuais dos personagens, inspiração para skins e buscas por nomes de personagens.",
+          "detail": "Use a lista para identificar visuais e, em seguida, confirme os desbloqueios e preços dentro da loja do jogo.",
+          "terms": "Trello, personagens, skins, lista"
+        }
+      ]
+    },
+    "jujutsuYenGuide": {
+      "title": "Guia de Yen do Jujutsu Randomizer",
+      "eyebrow": "Yen e Progressão",
+      "intro": "O Yen é a principal moeda de progressão para skins, títulos e finalizações. Novos jogadores devem resgatar o Yen de códigos primeiro, comprar um cosmético útil de baixo custo e depois economizar para títulos ou finalizações. O ciclo principal é direto: vença rodadas para ganhar mais Yen e use-o para desbloquear cosméticos.",
+      "rows": [
+        {
+          "group": "Novo código atual",
+          "method": "Código: FINNALYANUPDATE",
+          "reward": "175 Yen",
+          "how": "Entre no grupo Dope Interactive, dê like na experiência do Roblox, abra o jogo, pressione o botão Code e insira o código exatamente.",
+          "use": "Yen inicial para skins, títulos ou finalizações",
+          "priority": "Resgate primeiro"
+        },
+        {
+          "group": "Novo código atual",
+          "method": "Código: AURAMONSTER",
+          "reward": "125 Yen",
+          "how": "Use o botão Code no jogo após completar os requisitos de grupo e like.",
+          "use": "Orçamento extra para a loja inicial",
+          "priority": "Resgate primeiro"
+        },
+        {
+          "group": "Novo código atual",
+          "method": "Código: 8MVISITS",
+          "reward": "125 Yen",
+          "how": "Insira o código do banner oficial da página do jogo na caixa de códigos dentro do jogo.",
+          "use": "Comece a comprar sem esperar várias rodadas",
+          "priority": "Resgate primeiro"
+        },
+        {
+          "group": "Recompensas de partida",
+          "method": "Vença rodadas",
+          "reward": "Yen por vitórias em rodadas",
+          "how": "Entre na arena, sobreviva ao caos das habilidades aleatórias e vença a rodada.",
+          "use": "Principal fonte repetível de Yen após os códigos",
+          "priority": "Grind principal"
+        },
+        {
+          "group": "Classificação de sobrevivência",
+          "method": "Sobreviva por mais tempo",
+          "reward": "Pagamento maior baseado na sobrevivência",
+          "how": "Fique vivo enquanto outros jogadores são eliminados; uma melhor classificação aumenta o ganho.",
+          "use": "Yen consistente quando as vitórias ainda não estão vindo",
+          "priority": "Jogue com cautela no início"
+        },
+        {
+          "group": "Gastos principais",
+          "method": "Comprar Skins",
+          "reward": "Desbloqueios de aparência cosmética",
+          "how": "Compre através do fluxo de skins ou da loja com Yen.",
+          "use": "Mude seu visual sem alterar as habilidades aleatórias",
+          "priority": "Compre uma skin barata primeiro"
+        },
+        {
+          "group": "Gastos principais",
+          "method": "Desbloquear Títulos",
+          "reward": "Mostrar títulos desbloqueados",
+          "how": "Desbloqueie ou compre através do menu de títulos ou da loja com Yen.",
+          "use": "Mostrar status e progresso da coleção",
+          "priority": "Salvar para depois"
+        },
+        {
+          "group": "Gastos principais",
+          "method": "Comprar Finishers",
+          "reward": "Efeitos de movimentos de finalização",
+          "how": "Compre através do menu de finishers ou da loja com Yen.",
+          "use": "Adiciona estilo de execução após eliminações",
+          "priority": "Compre após entender o combate"
+        }
+      ]
+    },
+    "jujutsuSkinsTitles": {
+      "title": "Skins e Títulos de Jujutsu Randomizer",
+      "eyebrow": "Cosméticos e Coleção",
+      "intro": "Skins, títulos e finishers são formas de gastar Yen ligadas à coleção e ao estilo. Eles tornam seu personagem mais fácil de reconhecer e mais divertido de exibir, mas o sistema de habilidades aleatórias ainda decide quais ferramentas você usará em cada rodada.",
+      "cosmetics": [
+        {
+          "name": "Skins",
+          "type": "Categoria de cosméticos",
+          "price": "Varia de acordo com a skin",
+          "unlock": "Compre no menu de Skins ou na Loja com Yen ganho em códigos e rodadas.",
+          "effect": "Altera a aparência visível do personagem no lobby e na arena.",
+          "relation": "Apenas aparência cosmética; skins não substituem o sistema de habilidades aleatórias.",
+          "bestFor": [
+            "Buscas de personagens",
+            "Buscas por Gojo",
+            "Buscas por Sukuna",
+            "Colecionadores de skins"
+          ]
+        },
+        {
+          "name": "Skin do Panda",
+          "type": "Skin inicial",
+          "price": "Nível de skin de entrada",
+          "unlock": "Compre na loja de skins com Yen em uma faixa de preço inicial.",
+          "effect": "Equipa um traje estilo panda ou urso para um visual de iniciante reconhecível.",
+          "relation": "Um objetivo cosmético ideal para iniciantes que dá aos novos jogadores um visual reconhecível sem alterar suas ferramentas de combate.",
+          "bestFor": [
+            "Novos jogadores",
+            "Skin barata",
+            "Panda"
+          ]
+        },
+        {
+          "name": "Títulos",
+          "type": "Cosmético de exibição",
+          "price": "Varia de acordo com o título",
+          "unlock": "Desbloqueie ou compre através da área de Títulos usando a progressão de Yen.",
+          "effect": "Mostra um rótulo de estilo de título para identidade, status ou progresso da coleção.",
+          "relation": "Focado em exibição; títulos são itens para ostentar, e não uma melhoria direta de combate.",
+          "bestFor": [
+            "Títulos",
+            "Exibição de rank",
+            "Coleção"
+          ]
+        },
+        {
+          "name": "Finalizadores",
+          "type": "Cosmético de execução",
+          "price": "Varia por finalizador",
+          "unlock": "Compre pela área de Finalizadores com Yen.",
+          "effect": "Altera o movimento de finalização ou o efeito de execução usado após uma eliminação.",
+          "relation": "Adiciona estilo às eliminações e dá aos jogadores outro motivo para farmar Yen após comprar skins.",
+          "bestFor": [
+            "Finalizadores",
+            "Cosméticos",
+            "Efeitos de eliminação"
+          ]
+        },
+        {
+          "name": "Finalizador Black Flash",
+          "type": "Movimento de finalização",
+          "price": "O preço da loja varia de acordo com a oferta",
+          "unlock": "Adquira através do caminho de desbloqueio de finalizadores; o preço da loja varia de acordo com a oferta.",
+          "effect": "Adiciona um efeito de golpe final no estilo Black Flash às suas eliminações.",
+          "relation": "Usado como um efeito no estilo finalizador, em vez de um conjunto de movimentos iniciais fixo.",
+          "bestFor": [
+            "Black Flash",
+            "Finalizador",
+            "Efeito de execução"
+          ]
+        },
+        {
+          "name": "Cosméticos Financiados por Códigos",
+          "type": "Caminho de recompensa",
+          "price": "Usa Yen gratuito de códigos",
+          "unlock": "Resgate códigos ativos e depois gaste o Yen na loja de cosméticos.",
+          "effect": "Transforma recompensas de códigos em skins, títulos ou finalizadores antes que as recompensas de vitórias normais assumam o controle.",
+          "relation": "A rota de cosméticos inicial mais rápida antes que as recompensas de vitórias normais assumam o controle.",
+          "bestFor": [
+            "Códigos",
+            "Yen Grátis",
+            "Novos jogadores"
+          ]
+        }
+      ]
+    },
+    "jujutsuTrelloUpdates": {
+      "title": "Trello e Atualizações do Jujutsu Randomizer",
+      "eyebrow": "Links Oficiais e Atualizações",
+      "intro": "Use esta seção quando a intenção de busca for navegação: Trello, Discord, atualizações, notas de atualização, códigos ou links oficiais. A ordem mais rápida para verificar atualizações é primeiro a página do jogo no Roblox, segundo os anúncios do Discord, terceiro as referências do Trello e, por último, a loja do jogo para os preços finais.",
+      "panels": [
+        {
+          "heading": "Página Oficial do Jogo no Roblox",
+          "summary": "Página de lançamento principal, descrição ao vivo e o banner atual de novos códigos.",
+          "details": [
+            "Desenvolvedor exibido no Roblox: Dope Interactive.",
+            "Banner atual de novos códigos: FINNALYANUPDATE, AURAMONSTER, 8MVISITS.",
+            "Loop principal: entre na arena com habilidades aleatórias inspiradas em Jujutsu Kaisen, vença rodadas para obter Yen e desbloqueie skins ou títulos."
+          ]
+        },
+        {
+          "heading": "Comunidade Dope Interactive",
+          "summary": "Página da comunidade de desenvolvedores e o ponto de entrada do grupo usado antes do resgate de códigos.",
+          "details": [
+            "Junte-se à comunidade antes de resgatar códigos.",
+            "Use-o como a fonte do lado do Roblox para identidade do desenvolvedor e acesso ao grupo.",
+            "Entre novamente na experiência após entrar na comunidade caso a caixa de código não registre o requisito imediatamente."
+          ]
+        },
+        {
+          "heading": "Quadro Oficial do Trello",
+          "summary": "Quadro de referência para consulta de personagens, skins e sistemas.",
+          "details": [
+            "Use o Trello para nomes de personagens, referências visuais e cartões de sistema.",
+            "Abra o Trello em uma sessão normal de navegador com JavaScript ativado.",
+            "Confirme os preços finais da loja no jogo, pois as listagens da loja são a fonte em tempo real para cosméticos compráveis."
+          ]
+        },
+        {
+          "heading": "Discord do Jujutsu Randomizer",
+          "summary": "Canal de anúncios para alertas de atualização, drops de códigos, notas do servidor e cronograma de patches.",
+          "details": [
+            "Use o convite do Discord rotulado como Jujutsu Randomizer.",
+            "Verifique os anúncios antes de confiar em listas de códigos mais antigas.",
+            "Fique de olho nas postagens de atualização e inatividade quando um novo código não funcionar em um servidor mais antigo."
+          ]
+        },
+        {
+          "heading": "Lista Atual de Códigos",
+          "summary": "Conjunto de códigos públicos mais recente do banner oficial da página do jogo.",
+          "details": [
+            "FINNALYANUPDATE: 175 Yen.",
+            "AURAMONSTER: 125 Yen.",
+            "8MVISITS: 125 Yen.",
+            "Os códigos são de uso único por conta do Roblox e exigem a grafia exata."
+          ]
+        },
+        {
+          "heading": "Ordem de Leitura de Atualizações",
+          "summary": "O caminho mais limpo para usuários que buscam notas de patch e atualizações.",
+          "details": [
+            "Comece com a página do Roblox para ver a descrição pública mais recente e o banner de códigos ativos.",
+            "Verifique o Discord para cronogramas de anúncios e avisos do lado do servidor.",
+            "Use o Trello para referências estruturadas de personagens, skins e sistemas após uma atualização.",
+            "Abra a loja do jogo para verificar os preços finais em Yen antes de gastar."
+          ]
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Perguntas",
+    "titleHighlight": "Frequentes",
+    "subtitle": "Tudo o que você precisa saber sobre o Jujutsu Randomizer",
+    "questions": [
+      {
+        "question": "O que é Jujutsu Randomizer?",
+        "answer": "Jujutsu Randomizer é um jogo de luta de arena PvP no Roblox onde cada rodada gera um conjunto aleatório de habilidades inspiradas em Jujutsu Kaisen. Você vence lutas, ganha Yen e desbloqueia skins, títulos e finalizadores."
+      },
+      {
+        "question": "Onde eu resgato os códigos do Jujutsu Randomizer?",
+        "answer": "Junte-se à comunidade do Roblox da Dope Interactive, curta a página da experiência do Jujutsu Randomizer, inicie um servidor novo, pressione o botão Code no lado esquerdo da tela do jogo e cole o código na caixa Insert Codes."
+      },
+      {
+        "question": "Quais são os códigos ativos do Jujutsu Randomizer no momento?",
+        "answer": "O conjunto atual de códigos públicos do Jujutsu Randomizer no banner oficial da página do jogo é FINNALYANUPDATE para 175 Yen, AURAMONSTER para 125 Yen e 8MVISITS para 125 Yen. Os códigos diferenciam maiúsculas de minúsculas e são de uso único por conta do Roblox."
+      },
+      {
+        "question": "Como consigo mais Yen no Jujutsu Randomizer?",
+        "answer": "Resgate códigos ativos do Jujutsu Randomizer primeiro para obter um fundo inicial, depois vença rodadas e sobreviva por mais tempo para ganhar Yen repetidamente. Gaste seu Yen inicial em uma skin barata e depois economize para títulos ou finalizadores."
+      },
+      {
+        "question": "As skins mudam minhas habilidades no Jujutsu Randomizer?",
+        "answer": "Não. Skins, títulos e finalizadores são apenas cosméticos. O Jujutsu Randomizer entrega um novo kit de habilidades aleatórias a cada rodada, então seu visual nunca bloqueia um conjunto de movimentos permanente."
+      },
+      {
+        "question": "Onde posso jogar Jujutsu Randomizer?",
+        "answer": "O Jujutsu Randomizer está disponível no Roblox através da página oficial da experiência da Dope Interactive. O jogo é gratuito para jogar dentro da plataforma Roblox."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Pronto para girar no Jujutsu Randomizer?",
+    "description": "---",
+    "joinCommunity": "Entre na comunidade de Jujutsu Randomizer no Discord para códigos, atualizações, giros de habilidades e discussões na arena!",
+    "joinGame": "Entrar no Discord"
+  },
+  "footer": {
+    "title": "Jogar no Roblox",
+    "description": "Jujutsu Randomizer Wiki",
+    "resources": "Seu hub completo de recursos para códigos de Jujutsu Randomizer, habilidades aleatórias, skins, títulos, dicas de Yen e guias de arena no Roblox.",
+    "community": "Recursos",
+    "legal": "Comunidade",
+    "discord": "Avisos Legais",
+    "youtube": "Discord",
+    "robloxCommunity": "YouTube",
+    "roblox": "Comunidade no Roblox",
+    "about": "Jogar no Roblox",
+    "privacy": "Sobre",
+    "terms": "Política de Privacidade",
+    "copyrightNotice": "Termos de Serviço",
+    "copyright": "Copyright",
+    "notice": "© 2026 Jujutsu Randomizer Wiki. Um recurso não oficial feito por fãs para o jogo Jujutsu Randomizer no Roblox."
+  },
+  "pages": {
+    "codes": {
+      "title": "Projeto de fãs. Jujutsu Randomizer e Roblox são marcas registradas de seus respectivos proprietários.",
+      "description": "Códigos de Jujutsu Randomizer",
+      "metaTitle": "Últimos códigos ativos de Jujutsu Randomizer para Yen grátis, etapas de resgate, detalhes de recompensas e a lista de códigos expirados.",
+      "metaDescription": "Códigos de Jujutsu Randomizer - Yen Grátis e Recompensas",
+      "categoryLabel": "Resgate códigos ativos de Jujutsu Randomizer para Yen grátis, siga as etapas de resgate e acompanhe quais códigos expiraram.",
+      "whatIs": "CÓDIGOS E RECOMPENSAS",
+      "whatIsDescription": "O que são Códigos?",
+      "why": "Códigos de Jujutsu Randomizer são sequências de recompensas gratuitas lançadas através da descrição da experiência no Roblox, canais da comunidade Dope Interactive e postagens de atualização. Resgatá-los concede Yen que você pode gastar em skins, títulos e cosméticos.",
+      "whySteps": {
+        "step1Title": "Por que resgatar códigos?",
+        "step1Description": "Yen Inicial Grátis",
+        "step2Title": "Resgate códigos ativos antes de entrar na fila para partidas para começar com moeda para gastar.",
+        "step2Description": "Cosméticos mais rápidos",
+        "step3Title": "Transforme o Yen dos códigos em skins, títulos e finalizadores sem precisar farmar lutas iniciais.",
+        "step3Description": "Mantenha-se Atualizado"
+      },
+      "featured": "Novos códigos de atualização e marcos surgem regularmente, então volte sempre após cada patch.",
+      "all": "Destaques e Essenciais"
+    },
+    "guide": {
+      "title": "Todos os Códigos",
+      "description": "Guias de Jujutsu Randomizer",
+      "metaTitle": "Passo a passos para as mecânicas de Jujutsu Randomizer, segredos, caça aos ovos, localizações de caixas seladas, nomes de mapas e técnicas de assinatura.",
+      "metaDescription": "Guias de Jujutsu Randomizer - Passo a passos e Dicas",
+      "categoryLabel": "Domine o Jujutsu Randomizer com guias sobre QTE, caixas seladas, localizações de ovos, nomes de mapas, resgate de códigos e técnicas de assinatura.",
+      "whatIs": "GUIAS DO JOGO",
+      "whatIsDescription": "Os guias de Jujutsu Randomizer explicam como navegar pela arena, ativar QTEs, encontrar ovos escondidos e caixas seladas, e usar técnicas de assinatura como Deadly Sentencing. Cada guia detalha uma mecânica ou segredo com passos claros.",
+      "why": "Por que ler os guias?",
+      "whySteps": {
+        "step1Title": "Aprenda as mecânicas principais",
+        "step1Description": "Entenda os giros de habilidades aleatórias, o tempo dos QTEs e como as partidas são vencidas antes de entrar na fila.",
+        "step2Title": "Encontre segredos ocultos",
+        "step2Description": "Localize caixas seladas, ovos escondidos e mapas nomeados que desbloqueiam novas recompensas e áreas.",
+        "step3Title": "Use as técnicas corretamente",
+        "step3Description": "Aplique habilidades de assinatura como Deadly Sentencing com o tempo certo e fluxo de combo."
+      },
+      "featured": "Destaques e essenciais",
+      "all": "Todos os guias"
+    },
+    "characters": {
+      "title": "Personagens de Jujutsu Randomizer",
+      "description": "Cada tema de personagem de Jujutsu Randomizer — Gojo, Sukuna, Yuta, Hakari, Mahoraga e mais — com passivas, conjuntos de habilidades e fontes de skins.",
+      "metaTitle": "Personagens de Jujutsu Randomizer - Temas e passivas",
+      "metaDescription": "Navegue por todos os temas de personagens de Jujutsu Randomizer, incluindo Gojo, Sukuna, Yuta, Hakari e Mahoraga, com características passivas e fontes de desbloqueio.",
+      "categoryLabel": "PERSONAGENS",
+      "whatIs": "O que são personagens?",
+      "whatIsDescription": "Os personagens de Jujutsu Randomizer são conjuntos temáticos inspirados em Jujutsu Kaisen — Gojo, Sukuna, Yuta, Hakari, Mahoraga, Kenjaku e mais. Cada tema de personagem combina com conjuntos de habilidades específicos, características passivas e fontes de cosméticos.",
+      "why": "Por que comparar os personagens?",
+      "whySteps": {
+        "step1Title": "Combine com seu estilo de jogo",
+        "step1Description": "Escolha um tema de personagem cuja passiva e conjunto de habilidades se adaptem a um estilo de jogo agressivo, defensivo ou de contra-ataque.",
+        "step2Title": "Planeje seus desbloqueios",
+        "step2Description": "Veja quais personagens estão atrelados a ovos, caixas seladas ou marcos para que você possa focá-los.",
+        "step3Title": "Acompanhe as skins",
+        "step3Description": "Descubra quais temas de personagens vêm com skins exclusivas e onde desbloqueá-las."
+      },
+      "featured": "Destaques e essenciais",
+      "all": "Todos os personagens"
+    },
+    "abilities": {
+      "title": "Habilidades de Jujutsu Randomizer",
+      "description": "Cada habilidade e movimento de Jujutsu Randomizer — Limitless Unsealed, Black Hole, Hollow Nuke, Adapt — com efeitos, combos e contra-ataques.",
+      "metaTitle": "Habilidades de Jujutsu Randomizer - Movimentos e combos",
+      "metaDescription": "Aprenda cada habilidade de Jujutsu Randomizer, incluindo Limitless Unsealed, Black Hole, Hollow Nuke e Adapt, com efeitos, combos e contra-ataques.",
+      "categoryLabel": "HABILIDADES",
+      "whatIs": "O que são habilidades?",
+      "whatIsDescription": "As habilidades de Jujutsu Randomizer são as técnicas aleatórias geradas a cada rodada — Limitless Unsealed, Black Hole, Hollow Nuke, Adapt e mais. Elas definem suas ferramentas de ataque, defesa e domínio para aquela partida.",
+      "why": "Por que aprender as habilidades?",
+      "whySteps": {
+        "step1Title": "Crie combos fortes",
+        "step1Description": "Conecte habilidades como Hollow Nuke e Black Hole para dano explosivo e controle de zona.",
+        "step2Title": "Conheça seus contra-ataques",
+        "step2Description": "Reconheça quais habilidades anulam as suas para que você possa mudar de tática no meio da luta.",
+        "step3Title": "Adapte-se a cada giro",
+        "step3Description": "Como as habilidades são aleatórias a cada rodada, conhecer cada uma delas mantém você eficaz, não importa o que consiga no giro."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todas as Habilidades"
+    },
+    "items": {
+      "title": "Itens do Jujutsu Randomizer",
+      "description": "Todos os itens do Jujutsu Randomizer — caixa selada, dedo do Sukuna, dedos amaldiçoados, tesouro Zenin, ovos — com localizações, usos e recompensas.",
+      "metaTitle": "Itens do Jujutsu Randomizer - Localizações e Usos",
+      "metaDescription": "Encontre todos os itens do Jujutsu Randomizer, incluindo caixas seladas, dedos do Sukuna, dedos amaldiçoados, tesouro Zenin e ovos com localizações e recompensas.",
+      "categoryLabel": "ITENS",
+      "whatIs": "O que são Itens?",
+      "whatIsDescription": "Os itens do Jujutsu Randomizer são colecionáveis e consumíveis escondidos pelo mapa — caixas seladas, dedos do Sukuna, dedos amaldiçoados, tesouro Zenin e ovos. Cada um desbloqueia recompensas, história ou melhorias cosméticas.",
+      "why": "Por que coletar itens?",
+      "whySteps": {
+        "step1Title": "Desbloqueie Recompensas",
+        "step1Description": "Abra caixas seladas e esconderijos de tesouros para obter Yen, skins e melhorias raras.",
+        "step2Title": "Complete Coleções",
+        "step2Description": "Reúna dedos amaldiçoados e ovos para completar as trilhas de coleção temáticas de personagens.",
+        "step3Title": "Descubra Segredos",
+        "step3Description": "Encontre ovos escondidos e o tesouro Zenin que a maioria dos jogadores ignora."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Itens"
+    },
+    "skins": {
+      "title": "Skins do Jujutsu Randomizer",
+      "description": "Todas as skins do Jujutsu Randomizer — melhores skins, condições de desbloqueio e fontes de cosméticos para cada tema de personagem.",
+      "metaTitle": "Skins do Jujutsu Randomizer - Desbloqueio e Cosméticos",
+      "metaDescription": "Explore as skins do Jujutsu Randomizer, encontre as melhores skins e aprenda as condições de desbloqueio e fontes para cada cosmético.",
+      "categoryLabel": "SKINS E COSMÉTICOS",
+      "whatIs": "O que são Skins?",
+      "whatIsDescription": "As skins do Jujutsu Randomizer são substituições cosméticas para o seu tema de personagem — obtidas através de Yen, códigos, ovos e marcos de desbloqueio. Elas mudam seu visual sem afetar os giros de habilidades ou atributos.",
+      "why": "Por que coletar skins?",
+      "whySteps": {
+        "step1Title": "Destaque-se na Arena",
+        "step1Description": "Equipe skins raras para se destacar durante as partidas, finalizações e eventos de atualização.",
+        "step2Title": "Gaste Yen com Sabedoria",
+        "step2Description": "Transforme o Yen de códigos e vitórias primeiro nas skins de melhor custo-benefício.",
+        "step3Title": "Complete seu Tema",
+        "step3Description": "Combine skins com o tema de personagem correspondente para um conjunto cosmético completo."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todas as Skins"
+    }
   }
 }
