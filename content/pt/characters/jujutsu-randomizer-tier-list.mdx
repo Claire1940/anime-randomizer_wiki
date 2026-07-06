@@ -1,0 +1,246 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Lista de Tier de Jujutsu Randomizer: Ranking de Personagens 2026",
+  description: "Monte uma lista de tier de Jujutsu Randomizer mais inteligente com definições de tiers, critérios de ranking, escolhas por estilo de jogo e dicas para comparar com a comunidade.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1f2937/fff?text=Jujutsu+Randomizer+Tier+List",
+  date: "2026-07-06",
+  author: "Equipe da Wiki de Jujutsu Randomizer"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Lista de tier de Jujutsu Randomizer**: classifique os personagens por consistência, utilidade e impacto na partida, não só pelo hype.
+- **Regra do S-tier**: priorize kits que continuem úteis tanto em runs seguras quanto caóticas.
+- **Base da comunidade**: comece com o template do TierMaker com 54 imagens e depois ajuste para o seu estilo de jogo.
+- **Mentalidade ideal**: um rank forte é repetível entre runs, não apenas chamativo uma vez.
+</Callout>
+
+<Section icon={Map} title="Noções Básicas da Lista de Tier de Jujutsu Randomizer">
+
+As classificações da lista de tier de Jujutsu Randomizer funcionam melhor quando você separa o dano bruto do valor real da run. Um personagem pode parecer explosivo em um clipe de destaque e ainda assim ficar para trás se o kit for inconsistente, demorar para escalar ou depender demais de condições perfeitas.
+
+A forma mais limpa de classificar o elenco é avaliar com que frequência um personagem resolve problemas. Isso inclui janelas claras de dano, sobrevivência, controle de grupo, mobilidade e o quão bem o kit lida com lutas bagunçadas. O template da comunidade já oferece um ponto de partida com 54 imagens, então o objetivo é ordenar os personagens por valor prático, não por favoritos pessoais.
+
+**Destaques do vídeo:**
+- Takaba é apresentado como uma escolha de caos de alto nível com enorme valor de desestabilização.
+- Consistência importa mais do que uma sequência de burst perfeita.
+- Kits flexíveis geralmente ficam acima de gimmicks muito restritos.
+- Tomada de decisão rápida muitas vezes vence a busca por atributos brutos.
+
+<YouTubeEmbed videoId="NAG5eA_qQhY" title="Takaba is LITERALLY the BEST character in JUJUTSU RANDOMIZER || Jujutsu randomizer: Dope" />
+
+| Tier | O Que Significa | Melhor Uso | Risco |
+|---|---|---|---|
+| S | **Define a run** | Vence lutas, escala bem, continua relevante | Baixo, se jogado corretamente |
+| A | **Muito forte** | Confiável, flexível, fácil de montar em volta | Um pouco menos explosivo |
+| B | **Jogável** | Sólido na montagem certa | Precisa de suporte ou de melhores rolls |
+| C | **Nicho** | Funciona em confrontos específicos | Fraco fora do seu cenário ideal |
+| F | **Evite, a menos que seja necessário** | Útil só como preenchimento | Taxa alta de sofrimento |
+
+<Callout type="tip" title="Dica de Ranking Inicial">
+Coloque os personagens nas tiers com base no desempenho quando a run fica bagunçada. Se um kit só parece bom em condições ideais, ele não pertence ao S-tier.
+</Callout>
+
+| Pergunta de Ranking | Pergunte a Si Mesmo | Bom Sinal |
+|---|---|---|
+| Dano | Ele garante lutas rapidamente? | **Sim**, sem muito setup |
+| Utilidade | Ele cria mais aberturas? | **Sim**, em vários confrontos |
+| Confiabilidade | Funciona em toda run? | **Sim**, mesmo com azar |
+| Flexibilidade | Cabe em times diferentes? | **Sim**, com pouco ajuste |
+
+</Section>
+
+<Section icon={Target} title="Como Construir os Critérios de Ranking">
+
+Uma boa lista de tier precisa de um sistema de pontuação. Sem isso, você acaba premiando favoritos pessoais em vez de valor mensurável. Use a mesma checklist toda vez para que seus rankings permaneçam consistentes quando novos personagens forem adicionados ou quando o meta mudar.
+
+<CardGrid cols={4}>
+  <Card title="S-Tier">
+    - **Maior impacto geral**
+    - Forte na maioria das situações
+    - Alto teto e alto piso
+  </Card>
+  <Card title="A-Tier">
+    - **Escolhas principais confiáveis**
+    - Fácil de encaixar em times
+    - Um pouco menos dominante
+  </Card>
+  <Card title="B-Tier">
+    - **Valor situacional**
+    - Bom com o suporte certo
+    - Pode render acima do esperado em runs de nicho
+  </Card>
+  <Card title="C/F-Tier">
+    - **Consistência limitada**
+    - Muito setup ou payoff fraco
+    - Geralmente substituível
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Padrão de Ranking">
+Trate utilidade como uma pontuação completa, não como uma categoria bônus. Um personagem que controla espaço, sobrevive por mais tempo ou abre janelas seguras de dano pode ficar acima de um causador de dano maior.
+</Callout>
+
+| Critério | Peso | O Que Observar |
+|---|---|---|
+| Dano | Alto | Burst, dano sustentado, força de finalização |
+| Segurança | Alto | Ferramentas de fuga, defesa, ataques de baixo risco |
+| Utilidade | Alto | Stuns, debuffs, controle de grupo, setup |
+| Flexibilidade | Médio | Funciona com várias builds e times |
+| Velocidade | Médio | Início rápido, reposicionamento ágil |
+| Escalamento | Médio | Continua relevante mais tarde na run |
+
+| Leitura Equivocada Comum | Interpretação Melhor | Impacto na Tier |
+|---|---|---|
+| "Muito dano significa S-tier" | Dano precisa de consistência e segurança | Frequentemente exagerado |
+| "Nicho é sinônimo de fraco" | Nicho pode ser muito forte na lane certa | Depende do papel no elenco |
+| "Chamativo é igual a top" | Kits chamativos podem falhar sob pressão | Normalmente abaixo do esperado |
+| "Um combo bom já basta" | Repetibilidade importa mais | Maior valor no longo prazo |
+
+</Section>
+
+<Section icon={Swords} title="Método de Lista de Tier Passo a Passo">
+
+Use o mesmo processo toda vez que for ranquear o elenco. Isso mantém sua lista de tier de Jujutsu Randomizer legível e facilita explicar por que um personagem subiu ou desceu.
+
+<Steps>
+  <Step num="1" title="Classifique por função primeiro">
+    Agrupe os personagens em causadores de dano, disruptores, escolhas de utilidade e opções de reserva antes de atribuir as tiers finais.
+  </Step>
+  <Step num="2" title="Teste a consistência">
+    Verifique se o kit continua funcionando quando a partida fica caótica, a abertura é ruim ou a pressão inimiga é alta.
+  </Step>
+  <Step num="3" title="Meça a recuperação">
+    Um personagem forte consegue se recuperar após um erro. Se um único vacilo arruinar a run, o rank deve cair.
+  </Step>
+  <Step num="4" title="Compare a flexibilidade">
+    Dê mais peso a kits que funcionam em vários times, modos e situações sem precisar de muito ajuste.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Erro Comum em Lista de Tier">
+Não classifique um personagem apenas pelos melhores clipes possíveis. Uma unidade que precisa de setup perfeito pode parecer incrível uma vez e ainda ser pior do que uma escolha A-tier estável.
+</Callout>
+
+| Etapa | Regra de Decisão | Resultado |
+|---|---|---|
+| 1 | Defina a função do personagem | Comparações mais limpas |
+| 2 | Teste em lutas reais | Melhor checagem de consistência |
+| 3 | Compare com papéis similares | Ranking mais justo |
+| 4 | Revise casos extremos | Menos reações exageradas |
+| 5 | Feche a tier final | Mais fácil de defender publicamente |
+
+| Checagem Final | Condição de Aprovação | Sobe Se... |
+|---|---|---|
+| Checagem de dano | Consegue finalizar lutas rapidamente? | Continua relevante sem uma abertura perfeita |
+| Checagem de utilidade | Cria valor além do dano? | Muda o comportamento inimigo |
+| Checagem de segurança | Consegue sobreviver à pressão? | Se recupera de erros |
+| Checagem de time | Outros conseguem montar algo em volta? | Encaixa em composições comuns |
+
+</Section>
+
+<Section icon={Shield} title="Melhores Escolhas por Estilo de Jogo">
+
+Jogadores diferentes valorizam coisas diferentes, então o melhor personagem nem sempre é o mais explosivo. Se você prefere segurança e controle, uma escolha estável de utilidade pode parecer mais forte do que um monstro de burst arriscado. Se você gosta de runs agressivas, a pressão bruta pode justificar uma tier mais alta.
+
+<Callout type="success" title="Regra Prática">
+Se um personagem vence tornando as lutas mais fáceis, ele merece um rank mais alto do que um personagem que só vence quando está protegido.
+</Callout>
+
+| Estilo de Jogo | Faixa Ideal de Tier | Por Que Funciona |
+|---|---|---|
+| Agressivo | **A-S** | Pressão rápida, lutas curtas, ritmo alto |
+| Seguro e constante | **S-A** | Valor confiável, menos resultados ruins |
+| Focado em utilidade | **A-B** | Controla o ritmo e cria aberturas |
+| Runs de caos/diversão | **S-B** | Alta variação, grande potencial de highlights |
+
+<CardGrid cols={3}>
+  <Card title="Jogadores Agressivos">
+    - Preferem aberturas rápidas
+    - Valorizam burst e pressão
+    - Aceitam mais risco por vitórias mais rápidas
+  </Card>
+  <Card title="Jogadores de Controle">
+    - Preferem segurança e espaçamento
+    - Valorizam desestabilização e recuperação
+    - Preferem dano confiável
+  </Card>
+  <Card title="Experimentadores">
+    - Preferem kits incomuns
+    - Testam interações de nicho
+    - Reclassificam depois de muitas runs
+  </Card>
+</CardGrid>
+
+<Checklist
+  id="ranking-goals"
+  title="Checklist de Publicação da Lista de Tier:"
+  items={[
+    "Use uma única regra de ranking para cada personagem",
+    "Anote se o kit é seguro ou arriscado",
+    "Veja se utilidade importa mais do que burst",
+    "Revise os ranks após novos testes da comunidade"
+  ]}
+/>
+
+| Tipo de Personagem | Força Típica | Fraqueza Típica |
+|---|---|---|
+| Especialista em burst | **Vitórias rápidas** | Pode desmoronar sem setup |
+| Disruptor | **Cria aberturas** | Às vezes tem menos dano direto |
+| Versátil | **Fácil de confiar** | Pode faltar poder no topo |
+| Carry de nicho | **Excelente em uma lane** | Fraco fora do seu melhor cenário |
+
+</Section>
+
+<Section icon={Trophy} title="Notas da Comunidade e Erros de Ranking">
+
+As listas de tier mais fortes da comunidade são fáceis de ler e fáceis de defender. Se alguém discordar de um rank, seu sistema ainda deve fazer sentido. Por isso, rótulos claros, explicações curtas e padrões repetíveis importam mais do que tentar soar absoluto.
+
+<Callout type="tip" title="Dica de Ranking da Comunidade">
+Use o template do TierMaker para comparar sua lista com a de outros jogadores e depois explique suas mudanças em uma frase por tier.
+</Callout>
+
+| Erro | Por Que Acontece | Correção Melhor |
+|---|---|---|
+| Superestimar burst | Um bom clipe chama atenção | Julgue pela repetibilidade |
+| Ignorar utilidade | Utilidade é mais difícil de medir | Dê a mesma pontuação |
+| Rankear por favoritos | O viés pessoal toma conta | Use uma rubrica fixa |
+| Esquecer o contexto | Matchups mudam o valor | Classifique por casos de uso reais |
+
+| Movimento de Tier | Quando Fazer | Exemplo de Motivo |
+|---|---|---|
+| Subir | O kit é útil em mais situações | Melhor flexibilidade |
+| Descer | Precisa de suporte demais | Condições demais |
+| Manter | O desempenho é consistente | Sem motivo forte para mudar |
+| Re-testar depois | Novos dados da comunidade aparecem | Evita rankings defasados |
+
+Se você quiser uma base compartilhada, o template da comunidade está aqui: [Jujutsu Randomizer Characters Tier List Maker](https://tiermaker.com/create/jujutsu-randomizer-characters-15291191). É um bom lugar para comparar sua própria ordem com a de outros jogadores e refinar seus rótulos antes de publicar.
+
+<FAQ items={[
+  {
+    question: "Qual é a melhor forma de começar uma lista de tier de Jujutsu Randomizer?",
+    answer: "Comece agrupando os personagens por função e depois classifique pela consistência, utilidade e frequência com que resolvem problemas reais de combate."
+  },
+  {
+    question: "Takaba deve ser sempre S-tier?",
+    answer: "Takaba pode justificar um rank alto quando desestabilização e controle do caos importam, mas a tier final ainda deve depender da sua rubrica."
+  },
+  {
+    question: "Por que as listas de tier da comunidade discordam tanto?",
+    answer: "Jogadores diferentes valorizam burst, segurança e utilidade de formas distintas, então o mesmo personagem pode cair em tiers diferentes por motivos válidos."
+  },
+  {
+    question: "Com que frequência devo atualizar a lista?",
+    answer: "Atualize depois de testes significativos da comunidade ou quando seu padrão de avaliação mudar, e mantenha o raciocínio consistente."
+  }
+]} />
+
+</Section>

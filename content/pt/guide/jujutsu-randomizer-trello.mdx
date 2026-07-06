@@ -1,0 +1,222 @@
+import { Map, BookOpen, Target, Shield, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "jujutsu randomizer trello: Estrutura do Quadro, Dicas e Atualizações",
+  description: "Aprenda a usar o quadro no estilo Trello do jujutsu randomizer para acompanhar habilidades, atualizações e páginas de suporte com um fluxo diário mais rápido.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1d4ed8/fff?text=Board+Layout+Guide",
+  date: "2026-07-06",
+  author: "Equipe da Wiki de jujutsu randomizer"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **jujutsu randomizer trello** é mais útil como uma referência rápida para habilidades, atualizações e páginas de suporte.
+- **Comece pela categoria que mais combina com o seu objetivo** para não perder tempo vasculhando entradas irrelevantes.
+- **Confira primeiro as atualizações de sexta-feira e do fim de semana**, porque essas janelas são as mais propensas a mudanças nos dados.
+- **Faça uma dupla verificação com a wiki de fãs** antes de decidir uma rota, build ou plano de farm.
+- **Salve uma rotina semanal** para que as mesmas páginas principais fiquem sempre fáceis de encontrar.
+</Callout>
+
+<Section icon={Map} title="Estrutura do Quadro do jujutsu randomizer trello">
+
+A forma mais limpa de ler um quadro do **jujutsu randomizer trello** é tratá-lo como um índice vivo, não como uma página de história. A página inicial da wiki de fãs já aponta para os caminhos mais úteis: habilidades, manutenção, modelos, mídia e ajuda. Para um jogo descrito como um projeto de mapa único, com atualizações às sextas-feiras e mini atualizações ocasionais no fim de semana, velocidade importa mais do que rolar a página.
+
+Até 2026-07-06, o fluxo mais seguro é abrir a categoria que corresponde ao seu objetivo, verificar a nota mais recente e então seguir para a próxima entrada mais relevante.
+
+**Link de referência:** [Silly Jujutsu Randomizer Wiki](https://silly-jujutsu-randomizer.fandom.com/wiki/Silly_Jujutsu_Randomizer_Wiki)
+
+<CardGrid cols={3}>
+  <Card title="Habilidades">
+    - Melhor para nomes de habilidades, efeitos e planejamento básico de combate  
+    - Use primeiro ao montar uma configuração  
+    - Ótimo para comparação rápida
+  </Card>
+  <Card title="Manutenção">
+    - Melhor para acompanhar patches e rastrear mudanças  
+    - Revise após janelas de atualização  
+    - Ajuda a evitar suposições desatualizadas
+  </Card>
+  <Card title="Ajuda e Modelos">
+    - Melhor para navegação e consistência de páginas  
+    - Útil quando você não consegue encontrar um tópico rapidamente  
+    - Bom para jogadores que estão voltando
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Leia o Quadro Como um Mapa">
+Se um título não corresponder ao seu objetivo atual, pule-o. O caminho mais rápido geralmente é o atalho de categoria mais curto, não a página mais longa.
+</Callout>
+
+| Área do Quadro | Melhor Uso | O Que Fazer Primeiro |
+|---|---|---|
+| Habilidades | Consulta de habilidades, verificação de efeitos | Compare nomes e efeitos |
+| Manutenção | Atenção a atualizações, correções | Verifique as mudanças mais recentes |
+| Modelos | Estrutura da página, formatação | Use para manter a navegação consistente |
+| Mídia | Referência visual, clipes | Abra apenas se precisar de um visual |
+| Ajuda | Orientação do site, suporte básico | Use quando o caminho não estiver claro |
+
+</Section>
+
+<Section icon={BookOpen} title="Como Ler Entradas Rapidamente">
+
+Um bom quadro no estilo Trello deve permitir responder a uma pergunta em menos de um minuto: “O que importa agora?” O quadro é mais útil quando você o lê em camadas. Comece pelo título, depois pela categoria e, em seguida, por qualquer nota de atualização ou descrição. Isso evita que você trate todas as linhas como se tivessem o mesmo peso.
+
+<Callout type="warning" title="Não Pule o Contexto da Atualização">
+Uma página pode parecer atualizada e ainda assim ter perdido uma mudança recente. Sempre confirme se a entrada reflete a atualização mais recente de sexta-feira ou uma mini atualização do fim de semana.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Abra a categoria certa">
+    Comece pela seção que combina com seu objetivo, como habilidades, manutenção ou ajuda.
+  </Step>
+  <Step num="2" title="Verifique a nota mais recente">
+    Procure primeiro pela linguagem de atualização. Mudanças recentes geralmente importam mais do que descrições antigas.
+  </Step>
+  <Step num="3" title="Compare a entrada com a wiki">
+    Use a wiki de fãs como uma segunda verificação para não depender de apenas uma página.
+  </Step>
+  <Step num="4" title="Salve o caminho mais útil">
+    Adicione aos favoritos as páginas que você abre com mais frequência para que as próximas verificações levem menos tempo.
+  </Step>
+</Steps>
+
+| Sinal da Entrada | O Que Normalmente Significa | Melhor Reação |
+|---|---|---|
+| Nota curta | Atualização rápida de status | Leia a linha inteira |
+| Descrição longa | Orientação mais detalhada | Procure o ponto central |
+| Marcador de manutenção | Possível mudança ou correção | Verifique novamente depois |
+| Etiqueta de ajuda | Suporte à navegação | Use se estiver travado |
+
+<Callout type="info" title="Regra de Leitura Rápida">
+Trate a primeira linha como o título, a segunda como a prova e tudo o que vier depois como opcional, a menos que você precise dos detalhes.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Rotina Semanal de Atualização">
+
+A rotina mais prática é simples: verifique o quadro quando for mais provável que o jogo mude e, depois, reveja apenas as seções de maior valor. Como a descrição da wiki aponta para atualizações de sexta-feira e mini atualizações ocasionais no sábado ou domingo, você não precisa monitorar todas as páginas todos os dias. Você precisa de um ciclo repetível.
+
+<Callout type="success" title="Melhor Ritmo Semanal">
+Comece pelas seções relacionadas a atualizações, depois vá para habilidades e, por fim, finalize com quaisquer páginas de ajuda ou modelos que você usa com frequência.
+</Callout>
+
+| Janela de Tempo | O Que Revisar | Por Que Importa |
+|---|---|---|
+| Sexta-feira | Notas principais de atualização | Maior chance de mudanças relevantes |
+| Sábado | Itens de mini atualização | Bom para correções rápidas |
+| Domingo | Verificações de acompanhamento | Útil se uma mini atualização tiver chegado |
+| Meio da semana | Entradas favoritas | Mantém suas notas atualizadas |
+
+<Checklist
+  id="weekly-board-routine"
+  title="Rotina Semanal do Quadro:"
+  items={[
+    "Verifique primeiro a nota de atualização mais recente",
+    "Revise habilidades ou mecânicas que você usa com frequência",
+    "Confirme se alguma página de ajuda mudou",
+    "Salve as páginas que você visita mais",
+    "Revise o quadro depois de uma mini atualização do fim de semana"
+  ]}
+/>
+
+<Callout type="tip">
+Um jogo de mapa único se beneficia de notas mais enxutas. Quando o mundo é compacto, sua vantagem vem de referências claras, não de exploração ampla.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Melhor Fluxo de Trabalho por Estilo de Jogo">
+
+Jogadores diferentes precisam de filtros diferentes. Um jogador novo quer clareza, um jogador que está voltando quer velocidade e um completista quer cobertura total. O quadro funciona melhor quando você escolhe um estilo de jogo e ignora o ruído que não ajuda nele.
+
+<CardGrid cols={3}>
+  <Card title="Jogador Novo">
+    - Foque no básico e nas páginas de ajuda  
+    - Aprenda primeiro os rótulos principais  
+    - Evite categorias mais profundas até precisar delas
+  </Card>
+  <Card title="Jogador que Está Voltando">
+    - Verifique primeiro as notas de atualização  
+    - Reaprenda habilidades ou sistemas que mudaram  
+    - Use o quadro para recuperar o ritmo rapidamente
+  </Card>
+  <Card title="Completista">
+    - Acompanhe cada categoria ao menos uma vez  
+    - Salve também as páginas de modelo e mídia  
+    - Monte uma lista de referência pessoal
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Escolha Uma Prioridade">
+Se você tentar acompanhar todas as páginas com o mesmo peso, sua velocidade cai. Escolha a coisa de que você mais precisa e, a partir daí, amplie.
+</Callout>
+
+| Estilo de Jogo | Objetivo Principal | Melhor Foco no Quadro |
+|---|---|---|
+| Jogador Novo | Aprender o básico | Ajuda, habilidades, notas simples |
+| Jogador que Está Voltando | Atualizar-se rápido | Manutenção, atualizações recentes |
+| Completista | Documentar tudo | Modelos, mídia, varredura completa por categoria |
+| Speed Runner | Economizar tempo | Apenas as entradas que afetam o desempenho |
+
+Na prática, isso significa manter uma pequena lista curta. Por exemplo, se você estiver testando uma rota, verifique apenas as entradas que podem alterar dano, movimentação ou o tempo de uma habilidade. Se estiver apenas navegando, as páginas de ajuda e de modelo são suficientes para manter o quadro legível.
+
+<Callout type="warning" title="Não Faça Busca Demais">
+Uma busca ampla parece produtiva, mas geralmente desperdiça mais tempo do que economiza. Use palavras-chave mais específicas e objetivos de página mais restritos.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist de Objetivos e FAQ">
+
+Use esta seção como seu ponto de reinício pessoal. Se você conseguir responder às perguntas abaixo e concluir o checklist, seu fluxo de trabalho no quadro provavelmente já é eficiente o bastante para o uso diário.
+
+<Checklist
+  id="board-goals"
+  title="Objetivos Principais:"
+  items={[
+    "Encontrar a categoria certa em menos de um minuto",
+    "Verificar o timing da atualização antes de confiar em notas antigas",
+    "Manter um link da wiki salvo nos favoritos",
+    "Usar a mesma rotina toda semana",
+    "Evitar ler páginas irrelevantes"
+  ]}
+/>
+
+| Problema Comum | Melhor Solução | Resultado |
+|---|---|---|
+| Muitos tabs abertos | Salve as páginas principais nos favoritos | Visitas repetidas mais rápidas |
+| Notas desatualizadas | Verifique novamente após as atualizações de sexta-feira | Melhor precisão |
+| Informação difícil de encontrar | Use a busca começando pela categoria | Menos tempo desperdiçado |
+| Confusão repetida | Monte uma lista curta pessoal | Fluxo de trabalho mais limpo |
+
+<Callout type="success" title="Conclusão Final">
+O melhor fluxo de trabalho de jujutsu randomizer trello é simples: categoria primeiro, atualização depois, detalhes por último.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "O jujutsu randomizer trello é melhor do que a wiki?",
+    answer: "Use o quadro para uma varredura rápida e a wiki para uma navegação mais estruturada. Eles funcionam melhor juntos, especialmente quando você quer checagens rápidas e mais contexto."
+  },
+  {
+    question: "O que devo verificar primeiro depois de uma atualização?",
+    answer: "Comece pelas notas de atualização e depois vá para habilidades ou outras seções de alto valor. Essa ordem ajuda a captar mudanças importantes antes de qualquer outra coisa."
+  },
+  {
+    question: "Com que frequência devo revisar o quadro?",
+    answer: "Verifique após as atualizações de sexta-feira e novamente após qualquer mini atualização do fim de semana. Uma rotina semanal curta geralmente é suficiente para se manter em dia."
+  },
+  {
+    question: "Qual é a forma mais segura de evitar suposições erradas?",
+    answer: "Faça uma dupla verificação de uma entrada do quadro com a wiki de fãs antes de fechar uma rota, build ou plano de farm. Isso mantém sua cadeia de referências mais segura."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,222 @@
+import { Map, BookOpen, Target, Shield, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "jujutsu randomizer trello: Board Layout, Tips & Updates",
+  description: "Learn how to use the jujutsu randomizer trello-style board to track abilities, updates, and support pages with a faster daily workflow.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1d4ed8/fff?text=Board+Layout+Guide",
+  date: "2026-07-06",
+  author: "jujutsu randomizer Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **jujutsu randomizer trello** is best used as a fast reference for abilities, updates, and support pages.
+- **Start with the strongest category match** so you do not waste time scanning unrelated entries.
+- **Check Friday and weekend updates** first, because those windows are the most likely to change data.
+- **Cross-check with the fan wiki** before you commit to a route, build, or farming plan.
+- **Save a weekly routine** so the same key pages are always easy to find.
+</Callout>
+
+<Section icon={Map} title="jujutsu randomizer trello Board Structure">
+
+The cleanest way to read a **jujutsu randomizer trello** board is to treat it like a live index, not a story page. The fan wiki homepage already points to the most useful lanes: abilities, maintenance, templates, media, and help. For a game described as a single-map project with Friday updates and occasional weekend mini updates, speed matters more than scrolling.
+
+As of 2026-07-06, the safest workflow is to open the category that matches your goal, verify the newest note, then move to the next most relevant entry.
+
+**Reference link:** [Silly Jujutsu Randomizer Wiki](https://silly-jujutsu-randomizer.fandom.com/wiki/Silly_Jujutsu_Randomizer_Wiki)
+
+<CardGrid cols={3}>
+  <Card title="Abilities">
+    - Best for skill names, effects, and core combat planning  
+    - Use it first when building a setup  
+    - Good for quick comparison
+  </Card>
+  <Card title="Maintenance">
+    - Best for patch awareness and change tracking  
+    - Review after update windows  
+    - Helps prevent outdated assumptions
+  </Card>
+  <Card title="Help and Templates">
+    - Best for navigation and page consistency  
+    - Useful when you cannot find a topic fast  
+    - Good for returning players
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Read the Board Like a Map">
+If a heading does not match your current goal, skip it. The fastest route is usually the shortest category path, not the longest page.
+</Callout>
+
+| Board Area | Best Use | What to Do First |
+|---|---|---|
+| Abilities | Skill lookup, effect checks | Compare names and effects |
+| Maintenance | Update awareness, fixes | Scan newest changes |
+| Templates | Page structure, formatting | Use for navigation consistency |
+| Media | Visual reference, clips | Open only if you need a visual |
+| Help | Site guidance, basic support | Use when the path is unclear |
+
+</Section>
+
+<Section icon={BookOpen} title="How to Read Entries Fast">
+
+A good Trello-style board should let you answer one question in under a minute: “What matters right now?” The board is most useful when you read it in layers. Start with the title, then the category, then any update note or description. That keeps you from treating every line as equally important.
+
+<Callout type="warning" title="Do Not Skip Update Context">
+A page can look current while still missing a recent change. Always confirm whether the entry reflects the latest Friday update or a weekend mini update.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Open the right category">
+    Begin with the section that matches your goal, such as abilities, maintenance, or help.
+  </Step>
+  <Step num="2" title="Check the newest note">
+    Look for update language first. Recent changes usually matter more than older descriptions.
+  </Step>
+  <Step num="3" title="Compare the entry to the wiki">
+    Use the fan wiki as a second pass so you do not rely on one page alone.
+  </Step>
+  <Step num="4" title="Save the most useful path">
+    Bookmark the pages you open most often so future checks take less time.
+  </Step>
+</Steps>
+
+| Entry Signal | What It Usually Means | Best Reaction |
+|---|---|---|
+| Short note | Quick status update | Read the whole line |
+| Long description | More detailed guidance | Scan for the core takeaway |
+| Maintenance tag | Possible change or fix | Re-check later |
+| Help label | Navigation support | Use it if you are stuck |
+
+<Callout type="info" title="Fast Reading Rule">
+Treat the first line as the headline, the second line as the proof, and everything after that as optional unless you need details.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Weekly Update Routine">
+
+The most practical routine is simple: check the board when the game is most likely to change, then re-check only the high-value sections. Because the wiki description points to Friday updates and occasional Saturday or Sunday minis, you do not need to babysit every page every day. You need a repeatable loop.
+
+<Callout type="success" title="Best Weekly Rhythm">
+Start with the update-related sections, then move to abilities, then finish with any help or template pages you rely on often.
+</Callout>
+
+| Time Window | What to Review | Why It Matters |
+|---|---|---|
+| Friday | Main update notes | Highest chance of meaningful changes |
+| Saturday | Mini update items | Good for quick corrections |
+| Sunday | Follow-up checks | Useful if a mini update landed |
+| Midweek | Favorite entries | Keeps your notes fresh |
+
+<Checklist
+  id="weekly-board-routine"
+  title="Weekly Board Routine:"
+  items={[
+    "Check the newest update note first",
+    "Review abilities or mechanics you use often",
+    "Confirm whether any help pages changed",
+    "Save the pages you visit most",
+    "Revisit the board after a weekend mini update"
+  ]}
+/>
+
+<Callout type="tip">
+A single-map game benefits from tighter notes. When the world is compact, your advantage comes from clean references, not wide exploration.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Best Workflow by Playstyle">
+
+Different players need different filters. A new player wants clarity, a returning player wants speed, and a completionist wants coverage. The board works best when you pick one playstyle and ignore noise that does not help it.
+
+<CardGrid cols={3}>
+  <Card title="New Player">
+    - Focus on basics and help pages  
+    - Learn the core labels first  
+    - Avoid deep-dive categories until you need them
+  </Card>
+  <Card title="Returning Player">
+    - Check update notes first  
+    - Relearn changed abilities or systems  
+    - Use the board to regain momentum fast
+  </Card>
+  <Card title="Completionist">
+    - Track every category once  
+    - Save template and media pages too  
+    - Build a personal reference list
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Choose One Priority">
+If you try to track every page equally, your speed drops. Pick the one thing you need most, then build outward from there.
+</Callout>
+
+| Playstyle | Primary Goal | Best Board Focus |
+|---|---|---|
+| New Player | Learn the basics | Help, abilities, simple notes |
+| Returning Player | Catch up fast | Maintenance, recent updates |
+| Completionist | Document everything | Templates, media, full category sweep |
+| Speed Runner | Save time | Only the entries that affect performance |
+
+In practice, this means you should keep a small shortlist. For example, if you are testing a route, only check the entries that can change damage, movement, or ability timing. If you are just browsing, the help and template pages are enough to keep the board readable.
+
+<Callout type="warning" title="Do Not Over-Search">
+A broad search feels productive, but it usually wastes more time than it saves. Use tighter keywords and tighter page goals.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Goal Checklist and FAQ">
+
+Use this section as your personal reset point. If you can answer the questions below and finish the checklist, your board workflow is probably efficient enough for daily use.
+
+<Checklist
+  id="board-goals"
+  title="Core Goals:"
+  items={[
+    "Find the right category in under one minute",
+    "Check update timing before trusting old notes",
+    "Keep one wiki link bookmarked",
+    "Use the same routine every week",
+    "Avoid reading irrelevant pages"
+  ]}
+/>
+
+| Common Problem | Best Fix | Result |
+|---|---|---|
+| Too many tabs open | Bookmark the core pages | Faster repeat visits |
+| Outdated notes | Re-check after Friday updates | Better accuracy |
+| Hard-to-find info | Use category-first searching | Less wasted time |
+| Repeated confusion | Build a personal shortlist | Cleaner workflow |
+
+<Callout type="success" title="Final Takeaway">
+The best jujutsu randomizer trello workflow is simple: category first, update second, details last.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Is jujutsu randomizer trello better than the wiki?",
+    answer: "Use the board for fast scanning and the wiki for structured browsing. They work best together, especially when you want quick checks and cleaner context."
+  },
+  {
+    question: "What should I check first after an update?",
+    answer: "Start with update notes, then move to abilities or other high-value sections. That order helps you catch meaningful changes before anything else."
+  },
+  {
+    question: "How often should I review the board?",
+    answer: "Check it after Friday updates and again after any weekend mini update. A short weekly routine is usually enough to stay current."
+  },
+  {
+    question: "What is the safest way to avoid wrong assumptions?",
+    answer: "Cross-check one board entry with the fan wiki before you commit to a route, build, or farming plan. That keeps your reference chain tighter."
+  }
+]} />
+
+</Section>

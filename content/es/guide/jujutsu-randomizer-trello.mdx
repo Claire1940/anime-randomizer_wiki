@@ -1,0 +1,222 @@
+import { Map, BookOpen, Target, Shield, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "jujutsu randomizer trello: Diseño del tablero, consejos y actualizaciones",
+  description: "Aprende a usar el tablero estilo trello de jujutsu randomizer para seguir habilidades, actualizaciones y páginas de soporte con un flujo de trabajo diario más rápido.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1d4ed8/fff?text=Board+Layout+Guide",
+  date: "2026-07-06",
+  author: "Equipo de Wiki de jujutsu randomizer"
+}
+
+<Callout type="info" title="Guía rápida">
+- **jujutsu randomizer trello** se usa mejor como una referencia rápida para habilidades, actualizaciones y páginas de soporte.
+- **Empieza con la coincidencia de categoría más fuerte** para no perder tiempo revisando entradas que no tienen relación.
+- **Primero revisa las actualizaciones del viernes y del fin de semana**, porque esas ventanas son las más propensas a cambiar datos.
+- **Contrasta con la wiki de fans** antes de comprometerte con una ruta, una build o un plan de farmeo.
+- **Guarda una rutina semanal** para que siempre sea fácil encontrar las mismas páginas clave.
+</Callout>
+
+<Section icon={Map} title="Estructura del tablero de jujutsu randomizer trello">
+
+La forma más clara de leer un tablero de **jujutsu randomizer trello** es tratarlo como un índice en vivo, no como una página de historia. La página principal de la wiki de fans ya señala las rutas más útiles: habilidades, mantenimiento, plantillas, medios y ayuda. Para un juego descrito como un proyecto de un solo mapa con actualizaciones los viernes y mini actualizaciones ocasionales durante el fin de semana, la velocidad importa más que desplazarse sin parar.
+
+A fecha de 2026-07-06, el flujo de trabajo más seguro es abrir la categoría que coincida con tu objetivo, verificar la nota más reciente y luego pasar a la siguiente entrada más relevante.
+
+**Enlace de referencia:** [Silly Jujutsu Randomizer Wiki](https://silly-jujutsu-randomizer.fandom.com/wiki/Silly_Jujutsu_Randomizer_Wiki)
+
+<CardGrid cols={3}>
+  <Card title="Habilidades">
+    - Lo mejor para nombres de habilidades, efectos y planificación central de combate  
+    - Úsalo primero cuando estés creando una configuración  
+    - Bueno para comparaciones rápidas
+  </Card>
+  <Card title="Mantenimiento">
+    - Lo mejor para estar al tanto de parches y seguir cambios  
+    - Revísalo después de las ventanas de actualización  
+    - Ayuda a evitar suposiciones desactualizadas
+  </Card>
+  <Card title="Ayuda y plantillas">
+    - Lo mejor para la navegación y la coherencia de las páginas  
+    - Útil cuando no encuentras un tema con rapidez  
+    - Bueno para jugadores que regresan
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Lee el tablero como un mapa">
+Si un encabezado no coincide con tu objetivo actual, sáltalo. La ruta más rápida suele ser el camino de categoría más corto, no la página más larga.
+</Callout>
+
+| Área del tablero | Mejor uso | Qué hacer primero |
+|---|---|---|
+| Habilidades | Búsqueda de habilidades, comprobación de efectos | Compara nombres y efectos |
+| Mantenimiento | Seguimiento de actualizaciones, correcciones | Revisa los cambios más recientes |
+| Plantillas | Estructura de páginas, formato | Úsalo para mantener la coherencia de navegación |
+| Medios | Referencia visual, clips | Ábrelo solo si necesitas una imagen |
+| Ayuda | Guía del sitio, soporte básico | Úsalo cuando la ruta no esté clara |
+
+</Section>
+
+<Section icon={BookOpen} title="Cómo leer las entradas rápido">
+
+Un buen tablero estilo Trello debería permitirte responder una pregunta en menos de un minuto: “¿Qué importa ahora mismo?”. El tablero es más útil cuando lo lees por capas. Empieza con el título, luego la categoría y después cualquier nota de actualización o descripción. Eso evita que trates cada línea como si fuera igual de importante.
+
+<Callout type="warning" title="No omitas el contexto de actualización">
+Una página puede parecer actualizada y aun así no reflejar un cambio reciente. Confirma siempre si la entrada refleja la última actualización del viernes o una mini actualización del fin de semana.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Abre la categoría correcta">
+    Empieza con la sección que coincida con tu objetivo, como habilidades, mantenimiento o ayuda.
+  </Step>
+  <Step num="2" title="Revisa la nota más reciente">
+    Busca primero el lenguaje de actualización. Los cambios recientes suelen importar más que las descripciones antiguas.
+  </Step>
+  <Step num="3" title="Compara la entrada con la wiki">
+    Usa la wiki de fans como una segunda revisión para no depender de una sola página.
+  </Step>
+  <Step num="4" title="Guarda la ruta más útil">
+    Marca como favoritos las páginas que abres con más frecuencia para que las comprobaciones futuras tomen menos tiempo.
+  </Step>
+</Steps>
+
+| Señal de la entrada | Lo que suele significar | Mejor reacción |
+|---|---|---|
+| Nota breve | Actualización rápida de estado | Lee toda la línea |
+| Descripción larga | Guía más detallada | Busca la idea principal |
+| Etiqueta de mantenimiento | Posible cambio o corrección | Vuelve a revisarla más tarde |
+| Etiqueta de ayuda | Soporte de navegación | Úsala si te atascas |
+
+<Callout type="info" title="Regla de lectura rápida">
+Trata la primera línea como el titular, la segunda como la prueba y todo lo que sigue como opcional, salvo que necesites detalles.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Rutina semanal de actualizaciones">
+
+La rutina más práctica es sencilla: revisa el tablero cuando es más probable que el juego cambie y luego vuelve a comprobar solo las secciones de mayor valor. Como la descripción de la wiki apunta a actualizaciones los viernes y mini actualizaciones ocasionales los sábados o domingos, no necesitas vigilar cada página todos los días. Necesitas un ciclo repetible.
+
+<Callout type="success" title="Mejor ritmo semanal">
+Empieza con las secciones relacionadas con las actualizaciones, luego pasa a las habilidades y termina con las páginas de ayuda o plantillas que uses con frecuencia.
+</Callout>
+
+| Ventana de tiempo | Qué revisar | Por qué importa |
+|---|---|---|
+| Viernes | Notas principales de actualización | Mayor probabilidad de cambios importantes |
+| Sábado | Elementos de mini actualización | Bueno para correcciones rápidas |
+| Domingo | Comprobaciones de seguimiento | Útil si cayó una mini actualización |
+| Mitad de semana | Entradas favoritas | Mantiene frescas tus notas |
+
+<Checklist
+  id="weekly-board-routine"
+  title="Rutina semanal del tablero:"
+  items={[
+    "Revisa primero la nota de actualización más reciente",
+    "Repasa las habilidades o mecánicas que usas con frecuencia",
+    "Confirma si cambió alguna página de ayuda",
+    "Guarda las páginas que más visitas",
+    "Vuelve a revisar el tablero después de una mini actualización del fin de semana"
+  ]}
+/>
+
+<Callout type="tip">
+Un juego de un solo mapa se beneficia de notas más precisas. Cuando el mundo es compacto, tu ventaja viene de referencias limpias, no de una exploración amplia.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Mejor flujo de trabajo según el estilo de juego">
+
+Distintos jugadores necesitan filtros distintos. Un jugador nuevo quiere claridad, un jugador que regresa quiere velocidad y un completista quiere cobertura. El tablero funciona mejor cuando eliges un solo estilo de juego e ignoras el ruido que no lo ayuda.
+
+<CardGrid cols={3}>
+  <Card title="Jugador nuevo">
+    - Enfócate en lo básico y en las páginas de ayuda  
+    - Aprende primero las etiquetas principales  
+    - Evita las categorías profundas hasta que las necesites
+  </Card>
+  <Card title="Jugador que regresa">
+    - Revisa primero las notas de actualización  
+    - Vuelve a aprender habilidades o sistemas que cambiaron  
+    - Usa el tablero para recuperar impulso rápidamente
+  </Card>
+  <Card title="Completista">
+    - Registra cada categoría una vez  
+    - Guarda también las páginas de plantillas y medios  
+    - Crea una lista personal de referencias
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Elige una prioridad">
+Si intentas seguir todas las páginas por igual, tu velocidad disminuye. Elige lo que más necesitas y luego amplía a partir de ahí.
+</Callout>
+
+| Estilo de juego | Objetivo principal | Enfoque ideal del tablero |
+|---|---|---|
+| Jugador nuevo | Aprender lo básico | Ayuda, habilidades, notas simples |
+| Jugador que regresa | Ponerse al día rápido | Mantenimiento, actualizaciones recientes |
+| Completista | Documentarlo todo | Plantillas, medios, revisión completa de categorías |
+| Speed Runner | Ahorrar tiempo | Solo las entradas que afectan al rendimiento |
+
+En la práctica, esto significa que debes mantener una lista corta. Por ejemplo, si estás probando una ruta, solo revisa las entradas que puedan cambiar el daño, el movimiento o el tiempo de las habilidades. Si solo estás explorando, las páginas de ayuda y plantillas son suficientes para mantener el tablero legible.
+
+<Callout type="warning" title="No busques demasiado">
+Una búsqueda amplia parece productiva, pero normalmente desperdicia más tiempo del que ahorra. Usa palabras clave más específicas y objetivos de página más concretos.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de objetivos y preguntas frecuentes">
+
+Usa esta sección como tu punto de reinicio personal. Si puedes responder las preguntas de abajo y completar la lista de verificación, tu flujo de trabajo en el tablero probablemente ya sea lo bastante eficiente para el uso diario.
+
+<Checklist
+  id="board-goals"
+  title="Objetivos principales:"
+  items={[
+    "Encontrar la categoría correcta en menos de un minuto",
+    "Comprobar el momento de la actualización antes de confiar en notas antiguas",
+    "Mantener un enlace de la wiki guardado en favoritos",
+    "Usar la misma rutina cada semana",
+    "Evitar leer páginas irrelevantes"
+  ]}
+/>
+
+| Problema común | Mejor solución | Resultado |
+|---|---|---|
+| Demasiadas pestañas abiertas | Guarda las páginas principales en favoritos | Visitas repetidas más rápidas |
+| Notas desactualizadas | Vuelve a revisarlas después de las actualizaciones del viernes | Mejor precisión |
+| Información difícil de encontrar | Usa búsquedas por categoría primero | Menos tiempo desperdiciado |
+| Confusión repetida | Crea una lista corta personal | Flujo de trabajo más limpio |
+
+<Callout type="success" title="Conclusión final">
+El mejor flujo de trabajo de jujutsu randomizer trello es simple: categoría primero, actualización después y detalles al final.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Es jujutsu randomizer trello mejor que la wiki?",
+    answer: "Usa el tablero para escanear rápido y la wiki para una navegación estructurada. Funcionan mejor juntos, especialmente cuando quieres comprobaciones rápidas y más contexto limpio."
+  },
+  {
+    question: "¿Qué debo revisar primero después de una actualización?",
+    answer: "Empieza con las notas de actualización y luego pasa a las habilidades u otras secciones de alto valor. Ese orden te ayuda a detectar cambios importantes antes que nada."
+  },
+  {
+    question: "¿Con qué frecuencia debería revisar el tablero?",
+    answer: "Revísalo después de las actualizaciones del viernes y de nuevo después de cualquier mini actualización del fin de semana. Una rutina semanal corta suele ser suficiente para mantenerse al día."
+  },
+  {
+    question: "¿Cuál es la forma más segura de evitar suposiciones incorrectas?",
+    answer: "Contrasta una entrada del tablero con la wiki de fans antes de comprometerte con una ruta, una build o un plan de farmeo. Eso mantiene más ajustada tu cadena de referencias."
+  }
+]} />
+
+</Section>
