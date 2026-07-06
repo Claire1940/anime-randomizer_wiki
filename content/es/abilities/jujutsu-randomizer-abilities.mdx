@@ -1,0 +1,206 @@
+import { Map, Swords, Target, Shield, Sparkles, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Habilidades de Jujutsu Randomizer: mejores skills, combos y counters",
+  description: "Aprende las habilidades más fuertes de Jujutsu Randomizer, rutas de combo, counters y reglas de supervivencia para leer cualquier roll más rápido y ganar más rondas.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Ability+Guide",
+  date: "2026-07-06",
+  author: "Equipo de Wiki de Jujutsu Randomizer"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Las habilidades de Jujutsu Randomizer** son más fuertes cuando las lees por función, no por rareza.
+- **Frame Punch seguido de burst** es el patrón más seguro para principiantes para convertir una apertura en una eliminación.
+- **La movilidad y la defensa** suelen importar más que el daño bruto en rondas caóticas de arena.
+- **Los domains y las habilidades de baja vida** necesitan disciplina de timing, o pueden salir mal muy rápido.
+</Callout>
+
+<Section icon={Map} title="Habilidades de Jujutsu Randomizer de un vistazo">
+
+Las habilidades de Jujutsu Randomizer funcionan mejor como un rompecabezas de kit. Un roll puede darte un stun, otro un dash, y un tercero una herramienta de remate que solo brilla después de preparar la jugada. La forma más rápida de mejorar es dejar de preguntar: “¿Esta skill es fuerte?” y empezar a preguntar: “¿Qué función cumple esta skill en la pelea?”
+
+Usa los primeros segundos de cada ronda para clasificar tu kit en daño, movilidad, control, defensa, presión de domain o riesgo. Ese hábito te ayuda a decidir si debes avanzar, aguantar, desengancharte o forzar un intercambio.
+
+<CardGrid cols={3}>
+  <Card title="Daño">
+    - **Burst primero**
+    - Úsalo después de un stun o de un retroceso
+    - Ideal para castigar errores
+  </Card>
+  <Card title="Movilidad">
+    - **Escapar o perseguir**
+    - Reposicióname antes de comprometerte
+    - Fuerte en lobbies caóticos
+  </Card>
+  <Card title="Control">
+    - **Congelar, stun, intercambiar**
+    - Crea la apertura
+    - Hace fiables las skills de burst
+  </Card>
+</CardGrid>
+
+| Rol | Qué hace | Mejor uso | Riesgo principal |
+|---|---|---|---|
+| Daño explosivo | Mucho daño en un solo golpe o una cadena corta | Rematar objetivos aturdidos | Fallar y quedar expuesto al castigo por cooldown |
+| Movilidad | Dash, teletransporte, swap o lanzamiento | Escapar de la presión o asegurar ángulos | Sobreextenderse y perder un mal intercambio |
+| Control | Congelar, stun, ralentizar o fijar posición | Preparar tu skill más fuerte | Gastarlo demasiado pronto |
+| Defensa | Invulnerabilidad, curación, counters | Sobrevivir a ventanas de burst | Usarlo por pánico sin seguimiento |
+| Domain | Presión de área y control de masas | Peleas grupales y negar espacio | Gastarlo en un solo objetivo que huye |
+| Skill de riesgo | Alta recompensa con coste de vida o de condición | Plays de último golpe e intercambios clutch | Matarte antes de cobrar la recompensa |
+
+<Callout type="tip" title="Lee el roll, luego pelea">
+Si tu kit tiene una herramienta de control, una herramienta de movilidad y un remate, ya tienes un plan funcional para la ronda.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Los mejores tipos de habilidades para daño y control">
+
+Las skills de daño más fuertes de este juego suelen caer en dos grupos: burst directo y control seguido de burst. Si una skill pega duro pero le da tiempo al rival para reaccionar, no es tan fiable como un movimiento más pequeño que garantice un seguimiento.
+
+La forma más segura de generar presión es combinar una skill de preparación con un rematador. Por eso las rutas de stun y burst ganan tantas peleas. El juego recompensa a los jugadores que convierten pequeñas aperturas en secuencias completas en lugar de buscar un solo golpe enorme cada vez.
+
+| Skill | Categoría | Por qué importa | Mejor uso en combo |
+|---|---|---|---|
+| Frame Punch | Preparación de control | Congela brevemente al objetivo y compra tiempo | Abre la jugada con cualquier burst fuerte |
+| Hollow Purple | Daño explosivo | Golpe masivo y gran retroceso | Úsalo después de un stun, un swap o para castigar un fallo |
+| Angry Barrage | Combo cuerpo a cuerpo | Aturde mientras hace daño sostenido | Mejor después de Frame Punch o de entrar con dash |
+| Dismantle | Burst de slash | Daño rápido con reseteo de espacio | Genial cuando un enemigo se compromete demasiado cerca |
+| Furnace | Burst de área | Buen daño en grupo y empuje | Castiga a jugadores agrupados o perseguidores |
+| Lucky Uppercut | Castigo rápido | Simple, rápido y fácil de conectar | Úsalo como remate de bajo riesgo |
+
+<CardGrid cols={3}>
+  <Card title="Mejor iniciador">
+    **Frame Punch**
+    <br />
+    Crea la ventana más limpia para un seguimiento.
+  </Card>
+  <Card title="Mejor rematador">
+    **Hollow Purple**
+    <br />
+    Gran recompensa después de cualquier stun o movimiento forzado.
+  </Card>
+  <Card title="Mejor herramienta de grupo">
+    **Furnace**
+    <br />
+    Funciona mejor cuando los enemigos están amontonados o distraídos.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Regla del daño">
+Un buen combo no necesita ser largo. Necesita ser garantizado, rápido y difícil de esquivar.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Cómo leer un roll en 30 segundos">
+
+Un buen jugador no memoriza todas las skills del juego. En cambio, identifica el roll rápidamente y juega la ronda en torno a ese roll. El objetivo es simple: aprende tu kit antes de empezar a intercambiar golpes.
+
+<Steps>
+  <Step num="1" title="Encuentra tu iniciador">
+    Busca la primera skill que genera impulso. Puede ser un stun, un dash, un teletransporte o un tirón.
+  </Step>
+  <Step num="2" title="Encuentra tu cerrador">
+    Identifica el movimiento que realmente convierte la apertura en daño. Suele ser un burst, un slash o una cadena de golpes.
+  </Step>
+  <Step num="3" title="Encuentra tu escape">
+    Comprueba si tienes un dash, swap, curación o invulnerabilidad. Si la tienes, puedes jugar de forma más agresiva.
+  </Step>
+  <Step num="4" title="Decide tu distancia de pelea">
+    Algunos rolls quieren rango corto, otros rango medio, y unos pocos solo brillan dentro de un domain o en un grupo apretado.
+  </Step>
+</Steps>
+
+| Patrón de roll | Qué suele significar | Mejor decisión |
+|---|---|---|
+| Control + burst | Kit fuerte para duelos | Fuerza intercambios uno contra uno |
+| Movilidad + daño | Kit de persecución | Presiona objetivos con poca vida |
+| Defensa + burst | Kit de contraataque | Provoca ataques primero |
+| Domain + control | Kit para peleas en equipo | Espera a que los enemigos se agrupen |
+| Coste propio + daño | Kit de riesgo | Úsalo solo cuando el intercambio valga la pena |
+
+<Callout type="warning" title="No te obsesiones">
+Una skill vistosa no siempre significa una victoria fácil. Si tu apertura falla, reinicia la pelea en lugar de regalar cooldowns.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Skills de riesgo, domains y contraplay">
+
+Las skills de riesgo son la parte más emocionante de las habilidades de Jujutsu Randomizer, pero castigan la impaciencia. Algunas herramientas consumen vida, otras dependen de tener poca vida, y otras se vuelven mucho más fuertes solo cuando la arena está llena. Eso significa que la jugada correcta suele ser la contención, no el pánico.
+
+Los domains siguen la misma regla. Parecen más fuertes cuando atrapan a varios jugadores en un espacio reducido. Si el objetivo puede simplemente salir, pierdes gran parte del valor. Usa la presión de domain para controlar el mapa, no para perseguir a un solo rival por toda la arena.
+
+<Checklist
+  id="ability-safety"
+  title="Antes de comprometerte con una skill de riesgo"
+  items={[
+    "Comprueba tu vida antes de usar cualquier movimiento que te cueste vida",
+    "Asegúrate de que el enemigo no pueda salir fácilmente de la zona de peligro",
+    "Guarda tu counter o tu herramienta de movilidad para la ventana de represalia",
+    "Usa los domains cuando los enemigos estén agrupados o encerrados",
+    "No gastes tu herramienta de escape solo para perseguir a un objetivo"
+  ]}
+/>
+
+| Skill | Riesgo | Uso seguro | Mejor counter |
+|---|---|---|---|
+| Simple Domain | Defensiva, pero depende del timing | Úsala para sobrevivir a ventanas de burst | Espera a que termine y vuelve a entrar |
+| Reverse Cursed Technique | Cura con ganancia limitada de tempo | Reinicia después de un mal intercambio | Mantén la presión sobre el usuario |
+| Boogie Woogie | El intercambio de posición puede fallar | Úsala cerca de peligros o enemigos agrupados | Mantén la distancia y evita agruparte |
+| Black Hole | Condición de poca vida y autosacrificio | Intercambio de último recurso o remate clutch | Aléjate cuando el usuario esté bajo de vida |
+| Charged Piercing Blood | Cuesta vida | Úsala solo cuando el intercambio de daño importe | Fuerza peleas largas y castiga el coste |
+| Piercing Blood | Pequeño coste de vida | Buen chip cuando te lo puedes permitir | Alarga la pelea y drena recursos |
+
+<Callout type="info" title="Mentalidad de domain">
+Un domain no es solo daño. Es control de espacio, creación de pánico y bloqueo de rutas.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Chuleta de habilidades para ganar más partidas">
+
+Las mejores decisiones de habilidad suelen ser aburridas. Ganas más rondas eligiendo la forma correcta de la pelea que intentando forzar el combo más vistoso. Si tu roll tiene una herramienta de control, empieza por ella. Si tiene un dash, úsalo para asegurar la distancia. Si tiene un movimiento con coste propio, espera hasta que la recompensa sea obvia.
+
+Este sistema simple de prioridades evita que desperdicies skills fuertes en la situación equivocada. También te ayuda a sobrevivir cuando el lobby está lleno de jugadores impredecibles y presión superpuesta.
+
+| Situación | Mejor tipo de habilidad | Por qué funciona |
+|---|---|---|
+| El enemigo avanza con todo | Control o retroceso | Detiene la entrada y crea espacio |
+| El enemigo tiene poca vida | Burst rápido o teletransporte | Termina la pelea antes de que se recupere |
+| Estás rodeado | AoE o domain | Golpea a varios objetivos a la vez |
+| Necesitas escapar | Dash, swap o curación | Compra tiempo y reinicia el tempo |
+| Tienes un stun | Rematador de burst pesado | Convierte la preparación en daño fiable |
+
+<Callout type="success" title="Mejor práctica">
+Usa una skill de preparación, una skill de daño y un plan de escape. Esa estructura encaja con la mayoría de rolls aleatorios.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Cuáles son las mejores habilidades de Jujutsu Randomizer para principiantes?",
+    answer: "Empieza con control fiable y burst simple. Frame Punch, Lucky Uppercut, Dismantle y skills similares fáciles de leer son mucho más seguras que los rematadores de baja vida."
+  },
+  {
+    question: "¿Qué tipo de habilidad gana más peleas?",
+    answer: "El patrón más fiable es control seguido de burst. Un stun, congelación o swap te da la apertura que necesitas para conectar tu movimiento más fuerte."
+  },
+  {
+    question: "¿Cuándo debería usar un domain?",
+    answer: "Usa un domain cuando los enemigos estén agrupados, atrapados o ya comprometidos en una pelea. Los domains pierden valor si el objetivo puede huir de inmediato."
+  },
+  {
+    question: "¿Merecen la pena las skills de riesgo como Black Hole?",
+    answer: "Sí, pero solo cuando el intercambio es claro. Las skills de riesgo son más fuertes como remates clutch, no como botones de pánico que pulsas en cooldown."
+  }
+]} />
+
+</Section>

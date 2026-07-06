@@ -1,1 +1,10 @@
-{}
+{
+  "nav": {
+    "codes": "Códigos",
+    "guide": "Guía",
+    "characters": "Personajes",
+    "abilities": "Habilidades",
+    "items": "Objetos",
+    "skins": "Skins"
+  }
+}

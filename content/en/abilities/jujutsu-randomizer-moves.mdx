@@ -1,0 +1,209 @@
+import { Map, Swords, Target, Shield, Trophy, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Jujutsu Randomizer Moves: Best Skills, Combos & Tips",
+  description: "Learn how Jujutsu Randomizer moves work, which skill types matter most, and how to chain fast combos, survive pressure, and spend Yen wisely.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/312e81/fff?text=Jujutsu+Randomizer+Moves",
+  date: "2026-07-06",
+  author: "jujutsu randomizer Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Jujutsu Randomizer moves** reward fast reads, not memorized scripts, so identify your kit before you chase damage.
+- **Stun into burst** is the safest beginner pattern because it turns short openings into reliable pressure.
+- **Mobility and counters** matter as much as damage, especially when the fight starts collapsing into close range.
+- **Domains and AOEs** are strongest in crowded rounds, where one good cast can swing tempo immediately.
+</Callout>
+
+<Section icon={Map} title="Jujutsu Randomizer Moves: Read Your Roll Fast">
+
+Start every round by sorting your moves into three jobs: damage, movement, and control. That quick classification tells you whether you should rush, bait, or disengage. In a random-skill arena, the player who understands the kit first usually controls the pace first.
+
+<Callout type="tip" title="Read the roll before you swing">
+If a move changes spacing, saves you, or locks an opponent down, treat it as setup. Save your biggest hit for the first clean opening.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Burst Moves">
+    Best for finishing low-health targets, punishing freezes, and converting one opening into a round-winning hit.
+  </Card>
+  <Card title="Mobility Moves">
+    Best for chasing, escaping, and resetting fights when the lane is bad or the crowd gets messy.
+  </Card>
+  <Card title="Control Moves">
+    Best for stuns, slows, knockback, and any setup that makes your next attack easier to land.
+  </Card>
+</CardGrid>
+
+| Move Type | What It Does | Best Use | Common Mistake |
+|---|---|---|---|
+| **Burst** | High damage in a short window | Finish a trapped target | Throwing it raw into open space |
+| **Mobility** | Repositioning or gap closing | Chase or escape | Using it too early and losing safety |
+| **Control** | Freeze, stun, slow, knockback | Create a guaranteed follow-up | Wasting it after the enemy already moved |
+| **AOE** | Hits multiple players or a zone | Crowd fights | Forcing it into a 1v1 with no pressure |
+
+<Callout type="warning" title="Spacing matters">
+A good move is only good if the target is in range, committed, or already slowed. Random kits punish sloppy spacing hard.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Best Move Patterns and Combo Logic">
+
+The strongest combinations are usually simple: force a reaction, then punish the reaction. You do not need a long string if your first move already steals the opponent’s movement or timing. Keep the route short, clean, and repeatable.
+
+<Callout type="info" title="Combo rule of thumb">
+If a move removes control from the enemy, your next move should either add damage or block their escape route.
+</Callout>
+
+<CardGrid cols={4}>
+  <Card title="Stun + Burst">
+    Use a control move first, then land your heaviest hit while the opponent cannot react.
+  </Card>
+  <Card title="Dash + Punish">
+    Close distance only when you know the enemy has spent their escape or counter window.
+  </Card>
+  <Card title="AOE + Pressure">
+    Best when multiple players are stacked together or forced into a narrow lane.
+  </Card>
+  <Card title="Counter + Finisher">
+    Bait a predictable attack, absorb or avoid it, then answer with a fast kill move.
+  </Card>
+</CardGrid>
+
+| Combo Pattern | Best Situation | Why It Works | Skip It When |
+|---|---|---|---|
+| **Stun -> Burst** | Enemy is moving aggressively | Removes reaction time | The target has invulnerability or a ready escape |
+| **Dash -> Melee Punish** | Enemy whiffs a close-range attack | Converts spacing into damage | You cannot confirm the hit angle |
+| **AOE -> Chase** | Players are grouped | Forces panic movement | Opponents are already spread out |
+| **Counter -> Burst** | Enemy is predictable | Wins trade windows | Your counter is on cooldown |
+| **Reset -> Re-engage** | Your kit is weak in the current exchange | Preserves survival | The enemy is already committed to a finish |
+
+<Callout type="success" title="Best practical habit">
+Short combos beat flashy ones. If your route lands consistently, it is better than a longer sequence that only works on perfect timing.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Match Plan for Faster Wins">
+
+Use the first 10 seconds of a round to learn what your roll can actually do. Once you know that, you can decide whether to brawl, play patient, or fish for a punish. The goal is not to show off every move; it is to win the round cleanly.
+
+<Callout type="success" title="Execution plan">
+Follow the same decision tree each round so you waste less time and fewer cooldowns.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Classify the kit">
+    Identify your best damage tool, your safest movement option, and your strongest control move before you commit to a fight.
+  </Step>
+  <Step num="2" title="Take the first safe trade">
+    Use a low-risk opener to test spacing. If the opponent burns movement early, you have the advantage.
+  </Step>
+  <Step num="3" title="Convert the opening">
+    Once the target is locked down, spend your biggest burst move. Do not save your finisher for a moment that never comes.
+  </Step>
+  <Step num="4" title="Reset or chase">
+    If the kill is not there, reset with mobility. If the target is weak, pursue only when your route is still safe.
+  </Step>
+</Steps>
+
+| Match Phase | What You Want | Good Move Choice | Bad Habit |
+|---|---|---|---|
+| **Opening** | Information | Safe poke, movement test | All-in rushing |
+| **Mid-fight** | Advantage | Stun, knockback, or gap closer | Trading without a plan |
+| **Finish** | Secure the knock | Highest burst skill | Hesitating after the setup |
+| **Recovery** | Survive the counterpush | Dash, counter, or heal | Standing still on cooldown |
+
+<Callout type="tip" title="Play the round, not the montage">
+A clean win usually comes from one well-timed setup, not six different moves chained together just because they are available.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Common Mistakes, Counters, and Smart Progression">
+
+Most players lose because they spend their strongest move too early or force a fight before the enemy commits. Fix those two habits and your win rate usually improves faster than your raw aim. The rest is spacing, patience, and cooldown discipline.
+
+<Callout type="warning" title="Avoid these traps">
+Do not waste your best move on a target that can simply walk away, dash away, or counter on the next frame.
+</Callout>
+
+| Mistake | Why It Fails | Better Option |
+|---|---|---|
+| **Opening with burst** | The enemy still has movement | Use control first |
+| **Chasing blindly** | You lose spacing and eat counter damage | Force the enemy to turn or stop |
+| **Saving everything** | You die with a full kit | Use one tool to create the opening |
+| **Ignoring range** | Some moves need close, mid, or wide spacing | Match the move to the lane |
+| **Panicking under pressure** | Panic burns cooldowns and positioning | Reset, reposition, then re-enter |
+
+<Checklist
+  id="move-mastery"
+  title="Practice Checklist"
+  items={[
+    "Can you name your best damage move in one second?",
+    "Can you identify your safest escape or reposition tool?",
+    "Can you land one setup before using your burst?",
+    "Do you stop chasing when the spacing is bad?",
+    "Do you spend Yen only after you understand your combat style?"
+  ]}
+/>
+
+| Progression Priority | What to Focus On | Why It Helps |
+|---|---|---|
+| **First** | Learn your move categories | Faster decisions in every round |
+| **Second** | Practice one reliable combo route | Better consistency under pressure |
+| **Third** | Study spacing and cooldowns | Fewer wasted openings |
+| **Fourth** | Spend Yen after combat basics | Cleaner long-term progression |
+
+<Callout type="info" title="Yen and combat">
+Treat Yen as a support system for your progression, not a shortcut around learning moves. Cosmetics are nicer when you already know how to win.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ and Official Resources">
+
+Use the official links below when you want the safest entry points for updates, community access, and game-page checks. Then use the FAQ to clear up the most common move questions without overcomplicating the guide.
+
+<Callout type="info" title="Official resources">
+These are the fastest places to verify game access and community entry points on 2026-07-06.
+</Callout>
+
+| Resource | Date | Link | Best Use |
+|---|---|---|---|
+| **Roblox experience page** | 2026-07-06 | [Open the official game page](https://www.roblox.com/games/95467791496576/Jujutsu-Randomizer) | Check the live experience page and launch the game |
+| **Roblox community page** | 2026-07-06 | [Open the official community](https://www.roblox.com/communities/579224321/Dope-Interactive) | Confirm the developer group and related updates |
+| **Discord invite** | 2026-07-06 | [Open the official Discord invite](https://discord.com/invite/n6VZ5HM9cX) | Watch for announcements and community notices |
+
+<FAQ items={[
+  {
+    question: "What are the most important Jujutsu Randomizer moves for beginners?",
+    answer: "Start with one control move, one mobility move, and one burst move. That gives you a simple setup, a safe escape, and a reliable finisher."
+  },
+  {
+    question: "Should I always use my strongest move first?",
+    answer: "No. Most rounds are easier when you force movement or a reaction first, then spend your strongest move after the enemy is locked in."
+  },
+  {
+    question: "How do I get better at combo timing?",
+    answer: "Keep your routes short. Practice one setup into one finisher until it feels automatic, then add a second option only if it stays consistent."
+  },
+  {
+    question: "Is Jujutsu Randomizer moveset choice more important than raw aim?",
+    answer: "Both matter, but move selection usually wins first. Good spacing, timing, and a clean combo route often matter more than trying to outclick everyone."
+  }
+]} />
+
+<Callout type="success" title="Final take">
+If you learn how to read your roll, chain one setup into one finisher, and reset cleanly, you will play better even when the kit changes every round.
+</Callout>
+
+</Section>

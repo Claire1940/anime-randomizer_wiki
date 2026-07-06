@@ -1,0 +1,195 @@
+import { Map, Target, Shield, Trophy, Swords, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "jujutsu randomizer: passo a passo da caixa selada e dicas de rota",
+  description: "Aprenda como conseguir a caixa selada em jujutsu randomizer com uma rota de busca limpa, etapas de solução de problemas e dicas práticas para jogadores.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e1b4b/fff?text=Sealed+Box+Walkthrough",
+  date: "2026-07-06",
+  author: "Equipe da Wiki de jujutsu randomizer"
+}
+
+<Callout type="info" title="Guia Rápido">
+- A **caixa selada de jujutsu randomizer** é mais fácil de encontrar com uma rota repetível, e não com exploração aleatória.
+- **Comece por fontes oficiais**, como a página do Roblox e o Trello, antes de definir uma rota.
+- **Limpe uma área por vez** para saber exatamente o que você já verificou.
+- **Troque de servidor se necessário** quando uma rota de busca parecer esgotada ou bloqueada.
+</Callout>
+
+<Section icon={Map} title="Noções Básicas da Caixa Selada em jujutsu randomizer">
+
+A caixa selada é melhor tratada como um objetivo de caça a itens. Encare primeiro como um problema de busca e só depois como um problema de combate. Em julho de 2026, a abordagem mais inteligente é verificar as referências atuais do jogo e então usar um loop fixo para não ficar adivinhando os mesmos cantos duas vezes.
+
+<Callout type="tip" title="Mentalidade de Busca">
+Se a caixa estiver ligada a um ponto de spawn ou de interação, paciência importa menos do que cobertura. Uma rota limpa é melhor do que ficar teimosamente olhando para a mesma sala.
+</Callout>
+
+| Source | Best Use | Link |
+|---|---|---|
+| Página da experiência no Roblox | Entrada ao jogo ao vivo, descrição atual, contexto de atualização | https://www.roblox.com/games/95467791496576/Jujutsu-Randomizer |
+| Comunidade Dope Interactive | Identidade do desenvolvedor, acesso ao grupo, verificações da conta | https://www.roblox.com/communities/579224321/Dope-Interactive |
+| Trello oficial | Referência estruturada para sistemas, personagens e consulta relacionada a itens | https://trello.com/b/NadimwDh/jujutsu-randomizer-official-trello |
+| Convite do Discord | Horário de atualização, anúncios e comentários sobre patches | https://discord.com/invite/n6VZ5HM9cX |
+
+| Situação | Melhor Resposta | Por que Ajuda |
+|---|---|---|
+| Você acabou de entrar em um servidor | Comece com uma varredura completa do mapa | Evita perder um spawn na primeira passada |
+| Você encontrou uma pista parcial | Marque a área e continue o loop | Reduz verificações duplicadas |
+| A rota parece vazia | Reinicie o caminho ou troque de servidor | Caças aleatórias costumam ficar mais rápidas após um reset |
+| Um servidor cheio está bloqueando o acesso | Vá para um servidor com menos jogadores | Menos jogadores significa menos interrupções |
+
+A própria caixa talvez não seja o tipo de objetivo que você consegue resolver na força bruta com dano ou Yen. Na prática, isso significa que a rota importa mais do que os atributos de combate. Se o jogo mudar o comportamento do item em uma atualização futura, a página oficial e o Trello devem ser seu primeiro ponto de verificação antes de continuar insistindo no padrão antigo.
+
+</Section>
+
+<Section icon={Target} title="Melhor Rota para Conseguir a Caixa Selada">
+
+Use uma rota fixa e mantenha suas passadas curtas. Se cada volta parecer igual, você saberá exatamente quando a busca estiver falhando e quando o mapa simplesmente estiver sendo ingrato.
+
+<Callout type="warning" title="Não Force Demais">
+Não fique campando um único ponto por muito tempo. Se a caixa selada não apareceu depois de uma varredura limpa, é melhor se reposicionar do que esperar.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Confirme o estado atual do jogo">
+    Abra primeiro a página da experiência no Roblox e então comece em uma sessão nova. Isso lhe dá a base mais limpa antes da caça.
+  </Step>
+  <Step num="2" title="Entre em um servidor prático">
+    Use um servidor que não esteja sobrecarregado. Um servidor mais leve normalmente torna as rotas de busca mais fáceis de ler e menos caóticas.
+  </Step>
+  <Step num="3" title="Faça um loop completo do mapa">
+    Varra as zonas óbvias de interação e depois percorra as bordas menos evidentes. Mantenha a rota consistente para não deixar nenhuma lacuna passar.
+  </Step>
+  <Step num="4" title="Revise os pontos de maior valor">
+    Depois de uma passada completa, volte aos cantos e objetos com maior probabilidade. Isso é mais rápido do que repetir um caminho aleatório.
+  </Step>
+  <Step num="5" title="Reinicie se o loop não render">
+    Se a caixa ainda não apareceu, troque de servidor ou reinicie a busca. Um reset pode ser mais rápido do que uma terceira volta idêntica.
+  </Step>
+</Steps>
+
+| Fase | O que Verificar | O que Evitar |
+|---|---|---|
+| Primeira passada | Áreas próximas ao spawn, cantos e objetos fáceis de ver | Parar após uma única sala |
+| Passada do meio | Corredores laterais, cantos internos e bordas com pouco tráfego | Percorrer a mesma linha duas vezes |
+| Passada final | Qualquer local que parecesse interativo ou fácil de passar batido | Correr atrás de lutas que não ajudam na caça |
+| Reset | Servidor novo, rota nova, observação limpa | Esperar o mapa “parecer” diferente |
+
+Se o seu objetivo for apenas a caixa selada, mantenha o foco na cobertura da rota. Entrar em lutas sem relação com a busca pode quebrar o ritmo e dificultar lembrar o que você já verificou.
+
+</Section>
+
+<Section icon={Shield} title="Comparação de Rotas e Opções para Economizar Tempo">
+
+Nem todo estilo de busca funciona em todo servidor. O melhor método depende de quão cheio está o servidor e se você quer velocidade ou certeza. Para a maioria dos jogadores, um loop híbrido funciona melhor do que uma abordagem extrema.
+
+<Callout type="success" title="Melhor Escolha Prática">
+Uma rota híbrida costuma ser o padrão mais seguro: uma varredura completa, uma segunda checagem direcionada e depois trocar de servidor se o caminho continuar vazio.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Troca Rápida de Servidor">
+    - **Melhor para:** servidores vazios ou parados
+    - **Ponto forte:** reset rápido quando nada aparece
+    - **Risco:** você pode deixar passar um spawn escondido em uma passada apressada
+  </Card>
+  <Card title="Varredura Completa">
+    - **Melhor para:** buscas de primeira vez
+    - **Ponto forte:** maior cobertura
+    - **Risco:** leva mais tempo, especialmente em lobbies cheios
+  </Card>
+  <Card title="Rota Híbrida">
+    - **Melhor para:** a maioria dos jogadores
+    - **Ponto forte:** equilibra velocidade e precisão
+    - **Risco:** exige disciplina para evitar desvios aleatórios
+  </Card>
+</CardGrid>
+
+| Método | Velocidade | Cobertura | Melhor Para |
+|---|---|---|---|
+| Troca rápida de servidor | Excelente | Baixa a média | Jogadores experientes que conhecem a rota |
+| Varredura completa | Moderada | Alta | Caçadores de primeira vez e jogadores cautelosos |
+| Rota híbrida | Boa | Boa | A maioria das buscas solo |
+| Seguir a multidão | Ruim | Baixa | Geralmente não recomendado, a menos que uma pista aponte para isso |
+
+| Prioridade | Em que Focar | O que Ignorar |
+|---|---|---|
+| 1 | Ordem de rota clara e repetível | Exploração aleatória |
+| 2 | Cantos e caminhos laterais perdidos | Rechecar espaços vazios óbvios |
+| 3 | Qualidade do servidor | Ruído de população alta |
+| 4 | Confirmação de atualização | Suposições antigas após um patch |
+
+Quando a caixa selada é seu único alvo, a rota que mais economiza tempo é aquela que você consegue repetir sem pensar. Um padrão simples é mais fácil de executar corretamente do que um padrão esperto que você esquece no meio do caminho.
+
+</Section>
+
+<Section icon={Sparkles} title="Checklist de Solução de Problemas e Eficiência">
+
+Se a busca começar a parecer inconsistente, use uma pequena checklist em vez de improvisar. Isso mantém o processo limpo e ajuda você a identificar se o problema está na rota, no servidor ou no seu próprio ritmo.
+
+<Callout type="info" title="Regra de Eficiência">
+Faça uma passada limpa e então decida. A forma mais rápida de perder tempo é continuar vasculhando pela metade a mesma área sem um plano de reset.
+</Callout>
+
+<Checklist
+  id="sealed-box-hunt"
+  title="Checklist de Busca"
+  items={[
+    "Abra a página oficial do Roblox antes de começar a caça",
+    "Use um servidor com menor população quando possível",
+    "Faça um loop completo antes de julgar a rota",
+    "Marque as áreas que você já verificou",
+    "Troque de servidor se a rota parecer esgotada"
+  ]}
+/>
+
+| Problema | Causa Provável | Correção |
+|---|---|---|
+| Você continua revisitando as mesmas salas | A rota não está organizada | Use um loop fixo e siga sempre a mesma ordem |
+| A caixa nunca aparece | Servidor errado ou ciclo de spawn desatualizado | Reentre ou troque de servidor |
+| Você não consegue saber o que já foi verificado | Falta um hábito de controle | Use uma checklist mental simples ou anotações |
+| Você está sendo interrompido por outros jogadores | Tráfego demais no lobby | Vá para um servidor mais leve |
+
+| Hábito de Eficiência | Resultado |
+|---|---|
+| Buscar sempre na mesma ordem | Memória mais fácil, menos falhas |
+| Rechecar apenas pontos de alto valor | Menos movimento desperdiçado |
+| Reiniciar rapidamente quando o caminho estiver seco | Tempo total de farm mais rápido |
+| Verificar atualizações nas fontes oficiais | Menos suposições desatualizadas |
+
+Você não precisa de um sistema complicado para obter resultados melhores. A maior parte da melhora vem de manter consistência, encurtar a rota e não deixar um servidor improdutivo consumir toda a sua sessão.
+
+</Section>
+
+<Section icon={Trophy} title="Perguntas Frequentes Sobre a Rota da Caixa Selada">
+
+<Callout type="tip" title="Respostas Rápidas">
+Estas respostas foram feitas para manter a busca prática: confirme o estado do jogo, faça uma rota limpa e reinicie quando o caminho parar de render.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Como eu consigo a caixa selada em jujutsu randomizer?",
+    answer: "Use uma rota fixa de busca, comece em um servidor novo e varra o mapa em uma ordem consistente. Se a caixa não aparecer após uma passada completa, reinicie o servidor ou a rota."
+  },
+  {
+    question: "Preciso de códigos ou Yen para conseguir a caixa selada?",
+    answer: "Normalmente não. Trate a caixa selada como um objetivo de caça a item, e não como um desbloqueio por moeda. Códigos e Yen ainda são úteis para progressão, mas não são a principal ferramenta de busca."
+  },
+  {
+    question: "O que devo fazer se a caixa selada ainda não estiver aparecendo?",
+    answer: "Confira novamente a página oficial do Roblox, troque de servidor e repita a rota do início. Se o jogo tiver atualizado, verifique as notas mais recentes antes de continuar usando um caminho antigo."
+  },
+  {
+    question: "Onde posso confirmar mudanças em jujutsu randomizer?",
+    answer: "Use primeiro a página da experiência no Roblox, depois a comunidade Dope Interactive, o Trello oficial e o convite do Discord para ver o timing das atualizações e o material de referência."
+  }
+]} />
+
+</Section>

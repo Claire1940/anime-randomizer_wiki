@@ -10,7 +10,14 @@
       "twitterDescription": "Explore Jujutsu Randomizer codes, random skills, skins, titles, Yen farming tips, and Roblox arena guides."
     }
   },
-  "nav": {},
+  "nav": {
+    "codes": "Codes",
+    "guide": "Guide",
+    "characters": "Characters",
+    "abilities": "Abilities",
+    "items": "Items",
+    "skins": "Skins"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -169,14 +176,38 @@
         }
       ],
       "expiredCodes": [
-        { "code": "JANEJULIET", "reward": "125 Yen" },
-        { "code": "130KLIKES", "reward": "125 Yen" },
-        { "code": "KINGOFCURSE", "reward": "150 Yen" },
-        { "code": "6MILLIONSVISITSYAY", "reward": "150 Yen" },
-        { "code": "AURAUPDATE", "reward": "150 Yen" },
-        { "code": "RELEASEYAY", "reward": "125 Yen" },
-        { "code": "YUJIRELEASE", "reward": "125 Yen" },
-        { "code": "THX1MVISITS", "reward": "Miscellaneous rewards" }
+        {
+          "code": "JANEJULIET",
+          "reward": "125 Yen"
+        },
+        {
+          "code": "130KLIKES",
+          "reward": "125 Yen"
+        },
+        {
+          "code": "KINGOFCURSE",
+          "reward": "150 Yen"
+        },
+        {
+          "code": "6MILLIONSVISITSYAY",
+          "reward": "150 Yen"
+        },
+        {
+          "code": "AURAUPDATE",
+          "reward": "150 Yen"
+        },
+        {
+          "code": "RELEASEYAY",
+          "reward": "125 Yen"
+        },
+        {
+          "code": "YUJIRELEASE",
+          "reward": "125 Yen"
+        },
+        {
+          "code": "THX1MVISITS",
+          "reward": "Miscellaneous rewards"
+        }
       ],
       "expiredNote": "Older Jujutsu Randomizer codes rotate out as new updates arrive. If a code no longer accepts, it has been retired and replaced by the newest active set."
     },
@@ -244,51 +275,135 @@
           "tier": "S",
           "label": "Round-changing skills",
           "entries": [
-            { "name": "Hollow Purple", "type": "Burst damage", "reason": "35 damage after charging with massive knockback." },
-            { "name": "Furnace", "type": "Area burst", "reason": "19 damage fire explosion with knockback and strong multi-target value." },
-            { "name": "Domain Expansion: Infinite Void", "type": "Domain control", "reason": "Lets the user run through enemies, damaging and knocking them back for several seconds." },
-            { "name": "Domain Expansion: Malevolent Shrine", "type": "Domain damage", "reason": "Summons a shrine that deals 24 damage across a huge area." },
-            { "name": "Time Cell Moon Palace", "type": "Domain lockdown", "reason": "Immobilizes enemies inside the domain every two seconds and adds damage pressure." }
+            {
+              "name": "Hollow Purple",
+              "type": "Burst damage",
+              "reason": "35 damage after charging with massive knockback."
+            },
+            {
+              "name": "Furnace",
+              "type": "Area burst",
+              "reason": "19 damage fire explosion with knockback and strong multi-target value."
+            },
+            {
+              "name": "Domain Expansion: Infinite Void",
+              "type": "Domain control",
+              "reason": "Lets the user run through enemies, damaging and knocking them back for several seconds."
+            },
+            {
+              "name": "Domain Expansion: Malevolent Shrine",
+              "type": "Domain damage",
+              "reason": "Summons a shrine that deals 24 damage across a huge area."
+            },
+            {
+              "name": "Time Cell Moon Palace",
+              "type": "Domain lockdown",
+              "reason": "Immobilizes enemies inside the domain every two seconds and adds damage pressure."
+            }
           ]
         },
         {
           "tier": "A",
           "label": "Consistent fight winners",
           "entries": [
-            { "name": "Angry Barrage", "type": "Melee combo", "reason": "18 damage punch sequence that stuns while hitting." },
-            { "name": "Lucky Uppercut", "type": "Fast burst", "reason": "16 damage punch with a fast cooldown." },
-            { "name": "Dismantle", "type": "Close-range slash", "reason": "14 damage with knockback, useful for resetting space." },
-            { "name": "Instant Zap", "type": "Gap closer", "reason": "Teleports to the enemy and deals 14 damage." },
-            { "name": "Surprise Attack", "type": "Mobility burst", "reason": "Punches the enemy, teleports behind them, and deals 15 damage." }
+            {
+              "name": "Angry Barrage",
+              "type": "Melee combo",
+              "reason": "18 damage punch sequence that stuns while hitting."
+            },
+            {
+              "name": "Lucky Uppercut",
+              "type": "Fast burst",
+              "reason": "16 damage punch with a fast cooldown."
+            },
+            {
+              "name": "Dismantle",
+              "type": "Close-range slash",
+              "reason": "14 damage with knockback, useful for resetting space."
+            },
+            {
+              "name": "Instant Zap",
+              "type": "Gap closer",
+              "reason": "Teleports to the enemy and deals 14 damage."
+            },
+            {
+              "name": "Surprise Attack",
+              "type": "Mobility burst",
+              "reason": "Punches the enemy, teleports behind them, and deals 15 damage."
+            }
           ]
         },
         {
           "tier": "B",
           "label": "Strong support tools",
           "entries": [
-            { "name": "Black Flash", "type": "Quick melee", "reason": "15 damage with a short cooldown; pairs well with the Vessel passive." },
-            { "name": "Explode!", "type": "Close-range area hit", "reason": "Deals 15 damage to nearby enemies." },
-            { "name": "Aqua Burst", "type": "Mobility damage", "reason": "Launches the user forward and deals 12 damage." },
-            { "name": "Hydro Strike", "type": "Water attack", "reason": "A dependable filler attack when stronger skills are on cooldown." }
+            {
+              "name": "Black Flash",
+              "type": "Quick melee",
+              "reason": "15 damage with a short cooldown; pairs well with the Vessel passive."
+            },
+            {
+              "name": "Explode!",
+              "type": "Close-range area hit",
+              "reason": "Deals 15 damage to nearby enemies."
+            },
+            {
+              "name": "Aqua Burst",
+              "type": "Mobility damage",
+              "reason": "Launches the user forward and deals 12 damage."
+            },
+            {
+              "name": "Hydro Strike",
+              "type": "Water attack",
+              "reason": "A dependable filler attack when stronger skills are on cooldown."
+            }
           ]
         },
         {
           "tier": "C",
           "label": "Low-impact tools",
           "entries": [
-            { "name": "Basic weapons", "type": "Fallback damage", "reason": "Lower practical impact unless boosted by a weapon-focused character passive." },
-            { "name": "Low-damage abilities", "type": "Situational filler", "reason": "Need setup, positioning, or stronger companion skills to matter in PvP." }
+            {
+              "name": "Basic weapons",
+              "type": "Fallback damage",
+              "reason": "Lower practical impact unless boosted by a weapon-focused character passive."
+            },
+            {
+              "name": "Low-damage abilities",
+              "type": "Situational filler",
+              "reason": "Need setup, positioning, or stronger companion skills to matter in PvP."
+            }
           ]
         },
         {
           "tier": "Passives",
           "label": "Best character rolls to recognize",
           "entries": [
-            { "name": "Big Brother", "type": "Blood build amplifier", "reason": "Blood-based skills no longer consume HP and deal 20% more damage." },
-            { "name": "Vengeful Girl", "type": "Weapon damage amplifier", "reason": "All weapons deal 20% more damage." },
-            { "name": "Adapt Guy", "type": "Anti-domain defense", "reason": "Damage taken inside domains is reduced by three times." },
-            { "name": "Vessel", "type": "Black Flash amplifier", "reason": "Black Flash abilities deal 20% more damage." },
-            { "name": "Besto Friendo", "type": "Survival passive", "reason": "Starts with +15 HP for a safer health buffer." }
+            {
+              "name": "Big Brother",
+              "type": "Blood build amplifier",
+              "reason": "Blood-based skills no longer consume HP and deal 20% more damage."
+            },
+            {
+              "name": "Vengeful Girl",
+              "type": "Weapon damage amplifier",
+              "reason": "All weapons deal 20% more damage."
+            },
+            {
+              "name": "Adapt Guy",
+              "type": "Anti-domain defense",
+              "reason": "Damage taken inside domains is reduced by three times."
+            },
+            {
+              "name": "Vessel",
+              "type": "Black Flash amplifier",
+              "reason": "Black Flash abilities deal 20% more damage."
+            },
+            {
+              "name": "Besto Friendo",
+              "type": "Survival passive",
+              "reason": "Starts with +15 HP for a safer health buffer."
+            }
           ]
         }
       ]
@@ -519,7 +634,12 @@
           "unlock": "Buy from the Skins or Shop flow with Yen earned from codes and rounds.",
           "effect": "Changes the visible character look in the lobby and arena.",
           "relation": "Cosmetic appearance only; skins do not replace the random skill system.",
-          "bestFor": ["Character searches", "Gojo searches", "Sukuna searches", "Skin collectors"]
+          "bestFor": [
+            "Character searches",
+            "Gojo searches",
+            "Sukuna searches",
+            "Skin collectors"
+          ]
         },
         {
           "name": "Panda Skin",
@@ -528,7 +648,11 @@
           "unlock": "Buy from the skin shop with Yen at an entry-level price tier.",
           "effect": "Equips a panda or bear-style outfit for a recognizable beginner look.",
           "relation": "A beginner-friendly cosmetic target that gives new players a recognizable look without changing their combat tools.",
-          "bestFor": ["New players", "Cheap skin", "Panda"]
+          "bestFor": [
+            "New players",
+            "Cheap skin",
+            "Panda"
+          ]
         },
         {
           "name": "Titles",
@@ -537,7 +661,11 @@
           "unlock": "Unlock or buy through the Titles area using Yen progression.",
           "effect": "Shows a title-style label for identity, status, or collection progress.",
           "relation": "Display-focused; titles are a flex item rather than a direct combat upgrade.",
-          "bestFor": ["Titles", "Rank display", "Collection"]
+          "bestFor": [
+            "Titles",
+            "Rank display",
+            "Collection"
+          ]
         },
         {
           "name": "Finishers",
@@ -546,7 +674,11 @@
           "unlock": "Buy through the Finishers area with Yen.",
           "effect": "Changes the finishing move or execution effect used after a takedown.",
           "relation": "Adds flair to eliminations and gives players another reason to grind Yen after buying skins.",
-          "bestFor": ["Finishers", "Cosmetics", "Kill effects"]
+          "bestFor": [
+            "Finishers",
+            "Cosmetics",
+            "Kill effects"
+          ]
         },
         {
           "name": "Black Flash Finisher",
@@ -555,7 +687,11 @@
           "unlock": "Acquire through the finisher unlock path; shop price varies by listing.",
           "effect": "Adds a Black Flash-style finishing hit effect to your eliminations.",
           "relation": "Used as a finisher-style effect rather than a fixed starter moveset.",
-          "bestFor": ["Black Flash", "Finisher", "Execution effect"]
+          "bestFor": [
+            "Black Flash",
+            "Finisher",
+            "Execution effect"
+          ]
         },
         {
           "name": "Code-Funded Cosmetics",
@@ -564,7 +700,11 @@
           "unlock": "Redeem active codes, then spend the Yen in the cosmetic shop.",
           "effect": "Turns code rewards into skins, titles, or finishers before regular win rewards take over.",
           "relation": "The fastest early cosmetic route before regular win rewards take over.",
-          "bestFor": ["Codes", "Free Yen", "New players"]
+          "bestFor": [
+            "Codes",
+            "Free Yen",
+            "New players"
+          ]
         }
       ]
     },
@@ -687,125 +827,125 @@
     "notice": "Fan project. Jujutsu Randomizer and Roblox are trademarks of their respective owners."
   },
   "pages": {
-    "guides": {
+    "codes": {
+      "title": "Jujutsu Randomizer Codes",
+      "description": "Latest working Jujutsu Randomizer codes for free Yen, redemption steps, reward details, and the expired code list.",
+      "metaTitle": "Jujutsu Randomizer Codes - Free Yen & Rewards",
+      "metaDescription": "Redeem active Jujutsu Randomizer codes for free Yen, follow the redemption steps, and track which codes have expired.",
+      "categoryLabel": "CODES & REWARDS",
+      "whatIs": "What Are Codes?",
+      "whatIsDescription": "Jujutsu Randomizer codes are free reward strings released through the Roblox experience description, Dope Interactive community channels, and update posts. Redeeming them grants Yen you can spend on skins, titles, and cosmetics.",
+      "why": "Why Redeem Codes?",
+      "whySteps": {
+        "step1Title": "Free Starter Yen",
+        "step1Description": "Claim active codes before queuing into matches so you start with currency to spend.",
+        "step2Title": "Faster Cosmetics",
+        "step2Description": "Turn code Yen into skins, titles, and finishers without grinding early fights.",
+        "step3Title": "Stay Current",
+        "step3Description": "New update and milestone codes rotate in regularly, so check back after each patch."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Codes"
+    },
+    "guide": {
       "title": "Jujutsu Randomizer Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced PvP strategy. Master random skills, Yen farming, and arena combat.",
-      "metaTitle": "Jujutsu Randomizer Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Jujutsu Randomizer guides covering beginner tips, random skills, Yen farming, tier lists, and expert tactics for mastering the Roblox arena.",
+      "description": "Walkthroughs for Jujutsu Randomizer mechanics, secrets, egg hunts, sealed box locations, map names, and signature techniques.",
+      "metaTitle": "Jujutsu Randomizer Guides - Walkthroughs & Tips",
+      "metaDescription": "Master Jujutsu Randomizer with guides on QTE, sealed boxes, egg locations, map names, code redemption, and signature techniques.",
       "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, random skill strategy, and PvP combat. Learn everything from first steps to advanced techniques.",
-      "why": "Why read guides?",
+      "whatIs": "What Are Guides?",
+      "whatIsDescription": "Jujutsu Randomizer guides explain how to navigate the arena, trigger QTE, find hidden eggs and sealed boxes, and use signature techniques like Deadly Sentencing. Each guide walks through one mechanic or secret with clear steps.",
+      "why": "Why Read Guides?",
       "whySteps": {
         "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the random skill system and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to win rounds, earn Yen, and unlock cosmetics",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for combos, domains, and arena survival"
+        "step1Description": "Understand random skill rolls, QTE timing, and how matches are won before you queue in.",
+        "step2Title": "Find Hidden Secrets",
+        "step2Description": "Locate sealed boxes, hidden eggs, and named maps that unlock new rewards and areas.",
+        "step3Title": "Use Techniques Correctly",
+        "step3Description": "Apply signature abilities like Deadly Sentencing with the right timing and combo flow."
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
-    "skills": {
-      "title": "Jujutsu Randomizer Skills",
-      "description": "Master random skills, abilities, effects, combos, and counters with detailed references for every roll.",
-      "metaTitle": "Jujutsu Randomizer Skills & Abilities Reference",
-      "metaDescription": "Complete Jujutsu Randomizer skill and ability reference covering damage, mobility, defense, domains, and risk skills with combos and counterplay.",
-      "categoryLabel": "SKILLS & ABILITIES",
-      "whatIs": "What are Skills?",
-      "whatIsDescription": "Each round rolls a random set of Jujutsu Kaisen-inspired skills. Learn damage types, mobility tools, defensive options, domains, and risk skills to adapt fast.",
-      "why": "Why study skills?",
+    "characters": {
+      "title": "Jujutsu Randomizer Characters",
+      "description": "Every Jujutsu Randomizer character theme — Gojo, Sukuna, Yuta, Hakari, Mahoraga, and more — with passives, skill pools, and skin sources.",
+      "metaTitle": "Jujutsu Randomizer Characters - Themes & Passives",
+      "metaDescription": "Browse all Jujutsu Randomizer character themes including Gojo, Sukuna, Yuta, Hakari, and Mahoraga with passive traits and unlock sources.",
+      "categoryLabel": "CHARACTERS",
+      "whatIs": "What Are Characters?",
+      "whatIsDescription": "Jujutsu Randomizer characters are themed loadouts inspired by Jujutsu Kaisen — Gojo, Sukuna, Yuta, Hakari, Mahoraga, Kenjaku, and more. Each character theme pairs with specific skill pools, passive traits, and cosmetic sources.",
+      "why": "Why Compare Characters?",
       "whySteps": {
-        "step1Title": "Adapt Fast",
-        "step1Description": "Read your random kit and pick the right role each round",
-        "step2Title": "Build Combos",
-        "step2Description": "Chain control, burst, and domain skills for round-winning damage",
-        "step3Title": "Counter Opponents",
-        "step3Description": "Recognize threat skills and hold the right answer"
+        "step1Title": "Match Your Playstyle",
+        "step1Description": "Pick a character theme whose passive and skill pool fits aggressive, defensive, or counter play.",
+        "step2Title": "Plan Your Unlocks",
+        "step2Description": "See which characters are tied to eggs, sealed boxes, or milestones so you can target them.",
+        "step3Title": "Track Skins",
+        "step3Description": "Find which character themes come with exclusive skins and where to unlock them."
       },
       "featured": "Featured & Essential",
-      "all": "All Skill Guides"
+      "all": "All Characters"
     },
-    "codes": {
-      "title": "Jujutsu Randomizer Codes",
-      "description": "Active codes, redemption steps, requirements, and the expired code list for Jujutsu Randomizer.",
-      "metaTitle": "Jujutsu Randomizer Codes - Active & Expired List",
-      "metaDescription": "Redeem the latest Jujutsu Randomizer codes for Yen, follow the redemption steps, and check which codes have expired.",
-      "categoryLabel": "CODES & REWARDS",
-      "whatIs": "What are Codes?",
-      "whatIsDescription": "Jujutsu Randomizer codes give free Yen from the official Roblox description, Dope Interactive community channels, and update announcements.",
-      "why": "Why redeem codes?",
+    "abilities": {
+      "title": "Jujutsu Randomizer Abilities",
+      "description": "Every Jujutsu Randomizer ability and move — Limitless Unsealed, Black Hole, Hollow Nuke, Adapt — with effects, combos, and counters.",
+      "metaTitle": "Jujutsu Randomizer Abilities - Moves & Combos",
+      "metaDescription": "Learn every Jujutsu Randomizer ability including Limitless Unsealed, Black Hole, Hollow Nuke, and Adapt with effects, combos, and counters.",
+      "categoryLabel": "ABILITIES",
+      "whatIs": "What Are Abilities?",
+      "whatIsDescription": "Jujutsu Randomizer abilities are the random skills rolled each round — Limitless Unsealed, Black Hole, Hollow Nuke, Adapt, and more. They define your offense, defense, and domain tools for that match.",
+      "why": "Why Learn Abilities?",
       "whySteps": {
-        "step1Title": "Free Starter Yen",
-        "step1Description": "Claim active codes before grinding matches",
-        "step2Title": "Faster Cosmetics",
-        "step2Description": "Turn code Yen into skins, titles, and finishers",
-        "step3Title": "Stay Current",
-        "step3Description": "New update and milestone codes rotate in regularly"
+        "step1Title": "Build Strong Combos",
+        "step1Description": "Chain abilities like Hollow Nuke and Black Hole for burst damage and zone control.",
+        "step2Title": "Know Your Counters",
+        "step2Description": "Recognize which abilities counter yours so you can swap tactics mid-fight.",
+        "step3Title": "Adapt To Every Roll",
+        "step3Description": "Since skills randomize each round, knowing every ability keeps you effective no matter what you roll."
       },
       "featured": "Featured & Essential",
-      "all": "All Code Guides"
+      "all": "All Abilities"
+    },
+    "items": {
+      "title": "Jujutsu Randomizer Items",
+      "description": "Every Jujutsu Randomizer item — sealed box, Sukuna finger, cursed fingers, Zenin treasure, eggs — with locations, uses, and rewards.",
+      "metaTitle": "Jujutsu Randomizer Items - Locations & Uses",
+      "metaDescription": "Find every Jujutsu Randomizer item including sealed boxes, Sukuna fingers, cursed fingers, Zenin treasure, and eggs with locations and rewards.",
+      "categoryLabel": "ITEMS",
+      "whatIs": "What Are Items?",
+      "whatIsDescription": "Jujutsu Randomizer items are collectibles and consumables hidden across the map — sealed boxes, Sukuna fingers, cursed fingers, Zenin treasure, and eggs. Each one unlocks rewards, lore, or cosmetic upgrades.",
+      "why": "Why Collect Items?",
+      "whySteps": {
+        "step1Title": "Unlock Rewards",
+        "step1Description": "Open sealed boxes and treasure caches for Yen, skins, and rare upgrades.",
+        "step2Title": "Complete Collections",
+        "step2Description": "Gather cursed fingers and eggs to finish character-themed collection tracks.",
+        "step3Title": "Discover Secrets",
+        "step3Description": "Track down hidden eggs and Zenin treasure that most players walk straight past."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Items"
     },
     "skins": {
       "title": "Jujutsu Randomizer Skins",
-      "description": "Skin lists, prices, unlock conditions, and cosmetic collection tips for Jujutsu Randomizer.",
-      "metaTitle": "Jujutsu Randomizer Skins & Cosmetics Guide",
-      "metaDescription": "Browse Jujutsu Randomizer skins, prices, and unlock conditions, including the Panda skin and code-funded cosmetic routes.",
+      "description": "Every Jujutsu Randomizer skin — best skins, unlock conditions, and cosmetic sources for every character theme.",
+      "metaTitle": "Jujutsu Randomizer Skins - Unlock & Cosmetics",
+      "metaDescription": "Browse Jujutsu Randomizer skins, find the best skins, and learn the unlock conditions and sources for every cosmetic.",
       "categoryLabel": "SKINS & COSMETICS",
-      "whatIs": "What are Skins?",
-      "whatIsDescription": "Skins change your visible look in the lobby and arena. They are cosmetic only and do not change your random skills or combat power.",
-      "why": "Why collect skins?",
+      "whatIs": "What Are Skins?",
+      "whatIsDescription": "Jujutsu Randomizer skins are cosmetic overrides for your character theme — earned through Yen, codes, eggs, and milestone unlocks. They change your look without affecting skill rolls or stats.",
+      "why": "Why Collect Skins?",
       "whySteps": {
-        "step1Title": "Stand Out",
-        "step1Description": "Pick a recognizable look for the arena",
-        "step2Title": "Collection Goals",
-        "step2Description": "Use Yen to unlock character themes and starter skins",
-        "step3Title": "Show Progress",
-        "step3Description": "Display cosmetics that match your playtime"
+        "step1Title": "Stand Out In The Arena",
+        "step1Description": "Equip rare skins to look distinct during matches, finishers, and update events.",
+        "step2Title": "Spend Yen Wisely",
+        "step2Description": "Turn Yen from codes and wins into the best-value skins first.",
+        "step3Title": "Complete Your Theme",
+        "step3Description": "Pair skins with their matching character theme for a full cosmetic loadout."
       },
       "featured": "Featured & Essential",
-      "all": "All Skin Guides"
-    },
-    "updates": {
-      "title": "Jujutsu Randomizer Updates",
-      "description": "Latest updates, patch notes, new codes, and official links for Jujutsu Randomizer.",
-      "metaTitle": "Jujutsu Randomizer Updates & Patch Notes",
-      "metaDescription": "Track the latest Jujutsu Randomizer updates, patch notes, new codes, and official links including Trello, Discord, and the Roblox game page.",
-      "categoryLabel": "UPDATES & NEWS",
-      "whatIs": "What are Updates?",
-      "whatIsDescription": "Jujutsu Randomizer updates add new skills, skins, codes, and balance changes. Check the Roblox page, Discord, and Trello for the latest news.",
-      "why": "Why follow updates?",
-      "whySteps": {
-        "step1Title": "New Codes",
-        "step1Description": "Updates often ship with fresh Yen codes",
-        "step2Title": "Meta Shifts",
-        "step2Description": "Skill and balance changes move the tier list",
-        "step3Title": "Official Sources",
-        "step3Description": "Use the update reading order to stay accurate"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Update Guides"
-    },
-    "support": {
-      "title": "Jujutsu Randomizer Support",
-      "description": "Troubleshooting, code issues, platform help, and common questions for Jujutsu Randomizer players.",
-      "metaTitle": "Jujutsu Randomizer Support & Troubleshooting",
-      "metaDescription": "Get support for Jujutsu Randomizer including code redemption issues, platform help, Roblox compatibility, and common player questions.",
-      "categoryLabel": "SUPPORT & HELP",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering code redemption problems, platform compatibility, Roblox setup, and common issues players run into.",
-      "why": "Why check support?",
-      "whySteps": {
-        "step1Title": "Fix Code Issues",
-        "step1Description": "Resolve community, like, and spelling requirements",
-        "step2Title": "Platform Help",
-        "step2Description": "Run Jujutsu Randomizer smoothly on Roblox",
-        "step3Title": "Quick Answers",
-        "step3Description": "Skip confusion with clear, direct solutions"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "all": "All Skins"
     }
   }
 }

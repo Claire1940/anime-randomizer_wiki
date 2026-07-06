@@ -1,0 +1,223 @@
+import { Target, Shield, Swords, Sparkles, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Jujutsu Randomizer: Cómo hacer QTE — Consejos y trucos de timing",
+  description: "Aprende a hacer QTE en Jujutsu Randomizer con un timing limpio, configuración de entrada, errores comunes y ejercicios de práctica para reaccionar más rápido y pelear con más seguridad.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/2b1b4d/fff?text=QTE+Timing+Guide",
+  date: "2026-07-06",
+  author: "Equipo de la Wiki de Jujutsu Randomizer"
+}
+
+<Callout type="info" title="Guía rápida">
+- **El éxito en los QTE de Jujutsu Randomizer** viene de leer primero el indicador y luego pulsar una sola vez la entrada mostrada.
+- **Un timing limpio** vence al spam en pánico; mantén la cámara estable y reacciona en el primer fotograma claro.
+- **La mejor configuración** usa poco retraso de entrada, una vista centrada y un esquema de controles que ya domines.
+- **La ruta de práctica** empieza con indicadores simples y luego pasa a secuencias más rápidas y situaciones de presión.
+</Callout>
+
+<Section icon={Target} title="Jujutsu Randomizer QTE: qué significa">
+
+Jujutsu Randomizer está construido alrededor de un bucle de arena basado en habilidades aleatorias, así que un QTE suele ser una comprobación de entrada breve que recompensa reacciones rápidas y precisas en lugar de machacar botones sin control. La forma más segura de abordarlo es tratar cada indicador como una sola tarea: identificar el tipo de aviso, confirmar la tecla y completar la entrada con un movimiento limpio.
+
+La página oficial de la experiencia en Roblox presenta el juego alrededor de habilidades aleatorias, victorias por ronda, Yen, skins y títulos. Eso importa porque los QTE nunca deberían distraerte del objetivo principal: sobrevivir al intercambio, completar la acción y seguir listo para la siguiente pelea.
+
+**Nota sin video:** aquí no hay vídeos especialmente relevantes para incrustar, así que la guía se centra en consejos directos y fáciles de leer sobre el timing.
+
+| Tipo de indicador | Qué hacer | Error común | Mejor uso |
+|---|---|---|---|
+| Tecla única | Pulsa una vez la tecla mostrada | Machacar antes de que aparezca el indicador | Pruebas de reacción rápida |
+| Indicador de mantener | Mantén pulsada la tecla hasta que termine la barra | Soltar demasiado pronto | Ventanas de control más largas |
+| Secuencia | Pulsa las entradas en el orden mostrado | Saltarse el primer paso | Pruebas de habilidad con varias entradas |
+| Indicador de spam | Toca a un ritmo constante | Ir demasiado rápido y perder el ritmo | Momentos de recuperación en pánico |
+| Ventana de cancelación | Detén tu acción y reacciona | Comprometerte con una animación de ataque antigua | Momentos defensivos o de contraataque |
+
+<CardGrid cols={3}>
+  <Card title="Lee primero">
+    - **Mira el indicador**
+    - Confirma la tecla o dirección
+    - Reacciona una vez, no dos
+  </Card>
+  <Card title="Mantente centrado">
+    - **Mantén la cámara tranquila**
+    - Reduce el movimiento extra del ratón
+    - Deja la interfaz fácil de leer
+  </Card>
+  <Card title="Comprométete con limpieza">
+    - **Termina una acción**
+    - Evita las entradas mezcladas
+    - Reinicia después de cada éxito o fallo
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Regla de timing">
+Si solo recuerdas un hábito, que sea este: espera a que el indicador aparezca por completo y luego pulsa con calma y decisión. Las entradas en pánico demasiado tempranas son la causa más común de QTE fallados.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Mejor configuración para entradas más limpias">
+
+Una buena configuración no hace que los QTE sean automáticos, pero sí elimina retrasos evitables. Si la sensibilidad del ratón es demasiado alta, la cámara salta cuando aparece el indicador. Si el audio está desactivado, te pierdes la pista sonora. Si la pantalla está saturada, lees el combate en vez de la entrada.
+
+| Ajuste | Opción recomendada | Por qué ayuda |
+|---|---|---|
+| Sensibilidad de la cámara | Moderada, no extrema | Mantiene la vista estable durante indicadores rápidos |
+| Escala de la interfaz | Cómoda y legible | Hace que los iconos y teclas sean más fáciles de ver |
+| Audio | Activado, con efectos claros | Ayuda a notar pistas de presión y timing |
+| Framerate | Lo más estable posible | Reduce los tirones visuales durante las reacciones |
+| Estilo de entrada | Un método que ya domines | Evita la duda al cambiar de controles |
+
+<CardGrid cols={4}>
+  <Card title="Cámara">
+    - **Usa una vista centrada**
+    - Evita los giros bruscos
+    - Mantén el indicador a la vista
+  </Card>
+  <Card title="Audio">
+    - **Activa el sonido**
+    - Escucha las pistas de ataque
+    - Reacciona al ritmo, no al ruido
+  </Card>
+  <Card title="Controles">
+    - **Elige un solo esquema**
+    - Quédate con teclado o mando
+    - No cambies a mitad de sesión
+  </Card>
+  <Card title="Rendimiento">
+    - **Prioriza fotogramas estables**
+    - Cierra pestañas extra si hace falta
+    - Reduce primero las distracciones visuales
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Evita esto">
+No uses macros, herramientas turbo ni ninguna configuración que pulse por ti. Además de ser un mal hábito, también entrena la respuesta equivocada para combates reales, donde el timing y el juicio siguen importando.
+</Callout>
+
+| Dispositivo de entrada | Mejor uso | Nivel de riesgo | Notas |
+|---|---|---|---|
+| Teclado y ratón | Indicadores rápidos y precisos | Bajo | Lo mejor para la mayoría de jugadores |
+| Mando | Entradas rítmicas cómodas | Bajo | Va bien si ya lo usas con soltura |
+| Móvil | Toques y mantenidos simples | Medio | La posición de los dedos importa más |
+| Trackpad | Uso básico de menús | Alto | Suele ser la opción menos fiable |
+
+</Section>
+
+<Section icon={Swords} title="Cómo hacer QTE paso a paso">
+
+La forma más limpia de manejar un QTE es hacerlo aburrido. Quieres una rutina repetible que funcione bajo presión, incluso cuando la pelea se vuelve caótica. Eso significa identificar el indicador, confirmar el movimiento y ejecutarlo sin sobrepensar el resto del duelo.
+
+<Steps>
+  <Step num="1" title="Detén el ciclo de pánico">
+    En el momento en que aparezca un indicador, deja de intentar resolver toda la pelea. Céntrate solo en la entrada actual e ignora todo lo demás durante un segundo.
+  </Step>
+  <Step num="2" title="Lee la forma del indicador">
+    Comprueba si el juego quiere un toque, un mantener, una secuencia o una entrada repetida. La mayoría de los fallos ocurren porque el jugador adivina en vez de leer.
+  </Step>
+  <Step num="3" title="Ajusta tu mano al indicador">
+    Usa la mano, botón o dedo en el que más confíes. Si dominas mejor un esquema, quédate con él y crea memoria muscular alrededor de ese método.
+  </Step>
+  <Step num="4" title="Pulsa una sola vez y con limpieza">
+    Ejecuta la entrada con una acción deliberada. Rápido está bien, pero limpio es mejor cuando el juego solo da una ventana corta.
+  </Step>
+  <Step num="5" title="Reinicia al instante">
+    Tanto si aciertas como si fallas, reinicia tu postura, la cámara y la concentración. El siguiente indicador es más fácil cuando no sigues reaccionando al anterior.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Hábito fiable">
+Un jugador fuerte no persigue la perfección en cada indicador. La verdadera ventaja es la consistencia: el mismo ángulo de cámara, la misma elección de entrada y el mismo patrón de respuesta siempre.
+</Callout>
+
+| Situación | Mejor respuesta | Por qué funciona |
+|---|---|---|
+| El indicador aparece tras una animación de preparación de habilidad | Espera el indicador y pulsa una vez | Evita entradas prematuras |
+| La presión enemiga empieza a mitad del indicador | Mantén el indicador como prioridad mental | Evita fijarte solo en el daño |
+| La barra de mantener es corta | Mantén una presión constante, no toques frenéticos | Permite una ejecución más limpia |
+| La secuencia empieza muy rápido | Lee el primer icono antes de moverte | El primer paso marca el ritmo |
+| Fallas una vez | Reinicia y continúa | Evita que un error se encadene |
+
+</Section>
+
+<Section icon={Sparkles} title="Errores comunes en QTE y cómo corregirlos">
+
+La mayoría de los problemas con los QTE no son mecánicos. Son problemas de hábito. Los jugadores se apresuran, corrigen de más o siguen peleando contra la animación anterior en lugar de responder al nuevo indicador. La solución suele ser sencilla una vez nombras bien el error.
+
+<Callout type="warning" title="Trampa común">
+Si sigues fallando el mismo indicador, no culpes de inmediato a los reflejos. Revisa la cámara, la estabilidad de los fotogramas y si estás intentando introducir la entrada mientras sigues moviendo la vista.
+</Callout>
+
+| Error | Qué provoca | Solución simple |
+|---|---|---|
+| Machacar demasiado pronto | La entrada se consume antes de que abra la ventana | Espera un instante y luego pulsa |
+| Girar demasiado la cámara | El indicador sale del centro de la vista | Baja la sensibilidad y estabiliza el apuntado |
+| Cambiar de controles a mitad de partida | Duda y botones equivocados | Elige un solo esquema y manténlo |
+| Ignorar el tipo de indicador | Respuesta incorrecta para la ventana | Lee primero si es toque, mantener o secuencia |
+| Entrar en pánico tras un fallo | Más entradas falladas en la misma pelea | Reinicia la postura y vuelve a entrar con calma |
+
+<Checklist
+  id="qte-basics"
+  title="Lista de preparación para QTE"
+  items={[
+    "Mantén la cámara centrada antes de que empiece el combate",
+    "Usa un solo esquema de controles durante toda la sesión",
+    "Deja suficiente espacio en la interfaz para leer el indicador",
+    "Practica un tipo de indicador cada vez",
+    "Reinicia tras un fallo en vez de apresurar la siguiente entrada"
+  ]}
+/>
+
+Una forma útil de pensar en los QTE es la misma con la que piensas en las habilidades fuertes de combate en Jujutsu Randomizer: una reacción limpia importa más que la agresividad bruta. Habilidades como las contra, las ventanas cortas de invulnerabilidad y las herramientas de movilidad recompensan el timing, no el pánico. La misma regla se aplica al propio indicador.
+
+</Section>
+
+<Section icon={Trophy} title="Ruta de práctica, enlaces oficiales y FAQ">
+
+Usa una ruta de práctica corta en vez de intentar aprenderlo todo a la vez. Empieza con indicadores simples y luego pasa a ventanas más rápidas solo cuando tu primera reacción ya sea consistente. Así la curva de aprendizaje es honesta y evitas crear malos hábitos.
+
+<Callout type="info" title="Mejor orden de práctica">
+Aprende primero los indicadores de toque, luego los de mantener y después las secuencias. Cuando eso se sienta estable, practica bajo presión para que tu reacción siga limpia cuando la pelea se vuelva intensa.
+</Callout>
+
+| Ejercicio de práctica | Objetivo | Tiempo recomendado |
+|---|---|---|
+| Repetición de indicadores de toque | Crear reconocimiento instantáneo | 5 minutos |
+| Control de indicadores de mantener | Entrenar presión constante de entrada | 5 minutos |
+| Reconocimiento de secuencias | Mejorar la lectura del orden | 5 a 10 minutos |
+| Ejercicio de estabilidad de cámara | Reducir el ruido visual | 5 minutos |
+| Simulación de presión | Reaccionar mientras estás distraído | Series cortas entre partidas |
+
+| Recurso oficial | Por qué ayuda | Enlace |
+|---|---|---|
+| Página de la experiencia en Roblox | Confirma el bucle principal del juego y los detalles actuales de la página pública | [Jujutsu Randomizer en Roblox](https://www.roblox.com/games/95467791496576/Jujutsu-Randomizer) |
+| Comunidad de Dope Interactive | Útil para el acceso de creadores y los requisitos de la cuenta | [Comunidad de Dope Interactive](https://www.roblox.com/communities/579224321/Dope-Interactive) |
+| Invitación de Discord | Buena para el ritmo de actualizaciones y anuncios | [Discord de Jujutsu Randomizer](https://discord.com/invite/n6VZ5HM9cX) |
+| Tablero oficial de Trello | Útil para sistemas, referencias y contexto de actualizaciones | [Tablero oficial de Trello](https://trello.com/b/NadimwDh/jujutsu-randomizer-official-trello) |
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la forma más rápida de aprender cómo hacer QTE en Jujutsu Randomizer?",
+    answer: "Empieza con un solo tipo de indicador, mantén la cámara centrada y practica toques limpios antes de intentar entradas más rápidas o complejas."
+  },
+  {
+    question: "¿Necesito una configuración perfecta para hacer bien los QTE?",
+    answer: "No. Principalmente necesitas fotogramas estables, una interfaz legible y un esquema de controles que ya conozcas bien."
+  },
+  {
+    question: "¿Debería machacar el botón cuando vea un indicador?",
+    answer: "No por defecto. Un timing limpio es más seguro que machacar en pánico, salvo que el juego pida específicamente entradas repetidas."
+  },
+  {
+    question: "¿Qué debo hacer si fallo un indicador?",
+    answer: "Reinicia al instante, vuelve a centrar la cámara y céntrate en el siguiente indicador en vez de intentar recuperar el que fallaste."
+  }
+]} />
+
+</Section>

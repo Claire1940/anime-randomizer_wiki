@@ -1,0 +1,255 @@
+import { Map, Swords, Target, Shield, Trophy, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Jujutsu Randomizer: todas las habilidades, combos y contras",
+  description: "Explora todas las habilidades de Jujutsu Randomizer, los mejores roles de habilidad, rutas de combo, contras y prioridades para principiantes en partidas de arena de Roblox.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1f2937/fff?text=All+Abilities+Guide",
+  date: "2026-07-06",
+  author: "Equipo de Wiki de Jujutsu Randomizer"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Todas las habilidades de Jujutsu Randomizer** se dividen en herramientas de burst, movilidad, defensa y dominio, así que primero lee el kit por rol.
+- **Frame Punch, los aturdimientos y los intercambios** crean las ventanas de combo más limpias antes de que entre tu mayor daño.
+- **Los dominios** son más fuertes cuando la arena está abarrotada y los enemigos no pueden separarse con seguridad.
+- **Las habilidades de riesgo** como Black Hole y los ataques de sangre necesitan una comprobación de HP antes de comprometerte.
+- **El Yen temprano** debería gastarse en cosméticos solo después de saber qué tiradas encajan con tu estilo de juego.
+</Callout>
+
+<Section icon={Map} title="Todas las habilidades de Jujutsu Randomizer de un vistazo">
+
+Las habilidades de Jujutsu Randomizer son más fáciles de aprender cuando dejas de pensar en nombres de personajes y empiezas a pensar en roles de combate. El plantel actual se basa en daño explosivo, movilidad, control de masas, sostenimiento y remates de alto riesgo.
+
+Si quieres los puntos de referencia en vivo, ten estos marcados:
+[Official Roblox experience page](https://www.roblox.com/games/95467791496576/Jujutsu-Randomizer) y [Dope Interactive community hub](https://www.roblox.com/communities/579224321/Dope-Interactive).
+
+<Callout type="tip" title="Lee el kit por su función">
+Si un movimiento hace daño, pregúntate si también te desplaza, inmoviliza al enemigo o fuerza el espacio. Ese detalle decide la mayoría de las peleas.
+</Callout>
+
+<CardGrid cols={4}>
+  <Card title="Burst">
+    - **Mejor para:** Remates rápidos
+    - **Ejemplos:** Hollow Purple, Furnace, Angry Barrage
+    - **Objetivo:** Convertir una sola apertura en una eliminación completa
+  </Card>
+  <Card title="Movilidad">
+    - **Mejor para:** Reposicionarse
+    - **Ejemplos:** Aqua Burst, 24 FPS Dash, Surprise Attack
+    - **Objetivo:** Ganar el espacio antes de intercambiar daño
+  </Card>
+  <Card title="Defensa">
+    - **Mejor para:** Supervivencia
+    - **Ejemplos:** Simple Domain, Reverse Cursed Technique, Fast Reaction
+    - **Objetivo:** Reiniciar la pelea en tus propios términos
+  </Card>
+  <Card title="Riesgo">
+    - **Mejor para:** Momentos decisivos
+    - **Ejemplos:** Black Hole, Piercing Blood, Charged Piercing Blood
+    - **Objetivo:** Cambiar HP por un resultado más fuerte
+  </Card>
+</CardGrid>
+
+| Grupo de habilidad | Qué hace | Mejor caso de uso | Valoración |
+|---|---|---|---|
+| Daño explosivo | Inflige mucho daño rápidamente | Castigar congelaciones, contras y fallos | 5/5 |
+| Movilidad | Te ayuda a moverte o intercambiar posiciones | Perseguir, escapar y reiniciar el espacio | 5/5 |
+| Defensa | Reduce la presión o recupera vida | Sobrevivir a ventanas de burst y dominios | 4/5 |
+| Control de dominio | Bloquea el espacio o ralentiza grupos | Rondas abarrotadas y caos de equipo | 5/5 |
+| Habilidades de riesgo | Cambian HP por muchísimo valor | Presión de último golpe y jugadas decisivas | 4/5 |
+
+<Callout type="warning" title="No confundas daño con valor">
+Un movimiento puede pegar muy fuerte y aun así ser incómodo si tiene mucho tiempo de carga, poca seguridad o mal alcance. La utilidad importa.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Las mejores habilidades por rol de combate">
+
+Si quieres las mejores lecturas del pool actual de habilidades, céntrate en movimientos que o bien inicien peleas con seguridad o terminen la pelea antes de que el oponente pueda recuperarse. Las mejores opciones suelen combinar daño con control, movilidad o una ventana de castigo fuerte.
+
+<Callout type="info" title="Principio clave de habilidad">
+La habilidad más fuerte suele ser la que crea el siguiente golpe, no solo la que tiene el número más alto.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Mejores opciones de burst">
+    **Hollow Purple**, **Furnace** y **Angry Barrage** te dan la condición de victoria más limpia cuando el enemigo ya está atrapado.
+  </Card>
+  <Card title="Mejores opciones de control">
+    **Frame Punch**, **Boogie Woogie** y **Time Cell Moon Palace** hacen que tus ataques de seguimiento sean mucho más fáciles de conectar.
+  </Card>
+  <Card title="Mejores opciones de supervivencia">
+    **Simple Domain**, **Reverse Cursed Technique** y **Fast Reaction** evitan que las malas rondas se descontrolen.
+  </Card>
+</CardGrid>
+
+| Habilidad | Rol | Por qué destaca | Mejor valoración |
+|---|---|---|---|
+| Hollow Purple | Burst | Daño enorme, retroceso masivo, remate potente | S |
+| Furnace | Burst en área | Castiga a jugadores agrupados y a los que se lanzan | S |
+| Domain Expansion: Infinite Void | Control de dominio | Obliga a recibir daño y retroceso durante varios segundos | S |
+| Domain Expansion: Malevolent Shrine | Denegación de zona | Controla una zona enorme y castiga a grupos | S |
+| Time Cell Moon Palace | Bloqueo de dominio | Ventanas repetidas de inmovilización crean seguimientos gratis | S |
+| Frame Punch | Preparación | Congela al objetivo y abre tu combo más fuerte | A |
+| Angry Barrage | Presión cuerpo a cuerpo | Aturde mientras inflige daño constante | A |
+| Surprise Attack | Burst de movilidad | Presión estilo teletransporte con gran valor de persecución | A |
+| Instant Zap | Cerrador de distancia | Entrada rápida y herramienta limpia de remate | A |
+| Simple Domain | Defensa | Las ventanas de invulnerabilidad compran tiempo contra burst | A |
+| Reverse Cursed Technique | Curación | Restaura HP y estabiliza peleas largas | A |
+| Boogie Woogie | Utilidad de intercambio | Reposiciona enemigos hacia ángulos malos o peligros | A |
+| Black Hole | Remate decisivo | Pago enorme, pero solo cuando el HP ya está bajo | B+ |
+| Charged Piercing Blood | Daño de riesgo | Gran daño, pero cuesta HP salvo que lo potencien pasivas | B+ |
+| Piercing Blood | Daño de riesgo | Buena presión, pero el coste de HP importa en peleas largas | B |
+
+<Callout type="tip" title="Mejores prioridades para principiantes">
+Si te sale un aturdimiento seguro, una herramienta de movilidad y un movimiento de burst, ese kit normalmente rinde mejor que un equipamiento vistoso pero desorganizado.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Rutas básicas de combo y contras">
+
+La forma más fácil de ganar más rondas es construir cada combo alrededor de una sola pregunta: ¿qué mantiene al enemigo en su sitio el tiempo suficiente para que entre el remate? Por eso el aturdimiento, el intercambio y las habilidades de dominio importan tanto en este juego.
+
+<Callout type="warning" title="El espacio decide los intercambios">
+Si entras directamente en un movimiento de burst ya preparado, a menudo pierdes el intercambio antes incluso de que empiece tu propio ataque.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Abre con control">
+    Empieza con **Frame Punch**, una finta de **Fast Reaction** o una herramienta de posición como **Boogie Woogie**. Tu primer trabajo es crear una apertura estable.
+  </Step>
+  <Step num="2" title="Bloquea al objetivo">
+    Sigue la apertura con una cadena cuerpo a cuerpo o un cerrador de distancia corto como **Lucky Uppercut**, **Instant Zap** o **Surprise Attack**.
+  </Step>
+  <Step num="3" title="Gasta el burst">
+    Usa a continuación tu golpe más fuerte: **Hollow Purple**, **Furnace**, **Angry Barrage** o un dominio cuando haya varios enemigos cerca.
+  </Step>
+  <Step num="4" title="Reinicia o escapa">
+    Si el golpe no asegura la ronda, retrocede con **Aqua Burst**, **24 FPS Dash** o **Simple Domain** antes de que te castiguen.
+  </Step>
+</Steps>
+
+| Núcleo del combo | Cadena de ejemplo | Por qué funciona | Contra principal |
+|---|---|---|---|
+| Congelar y burst | Frame Punch → Hollow Purple | La congelación elimina el movimiento y te da un seguimiento limpio | Esquiva la apertura, no el remate |
+| Intercambio a área | Boogie Woogie → Furnace | Obliga al enemigo a una posición peor antes del impacto | Mantente lejos de los peligros |
+| Presión de teletransporte | Instant Zap → Lucky Uppercut | La entrada rápida dificulta la defensa de reacción | Guarda tu contra para la entrada |
+| Castigo a la multitud | Dominio → seguimiento de burst | Los dominios crean denegación de espacio y presión repetida | Sal de la zona de inmediato |
+| Clutch con HP bajo | Preparación de Black Hole | Convierte una situación perdida en un intento final de intercambio | Retrocede cuando el usuario esté claramente farmeando tu reacción |
+| Presión con coste propio | Cadena de Piercing Blood | Más daño a costa de supervivencia | Alarga la pelea y castiga la pérdida de HP |
+
+<Callout type="success" title="Jugar a contrarrestar gana partidas">
+No necesitas superar en daño a todas las tiradas. Evitar la mejor ventana del enemigo suele bastar para darle la vuelta a la ronda.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Prioridades para principiantes, Yen y decisiones de equipamiento">
+
+Para los jugadores nuevos, el camino más inteligente es sencillo: aprende primero las ventanas de daño y luego gasta Yen más adelante. El juego premia la adaptación, así que tu objetivo inicial no es una build perfecta. Tu meta es entender qué tipos de habilidad te permiten sobrevivir lo suficiente para usar las más fuertes.
+
+<Callout type="success" title="Regla de progreso temprano">
+Reserva tu mejor energía mental para aprender el movimiento, el espacio y el tiempo de los combos. El gasto en cosméticos puede esperar hasta que mejores tus lecturas.
+</Callout>
+
+<Checklist
+  id="beginner-priorities"
+  title="Objetivos de la primera sesión:"
+  items={[
+    "Identifica si tu tirada es de burst, movilidad, defensa o riesgo",
+    "Practica una apertura segura y una opción de escape segura",
+    "Aprende qué movimientos necesitan que el enemigo se quede quieto",
+    "Guarda los intercambios de HP de alto riesgo solo para rondas decisivas",
+    "Usa el Yen en cosméticos después de saber qué estilo quieres"
+  ]}
+/>
+
+| Prioridad | Qué hacer | Por qué importa |
+|---|---|---|
+| 1 | Aprende tu apertura | Toda buena ronda empieza con un primer golpe limpio |
+| 2 | Aprende tu escape | Sobrevivir a malos intercambios mantiene tu impulso |
+| 3 | Aprende tu remate | Los movimientos de burst importan más cuando el objetivo ya está bloqueado |
+| 4 | Aprende tus herramientas de riesgo | Las habilidades que cuestan HP son más fuertes cuando se usan con intención |
+| 5 | Aprende tu ruta de gasto | El Yen vale más cuando sabes lo que realmente quieres |
+
+<Callout type="info" title="Usa fuentes oficiales para comprobar en vivo">
+Para los detalles más recientes del juego, usa la [Roblox experience page](https://www.roblox.com/games/95467791496576/Jujutsu-Randomizer) y la [Dope Interactive community page](https://www.roblox.com/communities/579224321/Dope-Interactive). Son los lugares más fiables para verificar el estado actual y las actualizaciones.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Tabla de referencia de habilidades y emparejamientos prácticos">
+
+Esta sección es la capa de referencia rápida. Si necesitas decidir cómo se comporta una habilidad en una partida real, usa la tabla de abajo como atajo. Mantiene el plantel legible sin obligarte a memorizar cada número de una sola vez.
+
+<Callout type="tip" title="Mentalidad de emparejamiento">
+Hazte una pregunta antes de cada entrada: ¿mi movimiento actual supera su espacio, o estoy entrando en su mejor respuesta?
+</Callout>
+
+| Habilidad | Tipo | Mejor cuando | A tener en cuenta |
+|---|---|---|---|
+| Hollow Purple | Burst cargado | El enemigo está congelado o descuidado | Carga larga, disparos fallados |
+| Furnace | Burst en área | Los enemigos se agrupan | Mal posicionamiento, uso cebado |
+| Frame Punch | Preparación de control | Necesitas una ventana garantizada | El seguimiento debe llegar rápido |
+| Simple Domain | Defensa | Se acerca una presión de burst | Gastarlo demasiado pronto |
+| Reverse Cursed Technique | Curación | Puedes retirarte con seguridad | Que te persigan mientras te recuperas |
+| Fast Reaction | Contra | El enemigo es predecible | Cebo vacío para castigarte |
+| Aqua Burst | Daño con movilidad | Necesitas reposicionarte rápido | Caer en otro golpe |
+| 24 FPS Dash | Movilidad | Necesitas varias escapadas rápidas | Comprometer demasiado el dash final |
+| Boogie Woogie | Intercambio de posición | Puedes forzar un ángulo malo | Intercambiarte tú mismo hacia el peligro |
+| Black Hole | Riesgo decisivo | Ya estás bajo de vida y necesitas un intercambio | Activarlo demasiado pronto |
+| Piercing Blood | Daño de riesgo | Puedes permitirte el coste de HP | Peleas largas y poca vida |
+| Charged Piercing Blood | Daño de riesgo alto | El gran pago justifica el intercambio | Perder demasiado HP primero |
+| Time Cell Moon Palace | Bloqueo de dominio | Los objetivos están agrupados | Permitir que los enemigos salgan antes de tiempo |
+
+<Callout type="warning" title="El error más común">
+Los jugadores suelen gastar primero su movimiento más fuerte. En la práctica, la mejor secuencia para cerrar una ronda suele empezar con control y terminar con daño.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas frecuentes y enlaces oficiales">
+
+<Callout type="info" title="Preguntas frecuentes">
+Estas respuestas se basan en el plantel actual de habilidades y en las preguntas más útiles para principiantes.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la mejor forma de aprender todas las habilidades de Jujutsu Randomizer?",
+    answer: "Empieza por clasificar el plantel en habilidades de burst, movilidad, defensa, dominio y riesgo. Una vez que conozcas el rol, resulta más fácil ver la apertura y el seguimiento correctos."
+  },
+  {
+    question: "¿Qué habilidades son mejores para principiantes?",
+    answer: "Las opciones seguras incluyen Frame Punch, Simple Domain, Reverse Cursed Technique, Aqua Burst e Instant Zap. Te ayudan a sobrevivir mientras aprendes el ritmo."
+  },
+  {
+    question: "¿Los dominios son siempre la opción más fuerte?",
+    answer: "No siempre. Los dominios son poderosos en peleas abarrotadas, pero pueden perder valor si los enemigos tienen espacio para dispersarse o escapar rápido."
+  },
+  {
+    question: "¿Debería gastar Yen en cosméticos al principio?",
+    answer: "Solo después de entender cuáles son tus tipos de habilidad favoritos. El Yen temprano se aprovecha mejor cuando ya sabes si prefieres skins, títulos o remates."
+  }
+]} />
+
+| Fuente oficial | Caso de uso | Por qué revisarla |
+|---|---|---|
+| Roblox experience page | Estado en vivo del juego y descripción pública | El mejor lugar para información actual del lado del juego |
+| Dope Interactive community | Identidad del desarrollador y acceso al grupo | Útil antes de canjear o confirmar requisitos de cuenta |
+| Official Trello board | Referencia de habilidades y sistemas | Bueno para consultar habilidades de forma organizada |
+
+<Callout type="success" title="Idea final">
+La forma más fuerte de jugar no es memorizar cada número. Es reconocer rápido tu tirada actual, crear una apertura y gastar el movimiento correcto en el momento adecuado.
+</Callout>
+
+</Section>

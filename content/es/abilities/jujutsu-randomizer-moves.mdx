@@ -1,0 +1,209 @@
+import { Map, Swords, Target, Shield, Trophy, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Movimientos de Jujutsu Randomizer: mejores habilidades, combinaciones y consejos",
+  description: "Aprende cómo funcionan los movimientos de Jujutsu Randomizer, qué tipos de habilidades importan más y cómo encadenar combos rápidos, resistir la presión y gastar Yen con inteligencia.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/312e81/fff?text=Jujutsu+Randomizer+Moves",
+  date: "2026-07-06",
+  author: "Equipo de la Wiki de jujutsu randomizer"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Los movimientos de Jujutsu Randomizer** premian la lectura rápida, no los guiones memorizados, así que identifica tu kit antes de ir a por el daño.
+- **Aturdir y luego reventar** es el patrón más seguro para principiantes porque convierte las aperturas breves en presión fiable.
+- **La movilidad y los contraataques** importan tanto como el daño, sobre todo cuando la pelea empieza a cerrarse en corto alcance.
+- **Las Domains y las AOEs** son más fuertes en rondas con mucha gente, donde un buen lanzamiento puede cambiar el ritmo al instante.
+</Callout>
+
+<Section icon={Map} title="Movimientos de Jujutsu Randomizer: lee rápido tu tirada">
+
+Empieza cada ronda clasificando tus movimientos en tres funciones: daño, movimiento y control. Esa clasificación rápida te dice si debes entrar con todo, provocar o retirarte. En una arena de habilidades aleatorias, el jugador que entiende primero su kit suele controlar primero el ritmo.
+
+<Callout type="tip" title="Lee la tirada antes de golpear">
+Si un movimiento cambia la distancia, te salva o inmoviliza a un rival, trátalo como una preparación. Reserva tu golpe más fuerte para la primera apertura limpia.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Movimientos de ráfaga">
+    Ideales para rematar objetivos con poca vida, castigar congelaciones y convertir una sola apertura en un golpe que gana la ronda.
+  </Card>
+  <Card title="Movimientos de movilidad">
+    Ideales para perseguir, escapar y reiniciar peleas cuando el carril es malo o la situación se vuelve caótica.
+  </Card>
+  <Card title="Movimientos de control">
+    Ideales para aturdir, ralentizar, hacer retroceder y cualquier preparación que facilite conectar tu siguiente ataque.
+  </Card>
+</CardGrid>
+
+| Tipo de movimiento | Qué hace | Mejor uso | Error común |
+|---|---|---|---|
+| **Ráfaga** | Alto daño en una ventana corta | Rematar a un objetivo atrapado | Lanzarlo sin preparación al espacio abierto |
+| **Movilidad** | Reposicionamiento o cierre de distancia | Perseguir o escapar | Usarlo demasiado pronto y perder seguridad |
+| **Control** | Congelar, aturdir, ralentizar, empujar | Crear un seguimiento garantizado | Desperdiciarlo cuando el enemigo ya se movió |
+| **AOE** | Golpea a varios jugadores o una zona | Peleas multitudinarias | Forzarlo en un 1v1 sin presión |
+
+<Callout type="warning" title="La distancia importa">
+Un buen movimiento solo es bueno si el objetivo está a alcance, comprometido o ya ralentizado. Los kits aleatorios castigan duramente una mala colocación.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mejores patrones de movimiento y lógica de combos">
+
+Las combinaciones más fuertes suelen ser simples: fuerza una reacción y luego castiga esa reacción. No necesitas una cadena larga si tu primer movimiento ya roba el desplazamiento o el tiempo del oponente. Mantén la ruta corta, limpia y repetible.
+
+<Callout type="info" title="Regla básica de combos">
+Si un movimiento le quita el control al enemigo, tu siguiente movimiento debería añadir daño o bloquear su ruta de escape.
+</Callout>
+
+<CardGrid cols={4}>
+  <Card title="Aturdimiento + ráfaga">
+    Usa primero un movimiento de control y luego conecta tu golpe más fuerte mientras el rival no puede reaccionar.
+  </Card>
+  <Card title="Impulso + castigo">
+    Cierra distancia solo cuando sepas que el enemigo ya gastó su ventana de escape o contraataque.
+  </Card>
+  <Card title="AOE + presión">
+    Ideal cuando varios jugadores están agrupados o forzados a un carril estrecho.
+  </Card>
+  <Card title="Contraataque + remate">
+    Haz que pique un ataque predecible, resístelo o evítalo, y responde con un movimiento rápido de ejecución.
+  </Card>
+</CardGrid>
+
+| Patrón de combo | Mejor situación | Por qué funciona | Cuándo saltártelo |
+|---|---|---|---|
+| **Aturdir -> Ráfaga** | El enemigo se mueve con agresividad | Elimina el tiempo de reacción | El objetivo tiene invulnerabilidad o escape listo |
+| **Impulso -> Castigo cuerpo a cuerpo** | El enemigo falla un ataque de corto alcance | Convierte la distancia en daño | No puedes confirmar el ángulo del golpe |
+| **AOE -> Persecución** | Los jugadores están agrupados | Fuerza movimiento de pánico | Los rivales ya están dispersos |
+| **Contraataque -> Ráfaga** | El enemigo es predecible | Gana ventanas de intercambio | Tu contraataque está en enfriamiento |
+| **Reiniciar -> Reengage** | Tu kit es débil en el intercambio actual | Conserva la supervivencia | El enemigo ya está comprometido con un remate |
+
+<Callout type="success" title="Mejor hábito práctico">
+Los combos cortos superan a los vistosos. Si tu ruta conecta de forma consistente, es mejor que una secuencia más larga que solo funciona con un timing perfecto.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Plan de partida paso a paso para ganar más rápido">
+
+Usa los primeros 10 segundos de la ronda para aprender qué puede hacer realmente tu tirada. Una vez que lo sepas, podrás decidir si entrar a pelear, jugar con paciencia o buscar un castigo. El objetivo no es mostrar cada movimiento; es ganar la ronda con limpieza.
+
+<Callout type="success" title="Plan de ejecución">
+Sigue el mismo árbol de decisiones en cada ronda para desperdiciar menos tiempo y menos enfriamientos.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Clasifica el kit">
+    Identifica tu mejor herramienta de daño, tu opción de movilidad más segura y tu movimiento de control más fuerte antes de comprometerte en una pelea.
+  </Step>
+  <Step num="2" title="Haz el primer intercambio seguro">
+    Usa una apertura de bajo riesgo para probar la distancia. Si el oponente gasta movilidad pronto, tienes la ventaja.
+  </Step>
+  <Step num="3" title="Convierte la apertura">
+    Una vez que el objetivo queda controlado, gasta tu mayor movimiento de ráfaga. No guardes tu remate para un momento que nunca llega.
+  </Step>
+  <Step num="4" title="Reinicia o persigue">
+    Si no hay remate, reinicia con movilidad. Si el objetivo está débil, persíguelo solo cuando tu ruta siga siendo segura.
+  </Step>
+</Steps>
+
+| Fase de la partida | Lo que quieres | Buena elección de movimiento | Mal hábito |
+|---|---|---|---|
+| **Apertura** | Información | Poke seguro, prueba de movimiento | Lanzarte con todo |
+| **Mitad de la pelea** | Ventaja | Aturdimiento, empuje o cierre de distancia | Intercambiar sin plan |
+| **Remate** | Asegurar la baja | La habilidad de ráfaga más fuerte | Dudar después de la preparación |
+| **Recuperación** | Sobrevivir al contraataque | Impulso, contraataque o curación | Quedarte quieto con habilidades en enfriamiento |
+
+<Callout type="tip" title="Juega la ronda, no el montaje">
+Una victoria limpia suele venir de una sola preparación bien temporizada, no de seis movimientos distintos encadenados solo porque están disponibles.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Errores comunes, contraataques y progresión inteligente">
+
+La mayoría de los jugadores pierde porque gasta su movimiento más fuerte demasiado pronto o fuerza una pelea antes de que el enemigo se comprometa. Corrige esos dos hábitos y tu tasa de victoria suele mejorar más rápido que tu puntería bruta. El resto es distancia, paciencia y disciplina con los enfriamientos.
+
+<Callout type="warning" title="Evita estas trampas">
+No desperdicies tu mejor movimiento en un objetivo que simplemente puede caminar, impulsarse o contraatacar en el siguiente frame.
+</Callout>
+
+| Error | Por qué falla | Mejor opción |
+|---|---|---|
+| **Abrir con ráfaga** | El enemigo aún tiene movilidad | Usa control primero |
+| **Perseguir a ciegas** | Pierdes distancia y recibes daño de contraataque | Obliga al enemigo a girarse o detenerse |
+| **Guardar todo** | Muere con el kit completo | Usa una herramienta para crear la apertura |
+| **Ignorar el alcance** | Algunos movimientos requieren distancia corta, media o amplia | Adapta el movimiento al carril |
+| **Entrar en pánico bajo presión** | El pánico quema enfriamientos y posicionamiento | Reinicia, reposiciónate y vuelve a entrar |
+
+<Checklist
+  id="move-mastery"
+  title="Lista de práctica"
+  items={[
+    "¿Puedes nombrar tu mejor movimiento de daño en un segundo?",
+    "¿Puedes identificar tu herramienta de escape o reposicionamiento más segura?",
+    "¿Puedes conectar una preparación antes de usar tu ráfaga?",
+    "¿Dejas de perseguir cuando la distancia es mala?",
+    "¿Gastás Yen solo después de entender tu estilo de combate?"
+  ]}
+/>
+
+| Prioridad de progresión | En qué enfocarte | Por qué ayuda |
+|---|---|---|
+| **Primero** | Aprende tus categorías de movimiento | Decisiones más rápidas en cada ronda |
+| **Segundo** | Practica una ruta de combo fiable | Más consistencia bajo presión |
+| **Tercero** | Estudia la distancia y los enfriamientos | Menos aperturas desperdiciadas |
+| **Cuarto** | Gasta Yen después de dominar lo básico del combate | Progresión a largo plazo más limpia |
+
+<Callout type="info" title="Yen y combate">
+Trata el Yen como un sistema de apoyo para tu progreso, no como un atajo para saltarte el aprendizaje de los movimientos. Los cosméticos se disfrutan más cuando ya sabes cómo ganar.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ y recursos oficiales">
+
+Usa los enlaces oficiales de abajo cuando quieras los puntos de entrada más seguros para actualizaciones, acceso a la comunidad y comprobaciones de la página del juego. Luego usa la FAQ para aclarar las preguntas más comunes sobre movimientos sin complicar demasiado la guía.
+
+<Callout type="info" title="Recursos oficiales">
+Estos son los lugares más rápidos para verificar el acceso al juego y los puntos de entrada a la comunidad a fecha de 2026-07-06.
+</Callout>
+
+| Recurso | Fecha | Enlace | Mejor uso |
+|---|---|---|---|
+| **Página de la experiencia de Roblox** | 2026-07-06 | [Abrir la página oficial del juego](https://www.roblox.com/games/95467791496576/Jujutsu-Randomizer) | Comprobar la página en vivo y lanzar el juego |
+| **Página de la comunidad de Roblox** | 2026-07-06 | [Abrir la comunidad oficial](https://www.roblox.com/communities/579224321/Dope-Interactive) | Confirmar el grupo del desarrollador y las actualizaciones relacionadas |
+| **Invitación de Discord** | 2026-07-06 | [Abrir la invitación oficial de Discord](https://discord.com/invite/n6VZ5HM9cX) | Ver anuncios y avisos de la comunidad |
+
+<FAQ items={[
+  {
+    question: "¿Cuáles son los movimientos más importantes de Jujutsu Randomizer para principiantes?",
+    answer: "Empieza con un movimiento de control, uno de movilidad y uno de ráfaga. Eso te da una preparación sencilla, una salida segura y un remate fiable."
+  },
+  {
+    question: "¿Debería usar siempre primero mi movimiento más fuerte?",
+    answer: "No. La mayoría de las rondas son más fáciles cuando primero fuerzas el movimiento o la reacción del enemigo y luego gastas tu movimiento más fuerte cuando ya está inmovilizado."
+  },
+  {
+    question: "¿Cómo mejoro el timing de mis combos?",
+    answer: "Mantén tus rutas cortas. Practica una preparación hasta un remate hasta que se vuelva automática y luego añade una segunda opción solo si sigue siendo consistente."
+  },
+  {
+    question: "¿La elección del moveset en Jujutsu Randomizer importa más que la puntería pura?",
+    answer: "Ambas importan, pero la selección de movimientos suele ganar primero. Una buena distancia, un buen timing y una ruta de combo limpia suelen importar más que intentar superar a todos a clicks."
+  }
+]} />
+
+<Callout type="success" title="Conclusión final">
+Si aprendes a leer tu tirada, encadenar una preparación con un remate y reiniciar con limpieza, jugarás mejor incluso cuando el kit cambie en cada ronda.
+</Callout>
+
+</Section>

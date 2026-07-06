@@ -1,0 +1,206 @@
+import { Map, Swords, Target, Shield, Sparkles, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Jujutsu Randomizer Abilities: Best Skills, Combos & Counters",
+  description: "Learn the strongest Jujutsu Randomizer abilities, combo routes, counters, and survival rules to read any roll faster and win more rounds.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Ability+Guide",
+  date: "2026-07-06",
+  author: "jujutsu randomizer Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Jujutsu Randomizer abilities** are strongest when you read them by role, not by rarity.
+- **Frame Punch into burst** is the safest beginner pattern for turning one opening into a kill.
+- **Mobility and defense** often matter more than raw damage in crowded arena rounds.
+- **Domains and low-HP skills** need timing discipline, or they can backfire fast.
+</Callout>
+
+<Section icon={Map} title="Jujutsu Randomizer Abilities at a Glance">
+
+Jujutsu Randomizer abilities work best as a kit puzzle. One roll may give you a stun, another a dash, and a third a finish tool that only shines after setup. The fastest way to improve is to stop asking, “Is this skill strong?” and start asking, “What job does this skill do in the fight?”
+
+Use the first few seconds of every round to classify your kit into damage, mobility, control, defense, domain pressure, or risk. That habit helps you decide whether to rush, stall, disengage, or force a trade.
+
+<CardGrid cols={3}>
+  <Card title="Damage">
+    - **Burst first**
+    - Use after stun or knockback
+    - Best for punishing mistakes
+  </Card>
+  <Card title="Mobility">
+    - **Escape or chase**
+    - Reposition before committing
+    - Strong in chaotic lobbies
+  </Card>
+  <Card title="Control">
+    - **Freeze, stun, swap**
+    - Create the opening
+    - Makes burst skills reliable
+  </Card>
+</CardGrid>
+
+| Role | What It Does | Best Use | Main Risk |
+|---|---|---|---|
+| Burst damage | High damage in one hit or short chain | Finish stunned targets | Whiffing into cooldown punish |
+| Mobility | Dash, teleport, swap, or launch | Escape pressure or secure angles | Overextending into a bad trade |
+| Control | Freeze, stun, slow, or lock position | Set up your biggest skill | Burning it too early |
+| Defense | Invuln, healing, counters | Survive burst windows | Panic use with no follow-up |
+| Domain | Area pressure and crowd control | Group fights and space denial | Wasting it on one fleeing target |
+| Risk skill | High reward with HP or condition cost | Last-hit plays and clutch trades | Killing yourself before the payoff |
+
+<Callout type="tip" title="Read the roll, then fight">
+If your kit has one control tool, one mobility tool, and one finisher, you already have a functional round plan.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Best Ability Types for Damage and Control">
+
+The strongest damage skills in this game usually fall into two buckets: direct burst and control into burst. If a skill hits hard but gives the opponent time to react, it is not as reliable as a smaller move that creates a guaranteed follow-up.
+
+The safest way to build pressure is to pair a setup skill with a finisher. That is why stun-and-burst routes win so many fights. The game rewards players who convert small openings into full sequences instead of fishing for one giant swing every time.
+
+| Skill | Category | Why It Matters | Best Combo Use |
+|---|---|---|---|
+| Frame Punch | Control setup | Freezes the target briefly and buys time | Open into any heavy burst |
+| Hollow Purple | Burst damage | Massive hit and strong knockback | Use after stun, swap, or whiff punish |
+| Angry Barrage | Melee combo | Stuns while dealing sustained damage | Best after Frame Punch or a dash-in |
+| Dismantle | Slash burst | Fast damage with space reset | Great when an enemy commits too close |
+| Furnace | Area burst | Good crowd damage and pushback | Punish grouped players or chasers |
+| Lucky Uppercut | Fast punish | Simple, quick, and easy to land | Use as a low-risk finisher |
+
+<CardGrid cols={3}>
+  <Card title="Best Starter">
+    **Frame Punch**
+    <br />
+    Creates the cleanest window for a follow-up.
+  </Card>
+  <Card title="Best Finisher">
+    **Hollow Purple**
+    <br />
+    Strong payoff after any stun or forced movement.
+  </Card>
+  <Card title="Best Crowd Tool">
+    **Furnace**
+    <br />
+    Better when enemies are stacked or distracted.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Damage Rule">
+A good combo does not need to be long. It needs to be guaranteed, fast, and hard to escape.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="How to Read a Roll in 30 Seconds">
+
+A strong player does not memorize every skill in the game. Instead, they identify the roll quickly and play the round around that roll. The goal is simple: learn your kit before you start swinging.
+
+<Steps>
+  <Step num="1" title="Find your opener">
+    Look for the first skill that creates momentum. That may be a stun, a dash, a teleport, or a pull.
+  </Step>
+  <Step num="2" title="Find your closer">
+    Identify the move that actually converts the opening into damage. This is often a burst, slash, or punch string.
+  </Step>
+  <Step num="3" title="Find your escape">
+    Check whether you have a dash, swap, heal, or invulnerability tool. If you do, you can play more aggressively.
+  </Step>
+  <Step num="4" title="Decide your fight range">
+    Some rolls want close range, others want mid range, and a few only shine inside a domain or crowded cluster.
+  </Step>
+</Steps>
+
+| Roll Pattern | What It Usually Means | Best Decision |
+|---|---|---|
+| Control + burst | Strong duel kit | Force one-on-one trades |
+| Mobility + damage | Chase kit | Pressure low HP targets |
+| Defense + burst | Counter kit | Bait attacks first |
+| Domain + control | Teamfight kit | Wait for grouped enemies |
+| Self-cost + damage | Risk kit | Only use when the trade is worth it |
+
+<Callout type="warning" title="Do Not Tunnel">
+A flashy skill does not always mean an easy win. If your opener misses, reset the fight instead of donating cooldowns.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Risk Skills, Domains, and Counterplay">
+
+Risk skills are the most exciting part of Jujutsu Randomizer abilities, but they punish impatience. Some tools consume HP, some depend on a low-health condition, and some become much stronger only when the arena is crowded. That means the correct play is usually restraint, not panic.
+
+Domains follow the same rule. They look strongest when they catch multiple players in a tight space. If the target can simply leave, you lose much of the value. Use domain pressure to control the map, not to chase one opponent across the arena.
+
+<Checklist
+  id="ability-safety"
+  title="Before You Commit to a Risk Skill"
+  items={[
+    "Check your HP before using any self-cost move",
+    "Make sure the enemy cannot easily walk out of the danger zone",
+    "Save your counter or mobility tool for the retaliation window",
+    "Use domains when enemies are grouped or boxed in",
+    "Do not spend your escape tool just to chase one target"
+  ]}
+/>
+
+| Skill | Risk | Safe Use | Best Counter |
+|---|---|---|---|
+| Simple Domain | Defensive, but timing-based | Use to survive burst windows | Wait it out, then re-engage |
+| Reverse Cursed Technique | Heal with limited tempo gain | Reset after a bad trade | Keep pressure on the user |
+| Boogie Woogie | Position swap can misfire | Use near hazards or grouped enemies | Stay spaced and avoid clustering |
+| Black Hole | Low-HP condition and self-sacrifice | Last-resort trade or clutch finish | Back away when the user is low |
+| Charged Piercing Blood | Costs HP | Use only when the damage trade matters | Force long fights and punish the cost |
+| Piercing Blood | Small HP cost | Good chip when you can afford it | Extend the fight and drain resources |
+
+<Callout type="info" title="Domain Mindset">
+A domain is not just damage. It is space control, panic creation, and route denial.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Ability Cheat Sheet for Better Match Wins">
+
+The best ability decisions are usually boring. You win more rounds by choosing the right fight shape than by trying to force the prettiest combo. If your roll has a control tool, lead with it. If it has a dash, use it to secure spacing. If it has a self-cost move, wait until the payoff is obvious.
+
+This simple priority system keeps you from wasting strong skills in the wrong situation. It also helps you survive when the lobby is full of unpredictable players and overlapping pressure.
+
+| Situation | Best Ability Type | Why It Works |
+|---|---|---|
+| Enemy is rushing | Control or knockback | Stops the approach and creates space |
+| Enemy is low HP | Fast burst or teleport | Ends the fight before they reset |
+| You are surrounded | AoE or domain | Hits multiple targets at once |
+| You need to escape | Dash, swap, or heal | Buys time and resets tempo |
+| You have a stun | Heavy burst finisher | Converts setup into reliable damage |
+
+<Callout type="success" title="Best Practice">
+Use one setup skill, one damage skill, and one escape plan. That structure fits most random rolls.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "What are the best Jujutsu Randomizer abilities for beginners?",
+    answer: "Start with reliable control and simple burst. Frame Punch, Lucky Uppercut, Dismantle, and similar easy-to-read skills are much safer than low-HP finishers."
+  },
+  {
+    question: "Which ability type wins the most fights?",
+    answer: "Control into burst is the most dependable pattern. A stun, freeze, or swap gives you the opening you need to land your strongest move."
+  },
+  {
+    question: "When should I use a domain?",
+    answer: "Use a domain when enemies are grouped, trapped, or already committed to a fight. Domains lose value if the target can run away immediately."
+  },
+  {
+    question: "Are risky skills like Black Hole worth using?",
+    answer: "Yes, but only when the trade is clear. Risk skills are strongest as clutch finishers, not as panic buttons you press on cooldown."
+  }
+]} />
+
+</Section>

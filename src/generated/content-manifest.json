@@ -1,1 +1,524 @@
-{}
+{
+  "en": {
+    "abilities": [
+      {
+        "slug": "jujutsu-randomizer-abilities",
+        "file": "jujutsu-randomizer-abilities"
+      },
+      {
+        "slug": "jujutsu-randomizer-adapt",
+        "file": "jujutsu-randomizer-adapt"
+      },
+      {
+        "slug": "jujutsu-randomizer-all-abilities",
+        "file": "jujutsu-randomizer-all-abilities"
+      },
+      {
+        "slug": "jujutsu-randomizer-all-moves",
+        "file": "jujutsu-randomizer-all-moves"
+      },
+      {
+        "slug": "jujutsu-randomizer-black-hole",
+        "file": "jujutsu-randomizer-black-hole"
+      },
+      {
+        "slug": "jujutsu-randomizer-hollow-nuke",
+        "file": "jujutsu-randomizer-hollow-nuke"
+      },
+      {
+        "slug": "jujutsu-randomizer-limitless-unsealed",
+        "file": "jujutsu-randomizer-limitless-unsealed"
+      },
+      {
+        "slug": "jujutsu-randomizer-moves",
+        "file": "jujutsu-randomizer-moves"
+      }
+    ],
+    "characters": [
+      {
+        "slug": "jujutsu-randomizer-best-character",
+        "file": "jujutsu-randomizer-best-character"
+      },
+      {
+        "slug": "jujutsu-randomizer-gojo-v2",
+        "file": "jujutsu-randomizer-gojo-v2"
+      },
+      {
+        "slug": "jujutsu-randomizer-gojo",
+        "file": "jujutsu-randomizer-gojo"
+      },
+      {
+        "slug": "jujutsu-randomizer-hakari",
+        "file": "jujutsu-randomizer-hakari"
+      },
+      {
+        "slug": "jujutsu-randomizer-higuruma",
+        "file": "jujutsu-randomizer-higuruma"
+      },
+      {
+        "slug": "jujutsu-randomizer-kenjaku",
+        "file": "jujutsu-randomizer-kenjaku"
+      },
+      {
+        "slug": "jujutsu-randomizer-kusakabe",
+        "file": "jujutsu-randomizer-kusakabe"
+      },
+      {
+        "slug": "jujutsu-randomizer-mahito-v2",
+        "file": "jujutsu-randomizer-mahito-v2"
+      },
+      {
+        "slug": "jujutsu-randomizer-mahoraga",
+        "file": "jujutsu-randomizer-mahoraga"
+      },
+      {
+        "slug": "jujutsu-randomizer-megumi-v2",
+        "file": "jujutsu-randomizer-megumi-v2"
+      },
+      {
+        "slug": "jujutsu-randomizer-ryu-v2",
+        "file": "jujutsu-randomizer-ryu-v2"
+      },
+      {
+        "slug": "jujutsu-randomizer-sukuna-v2",
+        "file": "jujutsu-randomizer-sukuna-v2"
+      },
+      {
+        "slug": "jujutsu-randomizer-takaba",
+        "file": "jujutsu-randomizer-takaba"
+      },
+      {
+        "slug": "jujutsu-randomizer-uraume",
+        "file": "jujutsu-randomizer-uraume"
+      },
+      {
+        "slug": "jujutsu-randomizer-yuta",
+        "file": "jujutsu-randomizer-yuta"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "jujutsu-randomizer-codes",
+        "file": "jujutsu-randomizer-codes"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "jujutsu-randomizer-how-to-do-qte",
+        "file": "jujutsu-randomizer-how-to-do-qte"
+      },
+      {
+        "slug": "jujutsu-randomizer-how-to-get-egg-guy",
+        "file": "jujutsu-randomizer-how-to-get-egg-guy"
+      },
+      {
+        "slug": "jujutsu-randomizer-how-to-get-egg",
+        "file": "jujutsu-randomizer-how-to-get-egg"
+      },
+      {
+        "slug": "jujutsu-randomizer-how-to-get-sealed-box",
+        "file": "jujutsu-randomizer-how-to-get-sealed-box"
+      },
+      {
+        "slug": "jujutsu-randomizer-how-to-get-singer-boy",
+        "file": "jujutsu-randomizer-how-to-get-singer-boy"
+      },
+      {
+        "slug": "jujutsu-randomizer-how-to-use-codes",
+        "file": "jujutsu-randomizer-how-to-use-codes"
+      },
+      {
+        "slug": "jujutsu-randomizer-how-to-use-deadly-sentencing",
+        "file": "jujutsu-randomizer-how-to-use-deadly-sentencing"
+      },
+      {
+        "slug": "jujutsu-randomizer-map-name",
+        "file": "jujutsu-randomizer-map-name"
+      }
+    ],
+    "items": [
+      {
+        "slug": "jujutsu-randomizer-cursed-fingers",
+        "file": "jujutsu-randomizer-cursed-fingers"
+      },
+      {
+        "slug": "jujutsu-randomizer-egg-location",
+        "file": "jujutsu-randomizer-egg-location"
+      },
+      {
+        "slug": "jujutsu-randomizer-hidden-egg",
+        "file": "jujutsu-randomizer-hidden-egg"
+      },
+      {
+        "slug": "jujutsu-randomizer-sealed-box",
+        "file": "jujutsu-randomizer-sealed-box"
+      },
+      {
+        "slug": "jujutsu-randomizer-sukuna-finger",
+        "file": "jujutsu-randomizer-sukuna-finger"
+      },
+      {
+        "slug": "jujutsu-randomizer-zenin-treasure",
+        "file": "jujutsu-randomizer-zenin-treasure"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "jujutsu-randomizer-best-skin",
+        "file": "jujutsu-randomizer-best-skin"
+      },
+      {
+        "slug": "jujutsu-randomizer-skins",
+        "file": "jujutsu-randomizer-skins"
+      }
+    ]
+  },
+  "es": {
+    "abilities": [
+      {
+        "slug": "jujutsu-randomizer-abilities",
+        "file": "jujutsu-randomizer-abilities"
+      },
+      {
+        "slug": "jujutsu-randomizer-adapt",
+        "file": "jujutsu-randomizer-adapt"
+      },
+      {
+        "slug": "jujutsu-randomizer-all-abilities",
+        "file": "jujutsu-randomizer-all-abilities"
+      },
+      {
+        "slug": "jujutsu-randomizer-all-moves",
+        "file": "jujutsu-randomizer-all-moves"
+      },
+      {
+        "slug": "jujutsu-randomizer-black-hole",
+        "file": "jujutsu-randomizer-black-hole"
+      },
+      {
+        "slug": "jujutsu-randomizer-hollow-nuke",
+        "file": "jujutsu-randomizer-hollow-nuke"
+      },
+      {
+        "slug": "jujutsu-randomizer-limitless-unsealed",
+        "file": "jujutsu-randomizer-limitless-unsealed"
+      },
+      {
+        "slug": "jujutsu-randomizer-moves",
+        "file": "jujutsu-randomizer-moves"
+      }
+    ],
+    "characters": [
+      {
+        "slug": "jujutsu-randomizer-best-character",
+        "file": "jujutsu-randomizer-best-character"
+      },
+      {
+        "slug": "jujutsu-randomizer-gojo-v2",
+        "file": "jujutsu-randomizer-gojo-v2"
+      },
+      {
+        "slug": "jujutsu-randomizer-gojo",
+        "file": "jujutsu-randomizer-gojo"
+      },
+      {
+        "slug": "jujutsu-randomizer-hakari",
+        "file": "jujutsu-randomizer-hakari"
+      },
+      {
+        "slug": "jujutsu-randomizer-higuruma",
+        "file": "jujutsu-randomizer-higuruma"
+      },
+      {
+        "slug": "jujutsu-randomizer-kenjaku",
+        "file": "jujutsu-randomizer-kenjaku"
+      },
+      {
+        "slug": "jujutsu-randomizer-kusakabe",
+        "file": "jujutsu-randomizer-kusakabe"
+      },
+      {
+        "slug": "jujutsu-randomizer-mahito-v2",
+        "file": "jujutsu-randomizer-mahito-v2"
+      },
+      {
+        "slug": "jujutsu-randomizer-mahoraga",
+        "file": "jujutsu-randomizer-mahoraga"
+      },
+      {
+        "slug": "jujutsu-randomizer-megumi-v2",
+        "file": "jujutsu-randomizer-megumi-v2"
+      },
+      {
+        "slug": "jujutsu-randomizer-ryu-v2",
+        "file": "jujutsu-randomizer-ryu-v2"
+      },
+      {
+        "slug": "jujutsu-randomizer-sukuna-v2",
+        "file": "jujutsu-randomizer-sukuna-v2"
+      },
+      {
+        "slug": "jujutsu-randomizer-takaba",
+        "file": "jujutsu-randomizer-takaba"
+      },
+      {
+        "slug": "jujutsu-randomizer-uraume",
+        "file": "jujutsu-randomizer-uraume"
+      },
+      {
+        "slug": "jujutsu-randomizer-yuta",
+        "file": "jujutsu-randomizer-yuta"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "jujutsu-randomizer-codes",
+        "file": "jujutsu-randomizer-codes"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "jujutsu-randomizer-how-to-do-qte",
+        "file": "jujutsu-randomizer-how-to-do-qte"
+      },
+      {
+        "slug": "jujutsu-randomizer-how-to-get-egg-guy",
+        "file": "jujutsu-randomizer-how-to-get-egg-guy"
+      },
+      {
+        "slug": "jujutsu-randomizer-how-to-get-egg",
+        "file": "jujutsu-randomizer-how-to-get-egg"
+      },
+      {
+        "slug": "jujutsu-randomizer-how-to-get-sealed-box",
+        "file": "jujutsu-randomizer-how-to-get-sealed-box"
+      },
+      {
+        "slug": "jujutsu-randomizer-how-to-get-singer-boy",
+        "file": "jujutsu-randomizer-how-to-get-singer-boy"
+      },
+      {
+        "slug": "jujutsu-randomizer-how-to-use-codes",
+        "file": "jujutsu-randomizer-how-to-use-codes"
+      },
+      {
+        "slug": "jujutsu-randomizer-how-to-use-deadly-sentencing",
+        "file": "jujutsu-randomizer-how-to-use-deadly-sentencing"
+      },
+      {
+        "slug": "jujutsu-randomizer-map-name",
+        "file": "jujutsu-randomizer-map-name"
+      }
+    ],
+    "items": [
+      {
+        "slug": "jujutsu-randomizer-cursed-fingers",
+        "file": "jujutsu-randomizer-cursed-fingers"
+      },
+      {
+        "slug": "jujutsu-randomizer-egg-location",
+        "file": "jujutsu-randomizer-egg-location"
+      },
+      {
+        "slug": "jujutsu-randomizer-hidden-egg",
+        "file": "jujutsu-randomizer-hidden-egg"
+      },
+      {
+        "slug": "jujutsu-randomizer-sealed-box",
+        "file": "jujutsu-randomizer-sealed-box"
+      },
+      {
+        "slug": "jujutsu-randomizer-sukuna-finger",
+        "file": "jujutsu-randomizer-sukuna-finger"
+      },
+      {
+        "slug": "jujutsu-randomizer-zenin-treasure",
+        "file": "jujutsu-randomizer-zenin-treasure"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "jujutsu-randomizer-best-skin",
+        "file": "jujutsu-randomizer-best-skin"
+      },
+      {
+        "slug": "jujutsu-randomizer-skins",
+        "file": "jujutsu-randomizer-skins"
+      }
+    ]
+  },
+  "pt": {
+    "abilities": [
+      {
+        "slug": "jujutsu-randomizer-abilities",
+        "file": "jujutsu-randomizer-abilities"
+      },
+      {
+        "slug": "jujutsu-randomizer-adapt",
+        "file": "jujutsu-randomizer-adapt"
+      },
+      {
+        "slug": "jujutsu-randomizer-all-abilities",
+        "file": "jujutsu-randomizer-all-abilities"
+      },
+      {
+        "slug": "jujutsu-randomizer-all-moves",
+        "file": "jujutsu-randomizer-all-moves"
+      },
+      {
+        "slug": "jujutsu-randomizer-black-hole",
+        "file": "jujutsu-randomizer-black-hole"
+      },
+      {
+        "slug": "jujutsu-randomizer-hollow-nuke",
+        "file": "jujutsu-randomizer-hollow-nuke"
+      },
+      {
+        "slug": "jujutsu-randomizer-limitless-unsealed",
+        "file": "jujutsu-randomizer-limitless-unsealed"
+      },
+      {
+        "slug": "jujutsu-randomizer-moves",
+        "file": "jujutsu-randomizer-moves"
+      }
+    ],
+    "characters": [
+      {
+        "slug": "jujutsu-randomizer-best-character",
+        "file": "jujutsu-randomizer-best-character"
+      },
+      {
+        "slug": "jujutsu-randomizer-gojo-v2",
+        "file": "jujutsu-randomizer-gojo-v2"
+      },
+      {
+        "slug": "jujutsu-randomizer-gojo",
+        "file": "jujutsu-randomizer-gojo"
+      },
+      {
+        "slug": "jujutsu-randomizer-hakari",
+        "file": "jujutsu-randomizer-hakari"
+      },
+      {
+        "slug": "jujutsu-randomizer-higuruma",
+        "file": "jujutsu-randomizer-higuruma"
+      },
+      {
+        "slug": "jujutsu-randomizer-kenjaku",
+        "file": "jujutsu-randomizer-kenjaku"
+      },
+      {
+        "slug": "jujutsu-randomizer-kusakabe",
+        "file": "jujutsu-randomizer-kusakabe"
+      },
+      {
+        "slug": "jujutsu-randomizer-mahito-v2",
+        "file": "jujutsu-randomizer-mahito-v2"
+      },
+      {
+        "slug": "jujutsu-randomizer-mahoraga",
+        "file": "jujutsu-randomizer-mahoraga"
+      },
+      {
+        "slug": "jujutsu-randomizer-megumi-v2",
+        "file": "jujutsu-randomizer-megumi-v2"
+      },
+      {
+        "slug": "jujutsu-randomizer-ryu-v2",
+        "file": "jujutsu-randomizer-ryu-v2"
+      },
+      {
+        "slug": "jujutsu-randomizer-sukuna-v2",
+        "file": "jujutsu-randomizer-sukuna-v2"
+      },
+      {
+        "slug": "jujutsu-randomizer-takaba",
+        "file": "jujutsu-randomizer-takaba"
+      },
+      {
+        "slug": "jujutsu-randomizer-uraume",
+        "file": "jujutsu-randomizer-uraume"
+      },
+      {
+        "slug": "jujutsu-randomizer-yuta",
+        "file": "jujutsu-randomizer-yuta"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "jujutsu-randomizer-codes",
+        "file": "jujutsu-randomizer-codes"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "jujutsu-randomizer-how-to-do-qte",
+        "file": "jujutsu-randomizer-how-to-do-qte"
+      },
+      {
+        "slug": "jujutsu-randomizer-how-to-get-egg-guy",
+        "file": "jujutsu-randomizer-how-to-get-egg-guy"
+      },
+      {
+        "slug": "jujutsu-randomizer-how-to-get-egg",
+        "file": "jujutsu-randomizer-how-to-get-egg"
+      },
+      {
+        "slug": "jujutsu-randomizer-how-to-get-sealed-box",
+        "file": "jujutsu-randomizer-how-to-get-sealed-box"
+      },
+      {
+        "slug": "jujutsu-randomizer-how-to-get-singer-boy",
+        "file": "jujutsu-randomizer-how-to-get-singer-boy"
+      },
+      {
+        "slug": "jujutsu-randomizer-how-to-use-codes",
+        "file": "jujutsu-randomizer-how-to-use-codes"
+      },
+      {
+        "slug": "jujutsu-randomizer-how-to-use-deadly-sentencing",
+        "file": "jujutsu-randomizer-how-to-use-deadly-sentencing"
+      },
+      {
+        "slug": "jujutsu-randomizer-map-name",
+        "file": "jujutsu-randomizer-map-name"
+      }
+    ],
+    "items": [
+      {
+        "slug": "jujutsu-randomizer-cursed-fingers",
+        "file": "jujutsu-randomizer-cursed-fingers"
+      },
+      {
+        "slug": "jujutsu-randomizer-egg-location",
+        "file": "jujutsu-randomizer-egg-location"
+      },
+      {
+        "slug": "jujutsu-randomizer-hidden-egg",
+        "file": "jujutsu-randomizer-hidden-egg"
+      },
+      {
+        "slug": "jujutsu-randomizer-sealed-box",
+        "file": "jujutsu-randomizer-sealed-box"
+      },
+      {
+        "slug": "jujutsu-randomizer-sukuna-finger",
+        "file": "jujutsu-randomizer-sukuna-finger"
+      },
+      {
+        "slug": "jujutsu-randomizer-zenin-treasure",
+        "file": "jujutsu-randomizer-zenin-treasure"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "jujutsu-randomizer-best-skin",
+        "file": "jujutsu-randomizer-best-skin"
+      },
+      {
+        "slug": "jujutsu-randomizer-skins",
+        "file": "jujutsu-randomizer-skins"
+      }
+    ]
+  }
+}

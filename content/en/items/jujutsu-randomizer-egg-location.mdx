@@ -1,0 +1,247 @@
+import { Map, Target, Shield, Sparkles, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "jujutsu randomizer egg location: Where to Check First",
+  description: "Find the best current places to check for the Jujutsu Randomizer egg, confirm event signals, and avoid dead-end searches.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e1b4b/fff?text=Egg+Location+Guide",
+  date: "2026-07-06",
+  author: "jujutsu randomizer Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Jujutsu Randomizer egg location** searches should start with live update sources, not old community guesses.
+- **Check the Roblox page first** for banners, update notes, and active event references.
+- **Use Discord and Trello next** when the item can move with patches or limited-time events.
+- **Treat expired egg references carefully** because old codes and old routes can mislead you.
+</Callout>
+
+<Section icon={Map} title="Jujutsu Randomizer Egg Location Overview">
+
+Start with the live game surface, then move outward. For this topic, the safest approach is to verify whether an egg hunt is even active before you spend time running random routes. The current snapshot shows the game page, community page, Discord invite, and Trello as the most useful checks.
+
+If you want a fast answer, do not rely on old screenshots or recycled comments. A location claim only matters when it lines up with the current Roblox page or one of the official channels.
+
+**Best starting points:**
+
+<CardGrid cols={3}>
+  <Card title="Roblox Game Page">
+    - **Live description**
+    - Active code banner
+    - Main launch point
+  </Card>
+  <Card title="Discord Invite">
+    - **Update alerts**
+    - Patch timing
+    - Community notices
+  </Card>
+  <Card title="Official Trello">
+    - **Reference board**
+    - System lookup
+    - Character and item notes
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Focus on verified signals">
+Only treat a spot as real if the current game page, Discord, or Trello supports it. That saves time and cuts down on false leads.
+</Callout>
+
+| Source | What it helps confirm | When to use it |
+|---|---|---|
+| Roblox game page | Live status, current banner, basic game info | First check |
+| Discord | Event timing, patch alerts, changes | When a hunt may have rotated |
+| Trello | Reference notes and system details | When you need structure |
+| Community page | Developer identity, group requirement | Before code or event checks |
+
+The current data snapshot also lists an expired code named **EGG** in the old code pool. That is useful context: it suggests egg-related content has existed before, but it does **not** prove an active egg hunt is live right now.
+
+</Section>
+
+<Section icon={Target} title="Fastest Way to Search for the Egg">
+
+When the egg is active, the fastest route is usually a source-first route, not a map-first route. Start with official signals, then move into the game only after you know the item is currently available.
+
+<Callout type="warning" title="Do not skip the status check">
+The current snapshot shows no running experience on the Roblox page. That means a claimed egg spot may be outdated, disabled, or tied to a previous update.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Open the Roblox game page">
+    Check the current description, update banner, and any visible event hints. This tells you whether an egg search is worth starting.
+  </Step>
+  <Step num="2" title="Check the community and Discord">
+    Look for update posts, timing notes, or event announcements. If the hunt moved, this is where the clue usually appears first.
+  </Step>
+  <Step num="3" title="Open Trello or reference notes">
+    Use Trello to confirm item terminology, event naming, or any board entry related to collectibles.
+  </Step>
+  <Step num="4" title="Enter the game and test the route">
+    Run the most likely search path only after the live sources match. That keeps you from chasing a dead spawn.
+  </Step>
+</Steps>
+
+| Search order | What you check | Why it matters |
+|---|---|---|
+| 1 | Roblox page | Confirms the hunt is current |
+| 2 | Discord | Confirms timing or rotation |
+| 3 | Trello | Confirms terminology and references |
+| 4 | In-game route | Confirms the actual spawn path |
+
+A clean search also means checking whether the item is part of a limited-time update or a returning event. In Roblox games like this, a collectible can move, disappear, or be renamed without much warning.
+
+| Possible item state | What it usually means | Your next move |
+|---|---|---|
+| Active | The item should be findable now | Search immediately |
+| Rotated | The item moved in a patch | Recheck Discord and Trello |
+| Disabled | The item is not currently available | Wait for a new update |
+| Renamed | The old term changed | Search the new name |
+
+<Callout type="info">
+If you are building a route page or guide page, write the live check first and the in-game path second. That structure matches how players actually search.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="What to Do If the Egg Is Missing">
+
+A missing egg is usually a status problem, not a skill problem. If the hunt is active, you should be able to confirm the source path. If you cannot, assume the route is outdated until proven otherwise.
+
+<Callout type="success" title="Use this pre-hunt checklist">
+Make sure the current event is live, the item name is still the same, and you are checking the right update window before you chase the spawn.
+</Callout>
+
+<Checklist
+  id="egg-prehunt"
+  title="Pre-Hunt Checklist:"
+  items={[
+    "Confirm the Roblox page still shows the current update cycle",
+    "Check Discord for event or patch announcements",
+    "Review Trello for item naming or reference changes",
+    "Search only after you know the hunt is active",
+    "Re-test after a server hop if the item should be live"
+  ]}
+/>
+
+| Problem | Likely cause | Practical fix |
+|---|---|---|
+| No egg spawn | Hunt not active | Wait for a fresh update |
+| Wrong location | Old route copied forward | Recheck live sources |
+| Conflicting guides | Patch changed the route | Use the newest source |
+| No progress in-game | You entered too early | Rejoin after the event begins |
+| Item name mismatch | Renamed collectible | Search the updated term |
+
+There is also a simple distinction between code history and item history. The expired **EGG** code shows that egg-themed content has circulated before, but code history should not be treated as a location map.
+
+| Reference type | Best use | Weakness |
+|---|---|---|
+| Old code name | Shows past theme or event language | Not a live location |
+| Update banner | Shows current rotation | May be brief |
+| Discord post | Shows timing and change alerts | Can be easy to miss |
+| Trello entry | Shows structured references | May lag behind live changes |
+
+<Callout type="warning">
+Do not spend time farming a location that only exists in old screenshots. If the live sources do not match, the route is probably dead.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Update Signals, Links, and Route Priority">
+
+The best egg guides stay small and current. Instead of bloating the page with every rumor, keep the route tied to the current official links and a clear priority order. That way, when the item returns, your page still works.
+
+<Callout type="info" title="Use official sources in this order">
+Start with the Roblox experience page, then check Discord, then Trello. That sequence gives you the best balance of speed and reliability.
+</Callout>
+
+| Priority | Source | What it gives you |
+|---|---|---|
+| 1 | Roblox experience page | Live status and public banner |
+| 2 | Discord | Fast announcements |
+| 3 | Trello | Structured references |
+| 4 | Community page | Developer and group context |
+
+Recommended official links:
+- [Roblox game page](https://www.roblox.com/games/95467791496576/Jujutsu-Randomizer)
+- [Dope Interactive community](https://www.roblox.com/communities/579224321/Dope-Interactive)
+- [Discord invite](https://discord.com/invite/n6VZ5HM9cX)
+- [Official Trello board](https://trello.com/b/NadimwDh/jujutsu-randomizer-official-trello)
+
+| What to watch | Why it matters | Action |
+|---|---|---|
+| New update banner | May signal a returning item | Recheck the route |
+| Discord announcement | Confirms timing | Save the new window |
+| Trello entry change | Confirms naming updates | Update your page copy |
+| In-game shop or menu changes | Can hint at related event systems | Test after relaunch |
+
+A strong guide page should also separate item search from codes, skills, and cosmetics. That keeps the egg section focused and improves search intent matching for players who only want the location path.
+
+| Topic | Best section | Why |
+|---|---|---|
+| Egg location | Items / Locations | Search intent is route-based |
+| Codes | Codes | Players want rewards fast |
+| Skills | Abilities | Different gameplay intent |
+| Cosmetics | Skins / Titles | Pure collection content |
+
+<Callout type="tip">
+If you refresh this page later in 2026, update the official-link order first and the route notes second. The link order is what most players need immediately.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Egg Location Checklist and FAQ">
+
+Before you write or follow any egg route, make sure the page is built around the right intent. Players searching for the egg usually want one of three things: a real spawn path, a live status check, or a quick answer about whether the hunt is active.
+
+<Callout type="success" title="Publishing checklist">
+Use this list to keep the page useful, current, and easy to scan.
+</Callout>
+
+<Checklist
+  id="publish-checklist"
+  title="Page Quality Checklist:"
+  items={[
+    "Lead with the live status, not a rumor",
+    "Keep the official links near the top",
+    "Separate old code history from current item tracking",
+    "Use short tables for route and troubleshooting notes",
+    "Update the page when the hunt rotates"
+  ]}
+/>
+
+| Section goal | What the reader gets | What you should avoid |
+|---|---|---|
+| Status check | Fast confirmation | Vague rumor language |
+| Route check | Direct next steps | Overlong stories |
+| Troubleshooting | Simple fixes | Guesswork |
+| Source links | Live verification | Dead references |
+
+<FAQ items={[
+  {
+    question: "Is there a confirmed Jujutsu Randomizer egg location right now?",
+    answer: "Use the live Roblox page, Discord, and Trello first. The current snapshot does not confirm an active egg hunt, so treat any route claim as unverified until the official sources match."
+  },
+  {
+    question: "Why do some guides mention EGG?",
+    answer: "The current code history includes an expired EGG code. That shows egg-themed content existed before, but it does not prove a live egg spawn in the current update."
+  },
+  {
+    question: "What is the fastest way to check for a new egg event?",
+    answer: "Check the Roblox page first, then Discord for timing, then Trello for reference changes. If those three match, move into the game and test the route."
+  },
+  {
+    question: "Should I use old screenshots to find the egg?",
+    answer: "Only as a backup. Old screenshots are useful for pattern recognition, but they are not reliable when the item has rotated or been renamed in a new patch."
+  }
+]} />
+
+<Callout type="tip">
+For the best SEO performance, keep the wording focused on the live egg status, verified source order, and current route notes. That matches what players actually search.
+</Callout>
+
+</Section>

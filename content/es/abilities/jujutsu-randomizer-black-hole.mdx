@@ -1,0 +1,201 @@
+import { Target, Swords, Sparkles, Shield, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Jujutsu Randomizer Black Hole: Guía de uso arriesgado con poca vida",
+  description: "Aprende cómo funciona Jujutsu Randomizer Black Hole, cuándo activarlo por debajo de 20 HP y cómo preparar o contrarrestar esta peligrosa habilidad de último recurso.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1f1147/fff?text=Black+Hole+Guide",
+  date: "2026-07-06",
+  author: "Equipo de Wiki de Jujutsu Randomizer"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Jujutsu Randomizer Black Hole** solo se puede usar por debajo de 20 HP, así que trátalo como una herramienta estricta de último recurso.
+- **El mejor valor** aparece en peleas agrupadas, donde los enemigos no pueden dispersarse antes de que impacte la ráfaga.
+- **Tu trabajo principal** es forzar primero una mala posición y luego cobrar el sacrificio con un intercambio favorable.
+- **Nunca des por hecha tu seguridad** después de activarlo; la habilidad también mata al usuario, así que planifica la ronda teniendo en cuenta ese coste.
+- **El espacio gana** contra esta habilidad, porque a los enemigos separados les resulta mucho más difícil caer dentro de una sola ventana letal.
+</Callout>
+
+<Section icon={Target} title="Jujutsu Randomizer Black Hole: Qué hace">
+
+Jujutsu Randomizer Black Hole no es un botón de daño normal. Es un rematador de alto riesgo diseñado para rondas desesperadas, intercambios con poca vida y reinicios bruscos cuando la partida ya se ha torcido. La habilidad solo se activa por debajo de 20 HP, y entonces elimina a los enemigos cercanos y también al usuario.
+
+Eso la convierte en una amenaza muy distinta a un movimiento de ráfaga estándar. No estás intentando sobrevivir para siempre. Estás intentando convertir una posición perdida en un intercambio decisivo antes de que el equipo enemigo pueda reaccionar.
+
+**Comportamiento básico**
+
+- Condición de activación: por debajo de 20 HP
+- Patrón de daño: mata a los enemigos cercanos al activarse
+- Coste: el usuario muere después de la ráfaga
+- Mejor uso: multiabate de último segundo o intercambio forzado
+
+<CardGrid cols={3}>
+  <Card title="Activación">
+    Por debajo de 20 HP es la verdadera barrera. Si tu salud es demasiado alta, la habilidad no está lista y no debería marcar tu plan.
+  </Card>
+  <Card title="Recompensa">
+    El valor está en el giro del combate, no en sobrevivir. Úsala cuando una sola activación pueda borrar varias amenazas o asegurar una ronda.
+  </Card>
+  <Card title="Coste">
+    El usuario muere después del lanzamiento, así que la habilidad solo tiene sentido cuando el intercambio vale más que seguir vivo.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Lee bien la habilidad">
+No trates Black Hole como un iniciador de combo. Es una herramienta de conversión forzada para situaciones de poca HP, sobre todo cuando los enemigos ya se han sobreextendido.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Cómo calcular el momento del disparo con poca HP">
+
+El mayor error es lanzar la habilidad en cuanto baja la HP. Black Hole funciona mejor cuando esperas a que la pelea se comprima en una zona reducida. Si la activas demasiado pronto, los jugadores inteligentes pueden dispersarse, retirarse o hacerte gastar el sacrificio en vano.
+
+Aprovecha la ventana de activación con intención. Tu objetivo es crear un momento en el que los enemigos cercanos no puedan moverse con limpieza, no puedan retroceder con seguridad y no puedan permitirse ignorar tu posición.
+
+<Steps>
+  <Step num="1" title="Comprueba tu alcance y tu salud">
+    Confirma que realmente estás por debajo de 20 HP y que los enemigos están lo bastante cerca como para que la ráfaga importe. Si el grupo está disperso, espera.
+  </Step>
+  <Step num="2" title="Fuerza una pelea agrupada">
+    Muévete por puntos de estrangulamiento, pasillos estrechos o zonas de objetivo donde los jugadores tienden a apilarse de forma natural. Black Hole se vuelve más fuerte cuando hay poco espacio para escapar.
+  </Step>
+  <Step num="3" title="Primero haz que se comprometan">
+    Deja que los enemigos gasten movimientos, dashes o ataques grandes antes de comprometerte. Una vez que están atrapados en la jugada, tu sacrificio es mucho más difícil de evitar.
+  </Step>
+  <Step num="4" title="Lánzala solo cuando el intercambio esté asegurado">
+    Si la activación puede eliminar a varios oponentes, asegurar la ronda o salvar a tu equipo del colapso, úsala. Si no, sigue posicionándote y espera.
+  </Step>
+</Steps>
+
+<CardGrid cols={3}>
+  <Card title="Mejor momento">
+    El caos de final de combate, los enemigos agrupados y las rutas de escape estrechas son las situaciones que justifican el sacrificio.
+  </Card>
+  <Card title="Mal momento">
+    Abrir una pelea, perseguir a un objetivo aislado o usarla antes de que los enemigos se hayan comprometido suele reducir su valor.
+  </Card>
+  <Card title="Objetivo de la partida">
+    Piensa en intercambios, no en supervivencia. Un Black Hole limpio puede valer más que una vida larga sin impacto.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Advertencia de tiempo">
+Si el enemigo puede simplemente alejarse, es probable que la activación sea demasiado pronto. Espera presión, acumulación y mala separación.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Mejores preparativos antes de activarla">
+
+Black Hole es mucho más fácil de acertar cuando construyes la pelea alrededor de ella. El material de origen señala el desplazamiento, el control y la presión de grupo como las ideas de apoyo más valiosas. En la práctica, quieres comprimir al equipo enemigo en un espacio donde el tiempo de reacción desaparezca.
+
+Eso significa usar tus otras herramientas para moldear el escenario antes de pensar siquiera en el sacrificio. La movilidad y el control importan más que el daño bruto aquí, porque te ayudan a reunir enemigos en un único bolsillo letal.
+
+<Checklist
+  id="black-hole-setups"
+  title="Lista prioritaria de preparación:"
+  items={[
+    "Mantén al equipo enemigo lo bastante cerca como para que una sola activación importe",
+    "Usa herramientas de desplazamiento o intercambio para colocar a los jugadores en malas posiciones",
+    "Guarda tu compromiso hasta que los enemigos ya hayan gastado su movilidad",
+    "Evita desperdiciar la ventana de poca HP en objetivos aislados"
+  ]}
+/>
+
+<CardGrid cols={4}>
+  <Card title="Intercambio de posición">
+    Herramientas como el estilo de movimiento de Boogie Woogie ayudan a llevar a los objetivos a la zona de peligro en lugar de dejar que se dispersen.
+  </Card>
+  <Card title="Primero el control">
+    Congela, aturde o inmoviliza a los enemigos antes del remate. A un oponente atrapado le resulta mucho más fácil caer dentro de la ráfaga.
+  </Card>
+  <Card title="Puntos de estrangulamiento">
+    Los pasillos estrechos y las zonas del mapa abarrotadas aumentan las probabilidades de que varios jugadores permanezcan al alcance al mismo tiempo.
+  </Card>
+  <Card title="Cebo de compromiso">
+    Obliga a los enemigos a golpear, hacer dash o acercarse antes de revelar el movimiento final. Ahí es donde el intercambio empieza a favorecerte.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Mejor práctica">
+Trata cada preparación como un embudo. Tu trabajo es convertir el mapa en una trampa y luego dejar que Black Hole termine el trabajo.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Cómo contrarrestar Black Hole">
+
+El contraataque consiste sobre todo en disciplina. Si ves a un jugador con poca HP que todavía puede moverse libremente, no te pegues a él. La habilidad es más fuerte cuando la gente se agrupa o persigue demasiado, así que la respuesta más segura es espacio, paciencia y una ruta de salida limpia.
+
+No necesitas leerla a la perfección cada vez. Solo necesitas evitar ayudar a que el lanzamiento conecte.
+
+<CardGrid cols={3}>
+  <Card title="Rompe el grupo">
+    Dispérsate en cuanto el objetivo entre en peligro. Cuantos menos cuerpos haya en un mismo bolsillo, menos valor obtiene la activación.
+  </Card>
+  <Card title="Frena la persecución">
+    No te obsesiones con un objetivo de poca HP salvo que la ronda ya esté ganada. El sobrecompromiso es exactamente lo que Black Hole castiga.
+  </Card>
+  <Card title="Retírate pronto">
+    Si el usuario empieza a preparar un sacrificio, retrocede antes de que la zona se vuelva letal. Las reacciones tardías pierden el intercambio.
+  </Card>
+</CardGrid>
+
+<Steps>
+  <Step num="1" title="Identifica la amenaza">
+    Vigila a los jugadores que están muy bajos pero siguen moviéndose con intención. Eso suele significar que buscan un ángulo de sacrificio.
+  </Step>
+  <Step num="2" title="Abre distancia">
+    Usa el movimiento, el posicionamiento y la separación para evitar quedar dentro del probable radio de muerte.
+  </Step>
+  <Step num="3" title="Castiga la preparación, no la revelación">
+    Golpea al usuario antes del compromiso final si puedes hacerlo con seguridad. No esperes a estar ya dentro de la zona de explosión.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Consejo de contraataque">
+Si eres el último jugador con vida cerca de un usuario de Black Hole, tu primera prioridad es salir de la zona, no rematar la baja.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ y fuentes oficiales">
+
+Si quieres la página en vivo del juego, la comunidad de desarrolladores o la navegación relacionada con actualizaciones, usa primero los enlaces oficiales de Roblox. Son la fuente más limpia para la información de lanzamiento, los requisitos de cuenta y el contexto actual del juego.
+
+- [Jujutsu Randomizer en Roblox](https://www.roblox.com/games/95467791496576/Jujutsu-Randomizer)
+- [Comunidad de Dope Interactive](https://www.roblox.com/communities/579224321/Dope-Interactive)
+- [Invitación al Discord de Jujutsu Randomizer](https://discord.com/invite/n6VZ5HM9cX)
+
+<Callout type="tip" title="Recordatorio final">
+Black Hole es más fuerte cuando tu toma de decisiones ya va por delante de la pelea. Construye primero la trampa y luego gasta la ventana de poca HP con propósito.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Para qué sirve Jujutsu Randomizer Black Hole?",
+    answer: "Es una habilidad de último recurso para intercambios con poca HP. Cuando los enemigos están agrupados y el espacio para escapar es reducido, puede convertir una pelea perdida en un intercambio ganador."
+  },
+  {
+    question: "¿Puedo activar Black Hole con cualquier valor de salud?",
+    answer: "No. La habilidad solo funciona por debajo de 20 HP, así que debes planificar en torno al umbral en lugar de tratarla como una opción de ráfaga normal."
+  },
+  {
+    question: "¿Debería guardar Black Hole para un solo enemigo fuerte?",
+    answer: "Normalmente no. La habilidad es más valiosa cuando puede afectar a varios enemigos cercanos o forzar un intercambio que cierre la ronda, no cuando se gasta en un único objetivo aislado."
+  },
+  {
+    question: "¿Cómo juego alrededor de Black Hole en una partida?",
+    answer: "Mantén una separación amplia, no persigas en exceso a objetivos con poca HP y retírate en cuanto el usuario empiece a buscar un ángulo de sacrificio."
+  }
+]} />
+
+</Section>

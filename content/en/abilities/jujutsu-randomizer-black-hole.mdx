@@ -1,0 +1,201 @@
+import { Target, Swords, Sparkles, Shield, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Jujutsu Randomizer Black Hole: Risky Low-HP Use Guide",
+  description: "Learn how Jujutsu Randomizer Black Hole works, when to trigger it below 20 HP, and how to set up or counter this risky last-resort skill.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1f1147/fff?text=Black+Hole+Guide",
+  date: "2026-07-06",
+  author: "jujutsu randomizer Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Jujutsu Randomizer Black Hole** only becomes available below 20 HP, so treat it as a strict last-resort tool.
+- **Best value** comes from clustered fights where enemies cannot spread out before the burst lands.
+- **Your main job** is to force bad positioning first, then cash in the sacrifice for a trade-up.
+- **Never assume safety** after activation; the skill kills the user too, so plan the round around that cost.
+- **Spacing wins** against it, because separated enemies are much harder to catch in one lethal window.
+</Callout>
+
+<Section icon={Target} title="Jujutsu Randomizer Black Hole: What It Does">
+
+Jujutsu Randomizer Black Hole is not a normal damage button. It is a high-risk finisher built for desperate rounds, low-health trades, and hard resets when the match has already gone sideways. The skill only activates below 20 HP, then wipes nearby enemies and removes the user as well.
+
+That makes it a very different kind of threat from a standard burst move. You are not trying to stay alive forever. You are trying to turn a losing position into a decisive trade before the enemy team can react.
+
+**Core behavior**
+
+- Trigger condition: below 20 HP
+- Damage pattern: kills nearby enemies on activation
+- Cost: the user dies after the burst
+- Best use: last-second multi-kill or forced trade
+
+<CardGrid cols={3}>
+  <Card title="Trigger">
+    Below 20 HP is the real gate. If your health is too high, the skill is not ready and should not shape your plan.
+  </Card>
+  <Card title="Payoff">
+    The value is battlefield swing, not survival. Use it when one activation can erase multiple threats or secure a round.
+  </Card>
+  <Card title="Cost">
+    The user dies after the cast, so the skill only makes sense when the trade is worth more than staying alive.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Read the Skill Correctly">
+Do not treat Black Hole like a combo starter. It is a forced conversion tool for low HP situations, especially when enemies are already overcommitted.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Timing the Low-HP Trigger">
+
+The biggest mistake is rushing the cast the moment HP drops. Black Hole works best when you wait for the fight to collapse into a tight area. If you trigger too early, smart players can spread out, disengage, or bait you into wasting the sacrifice.
+
+Use the trigger window with intention. Your goal is to create a moment where nearby enemies cannot move cleanly, cannot back off safely, and cannot afford to ignore your position.
+
+<Steps>
+  <Step num="1" title="Check your range and health">
+    Confirm that you are actually below 20 HP and that enemies are close enough for the burst to matter. If the pack is thin, hold.
+  </Step>
+  <Step num="2" title="Force a crowded fight">
+    Move through choke points, tight lanes, or objective spaces where players naturally stack. Black Hole gets stronger when escape room is limited.
+  </Step>
+  <Step num="3" title="Bait commitment first">
+    Let enemies spend movement, dashes, or big attacks before you commit. Once they are locked in, your sacrifice becomes much harder to avoid.
+  </Step>
+  <Step num="4" title="Cast only when the trade is locked">
+    If the activation can remove multiple opponents, secure the round, or save your team from collapse, press it. If not, keep positioning and wait.
+  </Step>
+</Steps>
+
+<CardGrid cols={3}>
+  <Card title="Best timing">
+    Late-fight chaos, grouped enemies, and narrow escape routes are the situations that justify the self-sacrifice.
+  </Card>
+  <Card title="Bad timing">
+    Opening a fight, chasing one isolated target, or using it before enemies have committed usually lowers its value.
+  </Card>
+  <Card title="Match goal">
+    Think in trades, not survival. One clean Black Hole can outweigh a long life with no impact.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Timing Warning">
+If the enemy can simply walk away, the activation is probably too early. Wait for pressure, crowding, and bad spacing.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Best Setups Before You Pop It">
+
+Black Hole becomes much easier to land when you build the fight around it. The source material points to displacement, control, and crowd pressure as the most valuable support ideas. In practice, you want to compress the enemy team into a space where reaction time disappears.
+
+That means using your other tools to shape the arena before you ever think about the sacrifice. Mobility and control matter more than raw damage here, because they help you collect enemies into one lethal pocket.
+
+<Checklist
+  id="black-hole-setups"
+  title="Priority Setup Checklist:"
+  items={[
+    "Keep the enemy team close enough that one activation can matter",
+    "Use displacement or swap tools to pull players into bad positions",
+    "Save your commitment until enemies have already spent movement",
+    "Avoid wasting the low-HP window on isolated targets"
+  ]}
+/>
+
+<CardGrid cols={4}>
+  <Card title="Position swap">
+    Tools like Boogie Woogie-style movement help move targets into the danger zone instead of letting them spread out.
+  </Card>
+  <Card title="Control first">
+    Freeze, stun, or lock enemies before the finish. A trapped opponent is much easier to catch inside the burst.
+  </Card>
+  <Card title="Choke points">
+    Tight lanes and crowded map areas increase the odds that several players stay in range at once.
+  </Card>
+  <Card title="Commitment bait">
+    Force enemies to swing, dash, or close distance before you reveal the final move. That is where the trade starts to favor you.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Best Practice">
+Treat every setup as a funnel. Your job is to turn the map into a trap, then let Black Hole finish the job.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="How to Counter Black Hole">
+
+Counterplay is mostly about discipline. If you see a low-HP player who can still move freely, do not stand on top of them. The skill is strongest when people cluster or chase too hard, so the safest answer is space, patience, and a clean exit route.
+
+You do not need a perfect read every time. You just need to avoid helping the cast land.
+
+<CardGrid cols={3}>
+  <Card title="Break the cluster">
+    Spread out as soon as the target drops into danger. The fewer bodies in one pocket, the less value the activation gets.
+  </Card>
+  <Card title="Stop the chase">
+    Do not tunnel into a low-HP target unless the round is already won. Overcommitting is exactly what Black Hole punishes.
+  </Card>
+  <Card title="Leave early">
+    If the user starts building a sacrifice play, back off before the zone becomes lethal. Late reactions lose the trade.
+  </Card>
+</CardGrid>
+
+<Steps>
+  <Step num="1" title="Identify the threat">
+    Watch for players who are very low and still moving with purpose. That often means they are looking for a sacrifice angle.
+  </Step>
+  <Step num="2" title="Open distance">
+    Use movement, positioning, and spacing to avoid standing inside the likely kill radius.
+  </Step>
+  <Step num="3" title="Punish the setup, not the reveal">
+    Hit the user before the final commit if you can do it safely. Do not wait until you are already inside the blast zone.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Counter Tip">
+If you are the last player standing near a Black Hole user, your first priority is to leave the area, not to finish the kill.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ and Official Sources">
+
+If you want the live game page, the developer community, or update-side navigation, use the official Roblox links first. They are the cleanest source for launch info, account requirements, and current game-state context.
+
+- [Jujutsu Randomizer on Roblox](https://www.roblox.com/games/95467791496576/Jujutsu-Randomizer)
+- [Dope Interactive community](https://www.roblox.com/communities/579224321/Dope-Interactive)
+- [Jujutsu Randomizer Discord invite](https://discord.com/invite/n6VZ5HM9cX)
+
+<Callout type="tip" title="Final Reminder">
+Black Hole is strongest when your decision-making is already ahead of the fight. Build the trap first, then spend the low-HP window with purpose.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "What is Jujutsu Randomizer Black Hole used for?",
+    answer: "It is a last-resort skill for low-HP trades. When enemies are grouped and escape room is tight, it can flip a losing fight into a winning exchange."
+  },
+  {
+    question: "Can I activate Black Hole at any health value?",
+    answer: "No. The skill only works below 20 HP, so you need to plan around the threshold instead of treating it like a normal burst option."
+  },
+  {
+    question: "Should I save Black Hole for one strong enemy?",
+    answer: "Usually no. The skill is more valuable when it can affect multiple nearby enemies or force a round-ending trade, not when it is spent on a single isolated target."
+  },
+  {
+    question: "How do I play around Black Hole in a match?",
+    answer: "Keep your spacing wide, do not overchase low-HP targets, and back off as soon as the user starts looking for a sacrifice angle."
+  }
+]} />
+
+</Section>
