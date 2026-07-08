@@ -1,0 +1,162 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Yuki en Jujutsu Randomizer: Guía de Combate y Mecánicas de Star Rage",
+  description: "Domina a Yuki Tsukumo en Jujutsu Randomizer de Roblox. Aprende sus mecánicas de Star Rage, combos con Garuda y las mejores estrategias de combate para 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e1b4b/fff?text=Yuki+Tsukumo+Guide",
+  date: "2026-07-08",
+  author: "Equipo de la Wiki de jujutsu randomizer"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Yuki en Jujutsu Randomizer**: Un personaje sumamente poderoso que utiliza masa virtual para infligir golpes pesados devastadores e imbloqueables.
+- **Mecánica de Star Rage**: Aumenta exponencialmente el poder de los golpes físicos, haciendo que su combate a corta distancia sea letal.
+- **Utilidad de Garuda**: La herramienta maldita de Yuki se puede patear como un proyectil, usar como látigo o desplegar para denegación de área.
+- **Mejor Estrategia de Combate**: Mantén una distancia corta a media, provoca las evasiones del enemigo y asesta combos pesados de gran daño.
+- **Mejor Sinergia**: Combina las mejoras de Star Rage con habilidades secundarias orientadas a la velocidad para cerrar la distancia al instante.
+</Callout>
+
+<Section icon={Swords} title="Yuki en Jujutsu Randomizer: Resumen del Personaje">
+
+En las caóticas arenas del éxito de Roblox **Jujutsu Randomizer**, Yuki Tsukumo destaca como uno de los personajes mecánicamente más gratificantes de dominar. Conocida por su inmenso poder físico y su técnica maldita insignia, **Star Rage (Bom-Ba-Ye)**, Yuki domina los enfrentamientos a corta distancia. A diferencia de otros hechiceros que dependen del spam de proyectiles a larga distancia, el estilo de juego de Yuki gira en torno a abrumar a los oponentes con golpes de masa virtual de gran impacto que rompen bloqueos y castigan el mal posicionamiento.
+
+| Atributo | Calificación | Función en Combate |
+| :--- | :--- | :--- |
+| **Ofensiva** | ★★★★★ | Gran daño físico, ataques pesados que rompen bloqueos |
+| **Defensa** | ★★★☆☆ | Mejoras defensivas moderadas, depende del espaciado |
+| **Movilidad** | ★★★★☆ | Ataques con embestida y acercamientos asistidos por Garuda |
+| **Dificultad** | ★★★★☆ | Requiere una sincronización precisa y gestión de recursos |
+
+<Callout type="tip" title="Ventaja de Star Rage">
+La masa virtual de Yuki no la vuelve más lenta. Puedes acumular un impulso masivo y golpear con la fuerza de un meteorito sin sacrificar tu velocidad de movimiento.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Desglose de Movimientos de Star Rage y Garuda">
+
+Para sobresalir con **Yuki en Jujutsu Randomizer**, debes entender cómo interactúa su masa virtual con el motor de física. Su repertorio de movimientos se divide entre ataques físicos directos amplificados por Star Rage y herramientas versátiles de control de zona utilizando a su Shikigami, Garuda.
+
+<CardGrid cols={3}>
+  <Card title="Golpes de Star Rage">
+    - **Masa Virtual**: Añade un peso pesado a los ataques básicos.
+    - **Ruptura de Bloqueo**: Se carga para eludir fácilmente los bloqueos enemigos.
+    - **Retroceso**: Lanza a los oponentes contra las paredes para realizar combos.
+  </Card>
+  <Card title="Látigo y Patada de Garuda">
+    - **Herramienta de Rango Medio**: Patea a Garuda como un proyectil rápido.
+    - **Mecánica de Agarre**: Atrae a los enemigos o les barre las piernas.
+    - **Denegación de Área**: Deja a Garuda en el campo para restringir el movimiento.
+  </Card>
+  <Card title="Concepto de Masa">
+    - **Mejora Propia**: Aumenta la defensa contra impactos físicos.
+    - **Imparable**: Reduce el aturdimiento al ejecutar movimientos pesados.
+    - **Alto Riesgo**: Fallar un golpe pesado te deja vulnerable.
+  </Card>
+</CardGrid>
+
+### Datos del Repertorio de Movimientos Principal
+
+| Nombre del Movimiento | Daño | Rango | Enfriamiento | Efecto Especial |
+| :--- | :--- | :--- | :--- | :--- |
+| **Golpe de Star Rage** | **Alto** | Corto | 6s | Rompe bloqueos activos al cargarse por completo |
+| **Patada de Garuda** | **Medio** | Medio | 8s | Lanza un proyectil rápido que aturde |
+| **Barrido de Garuda** | **Medio** | Corto-Medio | 12s | Derriba a los enemigos, preparando ataques pesados |
+| **Masa de Supernova** | **Extremo** | AoE | 25s | Impacto masivo contra el suelo con gran retroceso |
+
+<Callout type="warning" title="Cuida tu Espaciado">
+Garuda es tu única herramienta confiable para mantener la distancia. Si lanzas a Garuda imprudentemente, los personajes ágiles pueden superarte fácilmente y castigar tus fotogramas de recuperación.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Estrategia de Combate Paso a Paso para Yuki">
+
+Ejecutar combos con Yuki requiere una sólida comprensión de los datos de fotogramas (frame data) y los tiempos de reacción del enemigo. Sigue esta progresión paso a paso para maximizar tu daño durante los enfrentamientos.
+
+<Steps>
+  <Step num="1" title="Iniciar con Patada de Garuda">
+    Comienza el enfrentamiento desde una distancia media lanzando a Garuda. Esto obliga al oponente a esquivar o bloquear, dándote la oportunidad perfecta para cerrar la distancia.
+  </Step>
+  <Step num="2" title="Ejecutar la Carga de Star Rage">
+    Mientras el oponente se recupera del proyectil o mantiene su bloqueo, carga tu Golpe de Star Rage. Suéltalo para romper su guardia.
+  </Step>
+  <Step num="3" title="Continuar con Barrido de Garuda">
+    Una vez que el bloqueo del enemigo esté roto, usa inmediatamente el Barrido de Garuda para derribarlo por completo, evitando que use un escape instantáneo.
+  </Step>
+  <Step num="4" title="Desatar la Masa de Supernova">
+    Termina el combo con tu impacto de Supernova contra el suelo de gran daño mientras el enemigo está derribado para asegurar el nocaut.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Combo Exitoso">
+Acertar esta rotación completa puede agotar hasta el 70% de la barra de vida de un oponente si se ejecuta en el momento adecuado. Practica la transición entre el Paso 2 y el Paso 3 en la arena de entrenamiento.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Guía de Enfrentamientos y Contraataques">
+
+El estilo de juego de Yuki enfocado en golpes pesados la hace increíblemente fuerte contra personajes defensivos que bloquean mucho, pero puede tener dificultades contra arquetipos de largo alcance o muy móviles.
+
+### Matriz de Enfrentamientos de Yuki
+
+| Estilo del Oponente | Dificultad | Estrategia para Ganar |
+| :--- | :--- | :--- |
+| **Bloqueo Pesado / Defensivo** | **Fácil** | Haz spam de golpes cargados de Star Rage para romper guardias constantemente. |
+| **Alta Movilidad / Velocidad** | **Medio** | Usa el Barrido de Garuda a la defensiva para atraparlos a mitad de una embestida. |
+| **A Distancia (Zoners) / Largo Alcance** | **Difícil** | Juega con paciencia, usa los obstáculos y provoca sus proyectiles antes de arremeter. |
+
+<Callout type="info" title="Consejo Defensivo">
+Cuando te enfrentes a oponentes rápidos, no lances ataques pesados sin preparación. En su lugar, usa tus secuencias básicas de M1 y cancélalas con un bloqueo o embestida para provocar sus contraataques.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación para Dominar a Yuki">
+
+Para dominar por completo a Yuki Tsukumo en Jujutsu Randomizer, intenta completar estos hitos de progresión durante tus sesiones en la arena.
+
+<Checklist
+  id="yuki-mastery-goals"
+  title="Lista de Verificación para Dominar a Yuki:"
+  items={[
+    "Dominar el tiempo de ejecución del golpe rompebloqueos de Star Rage",
+    "Acertar con éxito un combo de 4 golpes utilizando el Barrido de Garuda",
+    "Ganar 10 rondas de arena usando el remate de Supernova de Yuki",
+    "Perfeccionar tu espaciado para acertar consistentemente las Patadas de Garuda a media distancia",
+    "Aprender a cancelar las animaciones de ataque pesado para provocar las evasiones enemigas"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo desbloqueo a Yuki en Jujutsu Randomizer?",
+    answer: "Yuki Tsukumo se puede obtener mediante tiradas usando Yenes ganados en partidas de la arena, o desbloquearse directamente a través de aspectos de personaje en la tienda del juego usando códigos de recompensa."
+  },
+  {
+    question: "¿Se pueden bloquear los ataques de Star Rage de Yuki?",
+    answer: "Los golpes físicos estándar de Star Rage se pueden bloquear, pero los golpes completamente cargados romperán cualquier bloqueo estándar, dejando al oponente aturdido temporalmente."
+  },
+  {
+    question: "¿Cuál es la mejor manera de usar a Garuda en combate?",
+    answer: "Garuda se utiliza mejor como una herramienta de transición. Usa la patada para aturdir a los enemigos desde la distancia, y usa el barrido para mantenerlos derribados mientras preparas tus movimientos pesados de gran daño."
+  },
+  {
+    question: "¿Es Yuki viable para el juego competitivo clasificado?",
+    answer: "Sí, Yuki es muy viable debido a su alto límite de daño y capacidades para romper bloqueos, aunque requiere buenas habilidades de predicción contra oponentes rápidos."
+  }
+]} />
+
+</Section>

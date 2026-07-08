@@ -1,0 +1,184 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "jujutsu randomizer haruta: Guia do Chefe e Drops de Milagres",
+  description: "Domine a luta contra o chefe Haruta Shigemo em Jujutsu Randomizer. Aprenda sua mecânica de Milagres, drops da Espada de Mão e estratégias de farming neste guia de 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/3b0764/fff?text=Haruta+Boss+Guide",
+  date: "2026-07-08",
+  author: "Equipe da Wiki do jujutsu randomizer"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Chefe Principal**: Derrotar o chefe **jujutsu randomizer haruta** exige entender sua mecânica única de enganar a morte.
+- **Mecânica Chave**: A Técnica Amaldiçoada de Milagres concede a ele invulnerabilidade temporária e gatilhos passivos que salvam sua vida.
+- **Melhor Estratégia**: Utilize ataques rápidos de múltiplos acertos para esgotar suas cargas de Milagre armazenadas antes de desferir habilidades de alto dano.
+- **Dica Crítica**: Evite usar movimentos supremos de golpe único enquanto suas marcas faciais roxas estiverem ativas.
+- **Recompensa Principal**: Empunhar sua assinatura, a Espada de Mão, oferece utilidade excepcional e opções de aparagem independentes.
+</Callout>
+
+<Section icon={Shield} title="jujutsu randomizer haruta: Perfil do Chefe">
+
+Na atualização de 2026 do Jujutsu Randomizer, Haruta Shigemo se destaca como um chefe altamente único e enganador. Alinhado canonicamente com Kenjaku e Uraume, Haruta é caracterizado por seu estilo de combate covarde, porém perigoso. Ele se destaca em focar em jogadores mais fracos, executando ataques de emboscada repentinos e utilizando sua Técnica Amaldiçoada baseada em sorte para sobreviver a encontros que derrotariam facilmente outros feiticeiros.
+
+Entender os atributos básicos e o comportamento de Haruta é essencial antes de iniciar uma luta. Ele não se envolve em combates frontais honrosos; em vez disso, ele confia em manobras evasivas rápidas e contra-ataques repentinos quando suas habilidades estão em recarga.
+
+| Métrica | Detalhe |
+| :--- | :--- |
+| Nível do Chefe | Nível 75 |
+| Vida Base | 45.000 HP |
+| Local de Spawn | Becos de Shibuya |
+| Intervalo de Spawn | A cada 45 minutos |
+| Classificação de Dificuldade | Média (Complicada) |
+
+A aparência física de Haruta no jogo reflete sua contraparte do anime, apresentando seu rabo de cavalo loiro característico, marcas lilás sob os olhos e macacão preto. No entanto, não deixe que seu comportamento infantil o engane. Sua IA de combate é programada para explorar ativamente os erros dos jogadores, tornando-o um grande obstáculo para a progressão no meio do jogo.
+
+<Callout type="info" title="Aviso de Combate">
+Haruta é programado para priorizar jogadores com menos vida restante. Se você estiver jogando em grupo, mantenha seus jogadores de suporte protegidos, pois ele ignorará ativamente os tanques da linha de frente para emboscar alvos mais fracos.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Técnica Amaldiçoada e Mecânicas de Arma">
+
+A eficácia de combate de Haruta depende fortemente de sua Técnica Amaldiçoada, **Milagres**, e de sua Ferramenta Amaldiçoada única, a **Espada de Mão**. Para derrotá-lo com sucesso ou jogar com ele, você deve entender como esses dois sistemas interagem.
+
+A técnica de Milagres armazena automaticamente "pequenos milagres" da vida cotidiana, representados pelas marcas lilás sob seus olhos. Em combate, essas cargas são consumidas para alterar a probabilidade, permitindo que ele sobreviva a golpes fatais ou evite automaticamente projéteis recebidos.
+
+| Marcas de Milagre | Efeito Concedido | Tempo de Recuperação |
+| :--- | :--- | :--- |
+| 1 a 2 Marcas | Bônus de evasão passiva de 15% | 30 segundos |
+| 3 a 4 Marcas | Ignora golpe fatal (deixa com 1 HP) | 60 segundos |
+| 5 a 6 Marcas | Ressurreição com HP total e bônus breve de velocidade | 120 segundos |
+
+Complementando sua Técnica Amaldiçoada está a Espada de Mão, uma lâmina única forjada por Juzo Kumiya. Esta arma apresenta um cabo em forma de mão humana, permitindo que ela se mova de forma independente e até mesmo apare ataques automaticamente.
+
+| Atributo | Valor | Efeito Especial |
+| :--- | :--- | :--- |
+| Dano Base | 65 por golpe | Aplica efeito de Sangramento por 3 segundos |
+| Velocidade de Ataque | 1,4 golpes por segundo | Chance de auto-aparagem em ataques frontais |
+| Recarga da Habilidade | 12 segundos | Arremesso de punho projétil |
+| Nível da Arma | Ferramenta Amaldiçoada de Grau 2 | Distração rastejante independente |
+
+Para ajudá-lo a decidir como abordar este chefe ou utilizar seu equipamento, considere a seguinte análise tática:
+
+<CardGrid cols={3}>
+  <Card title="Técnica de Milagres">
+    - **Alta sobrevivência**
+    - Mecânicas passivas de enganar a morte
+    - Excelente para builds PvP
+  </Card>
+  <Card title="Ferramenta Espada de Mão">
+    - **Alta utilidade**
+    - Habilidades de movimento independente
+    - Ótima para distrair hordas
+  </Card>
+  <Card title="Sinergia Combinada">
+    - **Estilo de jogo equilibrado**
+    - Ideal para sobrevivência solo
+    - Alta margem para erro do jogador
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Sinergia de Milagres">
+Ao equipar tanto a técnica de Milagres quanto a Espada de Mão, os jogadores recebem uma redução passiva de 10% no tempo de recarga em todas as habilidades baseadas em sorte.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Estratégia de Luta e Passo a Passo">
+
+Derrotar Haruta requer uma abordagem sistemática. Como sua técnica de Milagres pode ignorar danos fatais, jogadores que confiam apenas em habilidades supremas lentas e de alto dano ficarão frustrados enquanto Haruta sobrevive repetidamente com um pingo de vida.
+
+Siga esta estratégia de combate passo a passo para neutralizar a sorte dele e garantir uma vitória rápida.
+
+<Steps>
+  <Step num="1" title="Preparação e Configuração de Build">
+    Equipe armas ou Técnicas Amaldiçoadas que possuam altas taxas de acerto ou efeitos de dano ao longo do tempo (DoT), como Manipulação de Sangue ou Chamas do Desastre. Evite builds de explosão pesada de acerto único.
+  </Step>
+  <Step num="2" title="Fase 1: Neutralizando a Espada de Mão">
+    Haruta começará a luta jogando sua Espada de Mão para distraí-lo. Não foque na espada em si; mantenha seu foco em Haruta enquanto usa habilidades de mobilidade para desviar do alcance da lâmina rastejante.
+  </Step>
+  <Step num="3" title="Fase 3: Esgotando as Marcas de Milagre">
+    Ataque Haruta com combos rápidos de múltiplos acertos. Cada vez que você desferir o que seria um golpe fatal, uma de suas marcas faciais lilás ficará branca, indicando que um Milagre foi consumido. Você deve esgotar todas as seis marcas.
+  </Step>
+  <Step num="4" title="Fase Final: Encurralando o Covarde">
+    Assim que suas marcas de Milagre estiverem totalmente esgotadas, a defesa de Haruta cairá significativamente e ele tentará fugir. Use habilidades de controle de grupo (CC) ou expansões de domínio para prendê-lo e terminar a luta.
+  </Step>
+</Steps>
+
+Durante a luta, fique atento aos indicadores visuais sob os olhos dele. Se as marcas estiverem brilhando em branco, sua passiva de sobrevivência está ativa, e tentar finalizá-lo agora só desperdiçará seus recursos valiosos.
+
+<Callout type="warning" title="Ignorar Golpe Fatal">
+Nunca use sua habilidade suprema de maior recarga se Haruta tiver mais de três marcas roxas ativas. Salve seu supremo para a fase final, quando as marcas dele estiverem totalmente brancas.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Rota de Farming e Checklist de Recompensas">
+
+Farming de Haruta é altamente recomendado para jogadores de nível médio que buscam garantir uma arma confiável e atualizações cosméticas únicas. Como ele spawna exclusivamente nos becos estreitos de Shibuya, configurar uma rotina de farming eficiente é simples.
+
+Para maximizar sua eficiência de farming, elimine os humanos transfigurados ao redor primeiro para evitar que interfiram em sua batalha. Junte-se a um amigo para dividir as tarefas de monitoramento de spawn em diferentes canais do servidor.
+
+| Nome do Item | Taxa de Drop | Raridade | Valor de Utilidade |
+| :--- | :--- | :--- | :--- |
+| Espada de Mão | 5,5% | Raro | Alto (Oferece auto-aparagem) |
+| Essência de Milagre | 15,0% | Incomum | Médio (Usado para crafting) |
+| Macacão do Haruta | 2,5% | Lendário | Apenas cosmético |
+| Fragmento de Energia Amaldiçoada | 100,0% | Comum | Baixo (Material de upgrade básico) |
+
+Use o seguinte checklist para acompanhar sua progressão e garantir que você dominou totalmente a rota de farming.
+
+<Checklist
+  id="haruta-farming-goals"
+  title="Marcos de Farming:"
+  items={[
+    "Localizar todos os três pontos de spawn nos Becos de Shibuya",
+    "Derrotar Haruta sem acionar sua corrida de pânico da Fase 2",
+    "Obter o drop raro da Espada de Mão",
+    "Coletar 50 Essências de Milagre para aprimorar Ferramentas Amaldiçoadas",
+    "Adquirir o conjunto cosmético de Macacão do Haruta"
+  ]}
+/>
+
+<Callout type="tip" title="Eficiência de Farming">
+Equipar um acessório de aumento de sorte ou consumir um Elixir de Sorte antes da luta aumenta a taxa de drop da Espada de Mão de 5,5% para aproximadamente 8,2%.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Perguntas Frequentes">
+
+Para ajudá-lo a entender completamente como lidar com este encontro, compilamos as perguntas mais comuns da comunidade sobre a luta contra Haruta e as mecânicas de seu equipamento.
+
+<FAQ items={[
+  {
+    question: "Onde exatamente Haruta spawna nos Becos de Shibuya?",
+    answer: "Haruta spawna aleatoriamente em um dos três becos estreitos localizados logo atrás da entrada principal da Estação de Metrô de Shibuya. Procure pelas luminárias de rua lilás."
+  },
+  {
+    question: "Posso obter a técnica de Milagres como uma habilidade jogável?",
+    answer: "Sim. Ao derrotar Haruta, você tem uma pequena chance de obter Essência de Milagre, que pode ser trocada no NPC Feiticeiro de Shibuya para tentar obter a Técnica Amaldiçoada de Milagres."
+  },
+  {
+    question: "Como faço para impedir Haruta de fugir durante a fase final?",
+    answer: "Usar expansões de domínio, técnicas de barreira ou habilidades de atordoamento quando a vida dele cair abaixo de 15% impedirá com sucesso que ele fuja da zona de combate."
+  },
+  {
+    question: "A Espada de Mão funciona bem em builds PvP de final de jogo?",
+    answer: "Embora seu dano bruto diminua em cenários de final de jogo, sua mecânica de auto-aparagem e arremesso de projétil independente a tornam uma arma secundária excepcional para estilos de jogo defensivos."
+  }
+]} />
+
+<Callout type="info" title="Atualização da Wiki">
+Todas as taxas de spawn, porcentagens de drop e mecânicas de combate listadas neste guia estão precisas de acordo com o patch de equilíbrio de meados de 2026.
+</Callout>
+
+</Section>
